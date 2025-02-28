@@ -1,0 +1,20 @@
+{
+    "Home": {
+        "title": "Sinun Nimesi - Portfolio",
+        "description": "Henkilökohtainen portfolio ja työesittely"
+    },
+    "Navbar": {
+        "home": "Koti",
+        "testimonials": "Arvioit",
+        "features": "Ominaisuudet",
+        "pricing": "Hinnasto",
+        "faq": "UKK",
+        "login": "Kirjaudu",
+        "register": "Rekisteröidy"
+    },
+    "LocaleSwitcher": {
+        "switchTo": "Vaihda kieli",
+        "english": "Englanti",
+        "finnish": "Suomi"
+    }
+}

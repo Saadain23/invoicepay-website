@@ -1,0 +1,121 @@
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .navLink {
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .navLink:hover {
+    color: var(--primary);
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .hamburger span {
+    width: 100%;
+    height: 3px;
+    background-color: var(--dark);
+    transition: all 0.3s ease;
+  }
+  
+  .authButtons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .loginBtn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    transition: all 0.2s ease;
+  }
+  
+  .loginBtn:hover {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .registerBtn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    background-color: var(--secondary);
+    color: white;
+    transition: all 0.2s ease;
+  }
+  
+  .registerBtn:hover {
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    .navLinks {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background-color: var(--light);
+      padding: 1rem;
+      gap: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navLinks.active {
+      display: flex;
+    }
+  
+    .authButtons {
+      margin-left: 0;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .loginBtn, .registerBtn {
+      text-align: center;
+    }
+  }

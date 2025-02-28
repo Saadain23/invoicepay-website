@@ -1,0 +1,21 @@
+{
+    "Home": {
+      "title": "Welcome to our website",
+      "description": "This is the English version of our website."
+    },
+    "Navbar": {
+        "home": "Home",
+        "testimonials": "Testimonials",
+        "features": "Features",
+        "pricing": "Pricing",
+        "faq": "FAQ",
+        "login": "Login",
+        "register": "Register"
+    },
+    "LocaleSwitcher": {
+        "switchTo": "Switch to",
+        "english": "English",
+        "finnish": "Finnish"
+    }
+}
+

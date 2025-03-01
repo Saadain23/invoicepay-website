@@ -1,30 +1,32 @@
+// components/LocaleSwitcher.js
+import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useTranslations } from 'next-intl';
-import styles from '@/styles/LocaleSwitcher.module.css';
+import { useTranslation } from 'next-i18next';
 
 const LocaleSwitcher = () => {
+  const { t } = useTranslation('common');
   const router = useRouter();
-  const { locale, locales } = router;
-  const t = useTranslations('Common');
-
-  // Handle locale switch
-  const switchLocale = (newLocale) => {
-    router.push(router.asPath, router.asPath, { locale: newLocale });
-  };
+  const { pathname, asPath, query } = router;
 
   return (
-    <div className={styles['locale-switcher']}>
-      {locales.map((loc) => (
-        <button
-          key={loc}
-          onClick={() => switchLocale(loc)}
-          className={`${styles['locale-switcher-button']} ${
-            locale === loc ? styles.active : ''
-          }`}
-        >
-          {loc.toUpperCase()}
-        </button>
-      ))}
+    <div className="locale-switcher">
+      <Link
+        href={{ pathname, query }}
+        locale="en"
+        scroll={false}
+        className={router.locale === 'en' ? 'active' : ''}
+      >
+        English
+      </Link>
+      <span> | </span>
+      <Link
+        href={{ pathname, query }}
+        locale="fi"
+        scroll={false}
+        className={router.locale === 'fi' ? 'active' : ''}
+      >
+        Suomi
+      </Link>
     </div>
   );
 };

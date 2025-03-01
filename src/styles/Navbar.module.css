@@ -5,9 +5,10 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    padding: 0 6rem;
   }
   
-  .navContent {
+  .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,15 +16,16 @@
   }
   
   .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary);
+    flex: 0 0 auto;
+    padding-left: 2rem;
   }
   
   .navLinks {
+    flex: 1;
     display: flex;
     gap: 2rem;
     align-items: center;
+    justify-content: center;
   }
   
   .navLink {
@@ -33,6 +35,40 @@
   
   .navLink:hover {
     color: var(--primary);
+  }
+  
+  .authButtons {
+    display: flex;
+    gap: 1rem;
+    padding-right: 2rem;
+  }
+  
+  .loginBtn, .registerBtn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .loginBtn {
+    background: var(--primary);
+    color: var(--light);
+  }
+  
+  .loginBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(88, 42, 152, 0.4);
+  }
+  
+  .registerBtn {
+    background: var(--secondary);
+    color: var(--light);
+  }
+  
+  .registerBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(254, 63, 130, 0.4);
   }
   
   .hamburger {
@@ -54,37 +90,22 @@
     transition: all 0.3s ease;
   }
   
-  .authButtons {
+  .mobileMenu {
     display: flex;
-    gap: 1rem;
-    margin-left: 2rem;
+    align-items: center;
+    gap: 2rem;
   }
   
-  .loginBtn {
-    padding: 0.5rem 1.5rem;
-    border-radius: 6px;
-    font-weight: 500;
-    color: var(--primary);
-    border: 1px solid var(--primary);
-    transition: all 0.2s ease;
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
   }
   
-  .loginBtn:hover {
-    background-color: var(--primary);
-    color: white;
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
   }
   
-  .registerBtn {
-    padding: 0.5rem 1.5rem;
-    border-radius: 6px;
-    font-weight: 500;
-    background-color: var(--secondary);
-    color: white;
-    transition: all 0.2s ease;
-  }
-  
-  .registerBtn:hover {
-    opacity: 0.9;
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
   }
   
   @media (max-width: 768px) {
@@ -92,30 +113,54 @@
       display: flex;
     }
   
-    .navLinks {
-      display: none;
-      position: absolute;
-      top: 70px;
-      left: 0;
-      right: 0;
-      flex-direction: column;
-      background-color: var(--light);
-      padding: 1rem;
-      gap: 1rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    .navbar {
+      padding: 0 1rem;
     }
   
-    .navLinks.active {
-      display: flex;
+    .container {
+      padding: 0;
+    }
+  
+    .mobileMenu {
+      position: fixed;
+      top: 70px;
+      left: -100%;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      flex-direction: column;
+      background-color: var(--light);
+      padding: 2rem;
+      transition: left 0.3s ease-in-out;
+      overflow-y: auto;
+    }
+  
+    .mobileMenu.active {
+      left: 0;
+    }
+  
+    .navLinks {
+      flex-direction: column;
+      width: 100%;
+      gap: 1.5rem;
+    }
+  
+    .navLink {
+      font-size: 1.2rem;
+      width: 100%;
+      text-align: center;
     }
   
     .authButtons {
-      margin-left: 0;
       flex-direction: column;
       width: 100%;
+      padding: 0;
+      gap: 1rem;
     }
   
     .loginBtn, .registerBtn {
-      text-align: center;
+      width: 100%;
+      padding: 0.75rem;
     }
   }
+  

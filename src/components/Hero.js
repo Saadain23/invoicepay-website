@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Hero.module.css'
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
 
           <div className={styles.heroText}>
-            <p>InvoicePay makes light entrepreneurship effortless. Invoice in minutes without unnecessary paperwork or bureaucracy. Work freely on your terms – we'll handle the rest. Sign up for free or Download our app now!</p>
+            <p>InvoicePay makes light entrepreneurship effortless. Invoice in minutes without registering a company. Work freely on your terms – we'll handle the rest. Sign up for free or Download our app now!</p>
             <div className={styles.storeButtons}>
               <a href="#" className={styles.storeLink}>
                 <img src="/images/appstore.png" alt="App Store" width={142} height={53} />

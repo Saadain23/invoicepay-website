@@ -1,0 +1,134 @@
+.pricing {
+  padding: 8rem 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.sectionTitle p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.pricingPlans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.pricingCard {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  transition: all 0.3s;
+  position: relative;
+}
+
+.pricingCard.featured {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(88, 42, 152, 0.1);
+  border-color: var(--primary);
+}
+
+.pricingCard.featured::before {
+  content: 'Suosittu';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--secondary);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+}
+
+.pricingCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.pricingCard h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.pricingPrice {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.pricingPrice span {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.pricingFeatures {
+  margin-bottom: 2.5rem;
+}
+
+.pricingFeature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.pricingFeature svg {
+  color: var(--primary);
+  margin-right: 0.7rem;
+  flex-shrink: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-align: center;
+  width: 100%;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(88, 42, 152, 0.2);
+}
+
+.btnOutline {
+  background: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.btnOutline:hover {
+  background: var(--primary);
+  color: white;
+}

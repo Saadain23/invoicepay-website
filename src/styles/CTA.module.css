@@ -1,0 +1,71 @@
+.cta {
+  padding: 8rem 0;
+  background: linear-gradient(135deg, var(--primary), #431d73);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta::before {
+  content: '';
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  background: radial-gradient(circle, rgba(254, 63, 130, 0.3) 0%, rgba(254, 63, 130, 0) 70%);
+  top: -500px;
+  right: -300px;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.cta::after {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+  bottom: -400px;
+  left: -200px;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 1;
+}
+
+.cta h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  opacity: 0.9;
+}
+
+.btn {
+  background: white;
+  color: var(--primary);
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: var(--secondary);
+  color: white;
+}

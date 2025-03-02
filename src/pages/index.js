@@ -1,7 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
 import Hero from "@/components/Hero";
+import Testimonials from "@/components/Testimonials";
+import Pricing from "@/components/Pricing";
+import Features from "@/components/Features";
+import FAQ from "@/components/FAQ";
+import CTA from "@/components/CTA";
+
 
 export default function Home() {
 
@@ -12,6 +17,11 @@ export default function Home() {
         <meta name="description" content="Home" />
       </Head>
       <Hero />
+      <Testimonials />
+      <Pricing />
+      <Features />
+      <FAQ />
+      <CTA />
     </>
   );
 }

@@ -1,0 +1,106 @@
+.testimonials {
+    padding: 1rem 0;
+    background: linear-gradient(to right, rgba(88, 42, 152, 0.03), rgba(254, 63, 130, 0.03));
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-top: 1rem;   
+    margin-bottom: 3rem;
+  }
+  
+  .testimonial-carousel {
+    position: relative;
+    overflow-x: auto;
+    margin-bottom: 3rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+  
+  .testimonial-carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .testimonial-card {
+    flex: 0 0 300px;
+    background: linear-gradient(to bottom, #ffffff, #f8f1ff);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ddd;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .testimonial-info {
+    margin-bottom: 0;
+  }
+  
+  .testimonial-info h4 {
+    font-size: 1.1rem;
+    color: var(--dark);
+    margin-bottom: 0.2rem;
+  }
+  
+  .testimonial-info p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    position: relative;
+    padding: 0 1rem;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-300px * 5 - 10rem)); /* Adjust based on card width and gap */
+    }
+  }
+  
+  .testimonial-carousel:hover .testimonial-cards {
+    animation-play-state: paused;
+  }

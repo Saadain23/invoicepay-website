@@ -1,10 +1,10 @@
-import Navbar from './Navbar';
+import NavbarA from './NavbarA';
 
 
 export default function Layout({ children }) {
   return (
     <div className="layout">
-      <Navbar />
+      <NavbarA />
       <main>{children}</main>
     </div>
   );

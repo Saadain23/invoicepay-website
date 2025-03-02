@@ -1,0 +1,51 @@
+import { useState } from 'react';
+import styles from '@/styles/NavbarA.module.css';
+import Link from 'next/link';
+const NavbarA = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className={styles.navbar}>
+      <div className={styles.navContainer}>
+        <div className={styles.logo}>
+            <img src="/logo.png" alt="InvoicePay Logo" width={180} height={55} />
+        </div>
+        
+        <div className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
+          <a href="/">Home</a>
+          <a href="/about">Testimonials</a>
+          <a href="/services">Features</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/faq">FAQ</a>
+        </div>
+        
+        <div className={`${styles.authButtons} ${isOpen ? styles.showAuthMenu : ''}`}>
+          <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>Login</Link>
+          <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>Register</Link>
+        </div>
+
+        <button 
+          className={styles.hamburger} 
+          onClick={toggleMenu}
+          aria-label="Toggle navigation menu"
+        >
+          {isOpen ? (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+          )}
+        </button>
+      </div>
+    </nav>
+  );
+};
+
+export default NavbarA;

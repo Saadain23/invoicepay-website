@@ -22,7 +22,34 @@
 
 .faq {
   padding: 8rem 0;
-  background: linear-gradient(to bottom, #fff, #f8f9fa);
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.faq::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(88, 42, 152, 0.2) 0%, rgba(88, 42, 152, 0) 70%);
+    top: 120px;
+    left: 50px;
+    z-index: -1;
+}
+  
+.faq::after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(254, 63, 130, 0.2) 0%, rgba(254, 63, 130, 0) 70%);
+    top: 280px;
+    left: 250px;
+    z-index: -1;
 }
 
 .faqGrid {

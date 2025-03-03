@@ -1,0 +1,126 @@
+.privacyPolicy .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.privacyPolicy {
+  position: relative;
+  padding: 4rem 0;
+  margin-top: 100px;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.privacyPolicy::before {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(88, 42, 152, 0.3) 0%, rgba(88, 42, 152, 0) 70%);
+  top: -200px;
+  right: -200px;
+  z-index: -1;
+}
+
+.privacyPolicy::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(254, 63, 130, 0.3) 0%, rgba(254, 63, 130, 0) 70%);
+  bottom: -80px;
+  left: -100px;
+  z-index: -1;
+}
+
+.privacyPolicy h1 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.lastUpdated {
+  text-align: center;
+  color: var(--dark);
+  opacity: 0.7;
+  margin-bottom: 3rem;
+}
+
+.policyContent {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+  margin-bottom: 3rem;
+}
+
+.policyContent section {
+  margin-bottom: 2rem;
+}
+
+.policyContent h2 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(88, 42, 152, 0.1);
+}
+
+.policyContent p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.policyContent ul {
+  list-style-position: inside;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.policyContent li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.policyContent strong {
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .privacyPolicy {
+    padding: 2rem 0;
+  }
+
+  .policyContent {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .privacyPolicy h1 {
+    font-size: 2rem;
+  }
+
+  .policyContent h2 {
+    font-size: 1.25rem;
+  }
+
+  .privacyPolicy::before {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: 0px;
+  }
+
+  .privacyPolicy::after {
+    width: 200px;
+    height: 200px;
+    bottom: -40px;
+    left: -100px;
+  }
+}

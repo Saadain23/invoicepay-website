@@ -147,21 +147,60 @@
 
 
 @media (max-width: 768px) {
-  .heroContent {
-    flex-direction: column-reverse;
-    text-align: center;
+  .hero {
+    padding: 2rem 0;
   }
 
-  .heroText h1 {
-    font-size: 3rem;
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .heroTitle {
+    order: 1;
+    margin-bottom: 0;
+  }
+
+  .heroTitle h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .heroImage {
+    order: 2;
+    margin: 2rem 0;
+  }
+
+  .heroImage img {
+    width: 80%;
+    height: auto;
+    max-width: 350px;
+  }
+
+  .heroText {
+    order: 3;
+  }
+
+  .heroText p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   .storeButtons {
     justify-content: center;
+    gap: 0.8rem;
+  }
+
+  .storeLink img {
+    width: 120px;
+    height: auto;
   }
 
   .featureBoxes {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 3rem;
   }
 }
 

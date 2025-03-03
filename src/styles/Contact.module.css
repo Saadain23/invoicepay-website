@@ -1,0 +1,193 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.contactUs {
+  position: relative;
+  padding: 6rem 0;
+  min-height: 100vh;
+}
+
+.contactUs::before {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(88, 42, 152, 0.2) 0%, rgba(88, 42, 152, 0) 70%);
+  top: -200px;
+  right: -200px;
+  z-index: -1;
+}
+
+.contactUs::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(254, 63, 130, 0.2) 0%, rgba(254, 63, 130, 0) 70%);
+  bottom: -80px;
+  left: -100px;
+  z-index: -1;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: var(--secondary);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contactFormCard,
+.infoCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.submitBtn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  min-width: 200px;
+}
+
+.submitBtn:hover {
+  background: #6b35b8;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.companyInfo {
+  margin-bottom: 2rem;
+}
+
+.companyInfo h2 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.companyInfo p {
+  color: #666;
+}
+
+.contactDetails {
+  margin-bottom: 2rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(88, 42, 152, 0.03);
+}
+
+.infoItem:hover {
+  background: rgba(88, 42, 152, 0.08);
+  transform: translateX(5px);
+}
+
+.infoItem i {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-right: 1.5rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(88, 42, 152, 0.1);
+  border-radius: 50%;
+}
+
+.infoItem div {
+  flex: 1;
+}
+
+.infoItem h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--dark);
+}
+
+.infoItem p {
+  margin: 0.25rem 0 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.mapContainer {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contactUs {
+    padding: 4rem 0;
+  }
+
+  .contactUs::before {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: 0px;
+  }
+
+  .contactUs::after {
+    width: 200px;
+    height: 200px;
+    bottom: -40px;
+    left: -100px;
+  }
+}

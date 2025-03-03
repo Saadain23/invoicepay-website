@@ -1,0 +1,25 @@
+{
+    "Home": {
+      "title": "InvoicePay - Helppo laskutusratkaisu yrityksellesi | Laskutuspalvelu",
+      "description": "InvoicePay on helppokäyttöinen laskutuspalvelu yrittäjille ja kevytyrittäjille. Hoida laskutus, kilometrikorvaukset 2024 ja kirjanpito vaivattomasti. Aloita ilmaiseksi (free laskutus) jo tänään!",
+      "keywords": "laskutuspalvelu, laskutuspalvelut, kevytyrittäjä, kilometrikorvaus 2024, free laskutus, kevytyrittäjyys, yrittäjä, laskutus",
+      "og": {
+        "title": "InvoicePay - Moderni laskutusratkaisu",
+        "description": "Helppo ja luotettava laskutuspalvelu yrittäjille ja kevytyrittäjille"
+      }
+    },
+    "Navbar": {
+        "home": "Koti",
+        "testimonials": "Arvioit",
+        "features": "Ominaisuudet",
+        "pricing": "Hinnasto",
+        "faq": "UKK",
+        "login": "Kirjaudu",
+        "register": "Rekisteröidy"
+    },
+    "LocaleSwitcher": {
+        "switchTo": "Vaihda kieli",
+        "english": "Englanti",
+        "finnish": "Suomi"
+    }
+}

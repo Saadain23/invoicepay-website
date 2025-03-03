@@ -1,34 +1,52 @@
-// components/LocaleSwitcher.js
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
-const LocaleSwitcher = () => {
-  const { t } = useTranslation('common');
-  const router = useRouter();
-  const { pathname, asPath, query } = router;
+export default function LocaleSwitcher() {
+  const router = useRouter()
+  const currentLang = router.query.lang || 'fi'
 
   return (
     <div className="locale-switcher">
-      <Link
-        href={{ pathname, query }}
-        locale="en"
-        scroll={false}
-        className={router.locale === 'en' ? 'active' : ''}
-      >
-        English
-      </Link>
-      <span> | </span>
-      <Link
-        href={{ pathname, query }}
-        locale="fi"
-        scroll={false}
-        className={router.locale === 'fi' ? 'active' : ''}
-      >
-        Suomi
-      </Link>
+      {['en', 'fi'].map((lang) => (
+        currentLang !== lang && (
+          <Link 
+            key={lang} 
+            href={`/${lang}${router.pathname.replace('[lang]', '')}`}
+            className="locale-link"
+          >
+            <img 
+              src={`/images/${lang}.png`}
+              alt={`Switch to ${lang}`}
+              width={26}
+              height={26}
+            />
+          </Link>
+        )
+      ))}
+      <style jsx>{`
+        .locale-switcher {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+          padding: 0.25rem 0.5rem;
+          border-radius: 6px;
+          background-color: #f5f5f5;
+        }
+        .locale-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 2px;
+          transition: all 0.2s ease;
+          line-height: 0;
+        }
+        .locale-link:hover {
+          background-color: #e0e0e0;
+        }
+        .locale-link img {
+          display: block;
+        }
+      `}</style>
     </div>
-  );
-};
-
-export default LocaleSwitcher;
+  )
+}

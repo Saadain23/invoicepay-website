@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import styles from '@/styles/NavbarA.module.css';
 import Link from 'next/link';
-const NavbarA = () => {
+import LocaleSwitcher from '@/components/LocaleSwitcher';
+
+const NavbarA = ({translations}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -16,16 +18,17 @@ const NavbarA = () => {
         </div>
         
         <div className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
-          <a href="/">Home</a>
-          <a href="/about">Testimonials</a>
-          <a href="/services">Features</a>
-          <a href="/pricing">Pricing</a>
-          <a href="/faq">FAQ</a>
+          <a href="/">{translations.Navbar.home}</a>
+          <a href="/">{translations.Navbar.testimonials}</a>
+          <a href="/">{translations.Navbar.features}</a>
+          <a href="/">{translations.Navbar.pricing}</a>
+          <a href="/">{translations.Navbar.faq}</a>
+          <LocaleSwitcher />
         </div>
         
         <div className={`${styles.authButtons} ${isOpen ? styles.showAuthMenu : ''}`}>
-          <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>Login</Link>
-          <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>Register</Link>
+          <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>{translations.Navbar.login}</Link>
+          <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>{translations.Navbar.register}</Link>
         </div>
 
         <button 

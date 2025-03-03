@@ -37,12 +37,12 @@ export default function Home({ translations }) {
           `}
         </Script>
       </Head>
-      <Hero />
-      <Testimonials />
-      <Pricing />
-      <Features />
-      <FAQ />
-      <CTA />
+      <Hero translations={translations} />
+      <Testimonials translations={translations} />
+      <Pricing translations={translations} />
+      <Features translations={translations} />
+      <FAQ translations={translations} />
+      <CTA translations={translations} />
     </>
   );
 }

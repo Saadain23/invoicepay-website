@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, rgba(88, 42, 152, 0.1) 0%, rgba(254, 63, 130, 0.1) 100%);
+    
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -23,8 +23,9 @@
         rgba(254, 63, 130, 0.15) 50%,
         rgba(88, 42, 152, 0.15) 100%
     );
+    background-size: 400% 400%;
     z-index: -1;
-    animation: gradientMove 15s ease infinite;
+    animation: gradientMove 12s ease infinite;
 }
 
 @keyframes gradientMove {

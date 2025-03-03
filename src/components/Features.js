@@ -1,12 +1,12 @@
 import styles from '../styles/Features.module.css';
 
-const Features = () => {
+const Features = ({ translations }) => {
   return (
     <section className={styles.features} id="features">
       <div className={styles.container}>
         <div className={styles.sectionTitle}>
-          <h2>All you need for <span>your business</span></h2>
-          <p>InvoicePay includes all the tools you need to run your business.</p>
+          <h2>{translations.Features.title1} <span>{translations.Features.title2}</span></h2>
+          <p>{translations.Features.description}</p>
         </div>
         <div className={styles.featuresGrid}>
           <div className={styles.featureCard}>
@@ -16,8 +16,8 @@ const Features = () => {
                 <line x1="12" y1="18" x2="12" y2="18.01"></line>
               </svg>
             </div>
-            <h3>Mobile app</h3>
-            <p>Invoice your clients wherever you are. Use our mobile app on iOS and Android devices.</p>
+            <h3>{translations.Features.cards.mobileApp.title}</h3>
+            <p>{translations.Features.cards.mobileApp.description}</p>
           </div>
 
           <div className={styles.featureCard}>
@@ -30,8 +30,8 @@ const Features = () => {
                 <polyline points="10 9 9 9 8 9"></polyline>
               </svg>
             </div>
-            <h3>Professional invoicing</h3>
-            <p>Create and send professional invoices by email or e-invoice and track payments.</p>
+            <h3>{translations.Features.cards.professionalInvoicing.title}</h3>
+            <p>{translations.Features.cards.professionalInvoicing.description}</p>
           </div>
 
           <div className={styles.featureCard}>
@@ -41,8 +41,8 @@ const Features = () => {
                 <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                 </svg>
             </div>
-            <h3>Strong authentication</h3>
-            <p>Secure Finnish.fi authentication and bank-level security ensure the security of your business.</p>
+            <h3>{translations.Features.cards.authentication.title}</h3>
+            <p>{translations.Features.cards.authentication.description}</p>
           </div>
 
           <div className={styles.featureCard}>
@@ -52,8 +52,8 @@ const Features = () => {
                 <line x1="1" y1="10" x2="23" y2="10"></line>
                 </svg>
             </div>
-            <h3>Fast Salary Payments</h3>
-            <p>Get paid directly to your bank account after your client pays. </p>
+            <h3>{translations.Features.cards.salaryPayments.title}</h3>
+            <p>{translations.Features.cards.salaryPayments.description}</p>
           </div>
             
           <div className={styles.featureCard}>
@@ -64,8 +64,8 @@ const Features = () => {
                 <line x1="8" y1="12" x2="16" y2="12"></line>
                 </svg>
             </div>
-            <h3>Expense tracking</h3>
-            <p>Record mileage claims and food expenses easily. Upload receipts directly to the app.</p>
+            <h3>{translations.Features.cards.expenseTracking.title}</h3>
+            <p>{translations.Features.cards.expenseTracking.description}</p>
           </div>
 
           <div className={styles.featureCard}>
@@ -79,8 +79,8 @@ const Features = () => {
                 <line x1="12" y1="22.08" x2="12" y2="12"></line>
                 </svg>
             </div>
-            <h3>Reporting</h3>
-            <p>Comprehensive reports for business tracking. Get a clear picture of income, expenses and salaries.</p>
+            <h3>{translations.Features.cards.reporting.title}</h3>
+            <p>{translations.Features.cards.reporting.description}</p>
           </div>
 
         </div>

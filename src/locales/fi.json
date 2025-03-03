@@ -21,5 +21,384 @@
         "switchTo": "Vaihda kieli",
         "english": "Englanti",
         "finnish": "Suomi"
+    },
+    "Hero": {
+        "title1": "Suomen",
+        "title2": "helpoin",
+        "title3": "laskutuspalvelu",
+        "title4": "kevytyrittäjille",
+        "startButton": "Aloita ilmaiseksi",
+        "description": "InvoicePay on moderni laskutuspalvelu, joka tekee kevytyrittäjyydestä vaivatonta. Laskuta ilmaiseksi (free) ensimmäinen kuukausi! Hoida laskutus, kilometrikorvaukset ja kirjanpito helposti yhdessä paikassa.",
+        "features": {
+            "work": {
+                "title": "Tee työ",
+                "description": "Keskity siihen mitä osaat parhaiten"
+            },
+            "invoice": {
+                "title": "Lähetä lasku",
+                "description": "Luo lasku muutamassa minuutissa"
+            },
+            "expenses": {
+                "title": "Kirjaa kulut",
+                "description": "Kirjaa kilometrit ja muut kulut"
+            },
+            "payment": {
+                "title": "Saa maksu",
+                "description": "Rahat tilillesi 24h sisällä"
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Arvioit",
+        "items": [
+            {
+                "name": "Matti Virtanen",
+                "role": "IT-konsultti",
+                "text": "Laskutus ja veroraportointi toimivat automaattisesti. Voin keskittyä täysin omaan työhöni.",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Laura Korhonen",
+                "role": "Valokuvaaja",
+                "text": "Mobiilisovelluksella laskutan suoraan asiakkaan luona. Suosittelen kaikille freelancereille!",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Mikko Nieminen",
+                "role": "Verkkokauppias",
+                "text": "Verkkokauppaintegraatio säästi minulta valtavasti aikaa. Erinomainen asiakaspalvelu!",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Anna Mäkelä",
+                "role": "Graafinen suunnittelija",
+                "text": "Nopeat vastaukset kysymyksiin ja palvelu kehittyy jatkuvasti paremmaksi.",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Juha Saarinen",
+                "role": "Myyntiedustaja",
+                "text": "Kilometrikorvausten kirjaaminen onnistuu kätevästi mobiilissa.",
+                "image": "/api/placeholder/50/50"
+            }
+        ]
+    },
+    "Pricing": {
+        "title": "Selkeä ja läpinäkyvä hinnoittelu",
+        "subtitle": "Valitse sinulle sopivin vaihtoehto. Ei piilokuluja, maksat vain silloin kun sinä saat maksun.",
+        "freePlan": {
+            "title": "Ilmainen suunnitelma",
+            "price": "0€",
+            "period": "/aloitus",
+            "description": "Aloita laskutus heti ilman Y-tunnusta tai sitoutumista",
+            "features": [
+                "Ilmainen laskun luonti ja lähetys",
+                "Ei vaadi Y-tunnusta",
+                "Sähköposti- ja verkkolaskut",
+                "Asiakasrekisteri",
+                "Laskujen seuranta",
+                "Maksumuistutukset",
+                "Mobiilisovellus"
+            ],
+            "button": "Aloita ilmaiseksi"
+        },
+        "percentagePlan": {
+            "title": "Prosenttisuunnitelma",
+            "price": "3%",
+            "period": "/lasku",
+            "description": "Täydellinen satunnaiseen laskutukseen ja aloittamiseen",
+            "features": [
+                "3 % kulu vain maksetuista laskuista",
+                "Rajoittamaton määrä laskuja",
+                "Ilmainen laskun luonti",
+                "YEL-vakuutus",
+                "Kulujen seuranta",
+                "Veroraportointi",
+                "Nopea palkanmaksu"
+            ],
+            "button": "Aloita nyt"
+        },
+        "monthlyPlan": {
+            "title": "Kuukausisuunnitelma",
+            "price": "29,99€",
+            "period": "/kuukausi",
+            "description": "Täydellinen säännölliseen laskutukseen ja kasvavalle liiketoiminnalle",
+            "features": [
+                "Kiinteä 29,99€ kuukausimaksu",
+                "Rajoittamaton määrä laskuja kuukaudessa",
+                "Ilmainen laskun luonti",
+                "YEL-vakuutus",
+                "Kulujen seuranta",
+                "Veroraportointi",
+                "Nopea palkanmaksu"
+            ],
+            "button": "Aloita nyt"
+        }
+    },
+    "Features": {
+        "title1": "Kaikki mitä",
+        "title2": "kevytyrittäjä tarvitsee",
+        "description": "InvoicePay sisältää kaikki työkalut, joita kevytyrittäjä tarvitsee liiketoiminnan pyörittämiseen.",
+        "cards": {
+            "mobileApp": {
+                "title": "Mobiilisovellus",
+                "description": "Laskuta asiakkaita missä tahansa oletkin. Käytä mobiilisovellustamme iOS- ja Android-laitteilla."
+            },
+            "professionalInvoicing": {
+                "title": "Ammattimainen laskutus",
+                "description": "Luo ja lähetä ammattimaisia laskuja sähköpostitse tai e-laskuna ja seuraa maksuja."
+            },
+            "authentication": {
+                "title": "Vahva tunnistautuminen",
+                "description": "Turvallinen Suomi.fi-tunnistautuminen ja pankkitason tietoturva takaavat liiketoimintasi turvallisuuden."
+            },
+            "salaryPayments": {
+                "title": "Nopea palkanmaksu",
+                "description": "Saat palkan tilillesi heti asiakkaan maksun jälkeen."
+            },
+            "expenseTracking": {
+                "title": "Kulujen seuranta",
+                "description": "Kirjaa kilometrikorvaukset ja ruokakulut helposti. Lataa kuitit suoraan sovellukseen."
+            },
+            "reporting": {
+                "title": "Raportointi",
+                "description": "Kattavat raportit liiketoiminnan seurantaan. Saat selkeän kuvan tuloista, menoista ja palkat."
+            }
+        }
+    },
+    "FAQ": {
+        "title1": "Usein kysytyt",
+        "title2": "kysymykset",
+        "description": "Löydä vastaukset yleisiin kysymyksiin freelancingista ja InvoicePay-palveluista",
+        "items": [
+            {
+                "question": "Mikä on kevytyrittäjyys ?",
+                "answer": "Kevytyrittäjyys on joustava tapa työskennellä yrittäjämäisesti ilman oman yrityksen perustamista. Hankit itse asiakkaasi, hallitset aikataulujasi ja määrität hintasi, kun taas laskutuspalvelu hoitaa hallinnolliset tehtävät, kuten laskutuksen, verot ja palkanmaksun."
+            },
+            {
+                "question": "Kenelle kevytyrittäjyys sopii ?",
+                "answer": {
+                    "text": "Kevytyrittäjyys sopii erinomaisesti:",
+                    "list": [
+                        "Freelancereille ja luoville ammattilaisille",
+                        "Palveluntarjoajille",
+                        "Opiskelijoille lisätulojen hankintaan",
+                        "Kokopäivätyöntekijöille sivutyöksi",
+                        "Eläkeläisille aktiiviseen toimintaan"
+                    ]
+                }
+            },
+            {
+                "question": "Miten InvoicePayn laskutus toimii ?",
+                "answer": "InvoicePay toimii laskutuskumppaninasi. Lähetät laskut asiakkaillesi alustamme kautta, ja me huolehdimme laskutuksesta, veroista ja palkanmaksusta puolestasi. Palkkasi maksetaan suoraan tilillesi kaikki tarvittavat vähennykset huomioiden."
+            },
+              {
+                "question": "Kuinka nopeasti voin aloittaa ?",
+                "answer": "Voit aloittaa laskutuksen heti rekisteröitymisen jälkeen. Käyttöönotto vie alle 5 minuuttia - tunnistaudu, lisää pankkitilisi ja olet valmis luomaan laskuja."
+            }
+        ]
+    },
+    "CTA": {
+        "title": "Aloita laskutus nyt",
+        "description": "Liity tuhansien tyytyväisten freelancereiden joukkoon. Aloita ilmaiseksi ja maksa vain, kun saat maksun.",
+        "button": "Aloita ilmaiseksi"
+    },
+    "Footer": {
+        "description": "Teemme laskutuksesta ja palkanmaksusta helppoa freelancereille ja kevytyrittäjille ilman Y-tunnusta. Moderni laskutus, saumaton palkanmaksu ja vaivaton kirjanpito yhdessä paikassa.",
+        "sections": {
+            "pages": {
+                "title": "Sivut",
+                "links": {
+                    "home": "Etusivu",
+                    "testimonials": "Asiakaskokemukset",
+                    "features": "Ominaisuudet",
+                    "pricing": "Hinnoittelu"
+                }
+            },
+            "company": {
+                "title": "Yritys",
+                "links": {
+                    "privacyPolicy": "Tietosuojakäytäntö",
+                    "contact": "Yhteystiedot"
+                }
+            }
+        },
+        "copyright": "2024 InvoicePay. Kaikki oikeudet pidätetään."
+    },
+    "Contact": {
+        "meta": {
+            "title": "Ota yhteyttä | InvoicePay - Laskutuspalvelu",
+            "description": "Ota yhteyttä InvoicePay-tiimiin. Autamme sinua mielellämme laskutukseen, kevytyrittäjyyteen ja palvelun käyttöön liittyvissä kysymyksissä.",
+            "keywords": "ota yhteyttä, asiakaspalvelu, yhteystiedot, InvoicePay, laskutuspalvelu",
+            "og": {
+                "title": "Ota yhteyttä | InvoicePay",
+                "description": "Ota yhteyttä InvoicePay-tiimiin. Autamme sinua kaikissa laskutukseen liittyvissä kysymyksissä."
+            }
+        },
+        "title": "Ota yhteyttä",
+        "name": "Nimi",
+        "email": "Sähköposti",
+        "subject": "Aihe",
+        "message": "Viesti",
+        "sendMessage": "Lähetä viesti",
+        "emailUs": "Sähköposti",
+        "callUs": "Puhelin numero"
+    },
+    "PrivacyPolicy": {
+        "meta": {
+            "title": "Tietosuojakäytäntö | InvoicePay",
+            "description": "InvoicePayn tietosuojakäytäntö kertoo, miten käsittelemme henkilötietojasi. Lue, kuinka suojaamme yksityisyyttäsi ja noudatamme GDPR-säädöksiä laskutuspalvelussamme.",
+            "keywords": "tietosuoja, tietosuojakäytäntö, GDPR, yksityisyys, henkilötiedot, InvoicePay",
+            "og": {
+                "title": "Tietosuojakäytäntö | InvoicePay",
+                "description": "Tutustu InvoicePayn tietosuojakäytäntöön ja siihen, miten käsittelemme ja suojaamme henkilötietojasi GDPR-säädösten mukaisesti."
+            }
+        },
+        "title": "Tietosuojakäytäntö",
+        "lastUpdated": "Voimaantulopäivä: 26.02.2025",
+        "sections": {
+            "introduction": {
+            "title": "1. Johdanto",
+            "content": "Tervetuloa InvoicePay-palveluun, joka on Suomessa toimiville kevytyrittäjille suunnattu laskutus- ja palkanmaksuratkaisu. Olemme sitoutuneet suojaamaan yksityisyyttäsi ja varmistamaan henkilötietojesi turvallisuuden. Tämä tietosuojakäytäntö kuvaa, kuinka keräämme, käytämme, säilytämme ja suojaamme henkilötietojasi EU:n yleisen tietosuoja-asetuksen (GDPR) ja sovellettavien EU:n tietosuojalakien mukaisesti."
+            },
+            "dataController": {
+            "title": "2. Rekisterinpitäjä",
+            "content": "InvoicePay, joka sijaitsee Suomessa, toimii rekisterinpitäjänä ja vastaa henkilötietojesi käsittelystä. Jos sinulla on kysyttävää tai huolenaiheita henkilötietojesi käsittelystä, voit ottaa meihin yhteyttä:",
+            "email": "support@invoicepay.fi"
+            },
+            "informationCollected": {
+            "title": "3. Keräämämme tiedot",
+            "intro": "Keräämme ja käsittelemme seuraavia henkilötietoryhmiä:",
+            "items": [
+                "Tunnistetiedot: Nimi, henkilötunnus (hetu)",
+                "Yhteystiedot: Sähköposti, puhelinnumero",
+                "Tunnistautumistiedot: Sähköposti, salasana",
+                "Taloudelliset tiedot: Verotiedot, pankkitilin numero",
+                "Liiketoimintatiedot: Asiakastiedot, laskutustiedot",
+                "Varmennustiedot: Henkilöllisyystodistukset (tarvittaessa)",
+                "Kulutustiedot: Kulukorvaukset ja niihin liittyvät asiakirjat"
+            ]
+            },
+            "purposeOfProcessing": {
+            "title": "4. Tietojen käsittelyn tarkoitus",
+            "intro": "Käsittelemme henkilötietoja seuraaviin tarkoituksiin:",
+            "items": [
+                {
+                "title": "Käyttäjän tunnistaminen",
+                "content": "Nimi ja henkilötunnus tarvitaan käyttäjän tunnistamiseen ja verotietojen hakemiseen viranomaisilta (esim. Verohallinto)."
+                },
+                {
+                "title": "Viestintä",
+                "content": "Sähköpostia ja puhelinnumeroa käytetään tärkeisiin ilmoituksiin, raportteihin, markkinointiin ja asiakastukeen."
+                },
+                {
+                "title": "Tunnistautuminen ja turvallisuus",
+                "content": "Sähköposti ja salasana ovat tarpeen tilinhallintaan ja turvalliseen kirjautumiseen."
+                },
+                {
+                "title": "Palkanlaskenta",
+                "content": "Verotiedot haetaan Verohallinnosta ja niitä käytetään vain palkan laskemiseen."
+                },
+                {
+                "title": "Laskutus",
+                "content": "Asiakastietoja käsitellään oikean laskutuksen ja laskujen lähettämisen varmistamiseksi."
+                },
+                {
+                "title": "Palkkamaksut",
+                "content": "Pankkitilitietoja käytetään palkan maksamiseen käyttäjän tilille."
+                },
+                {
+                "title": "Henkilöllisyyden varmentaminen",
+                "content": "Jos käyttäjältä vaaditaan henkilöllisyyden todentamista, tietoja käytetään vain tähän tarkoitukseen."
+                },
+                {
+                "title": "Kulujen käsittely",
+                "content": "Jos käyttäjä ilmoittaa kuluja ja liittää asiakirjoja, tietoja käytetään verovapaiden kulukorvausten käsittelyyn."
+                }
+            ]
+            },
+            "legalBasis": {
+            "title": "5. Tietojen käsittelyn oikeusperuste",
+            "intro": "Henkilötietojen käsittely perustuu seuraaviin oikeusperusteisiin:",
+            "items": [
+                {
+                "title": "Sopimuksen täytäntöönpano",
+                "content": "Tietojen käsittely on tarpeen laskutus- ja palkanmaksupalveluidemme tarjoamiseksi."
+                },
+                {
+                "title": "Lakien noudattaminen",
+                "content": "Tietojen käsittely on tarpeen Suomen ja EU:n verolakien noudattamiseksi."
+                },
+                {
+                "title": "Oikeutettu etu",
+                "content": "Petosten ehkäisy, tietoturva ja asiakaspalvelu."
+                },
+                {
+                "title": "Suostumus",
+                "content": "Markkinointiviestintään, jos käyttäjä on antanut siihen luvan."
+                }
+            ]
+            },
+            "retention": {
+            "title": "6. Tietojen säilyttäminen",
+            "content": "Säilytämme henkilötietoja niin kauan kuin on tarpeen tietosuojakäytännössä määriteltyjen tarkoitusten täyttämiseksi, lakisääteisten velvoitteiden täyttämiseksi ja mahdollisten riitatilanteiden ratkaisemiseksi."
+            },
+            "sharing": {
+            "title": "7. Tietojen jakaminen ja kolmannet osapuolet",
+            "intro": "Voimme jakaa henkilötietoja seuraavien tahojen kanssa:",
+            "items": [
+                {
+                "title": "Viranomaiset",
+                "content": "Veroviranomaiset ja muut sääntelyelimet lakisääteisten velvoitteiden täyttämiseksi."
+                },
+                {
+                "title": "Maksupalveluntarjoajat",
+                "content": "Palkanmaksujen käsittelyä varten."
+                },
+                {
+                "title": "Palveluntarjoajat",
+                "content": "Ne, jotka auttavat meitä palveluidemme toteuttamisessa (esim. pilvipalvelut, asiakastuki)."
+                },
+                {
+                "title": "Oikeudelliset ja sääntelyviranomaiset",
+                "content": "Jos laki sitä edellyttää tai oikeuksiemme suojelemiseksi."
+                }
+            ],
+            "note": "Emme myy tai vuokraa henkilötietojasi kolmansille osapuolille."
+            },
+            "security": {
+            "title": "8. Tietoturva",
+            "content": "Käytämme asianmukaisia teknisiä ja organisatorisia toimenpiteitä henkilötietojesi suojaamiseksi luvattomalta käytöltä, katoamiselta, väärinkäytöltä tai muuttamiselta."
+            },
+            "userRights": {
+            "title": "9. Käyttäjän oikeudet",
+            "intro": "GDPR:n mukaisesti sinulla on seuraavat oikeudet:",
+            "items": [
+                "Pääsy tietoihin: Voit pyytää pääsyä henkilötietoihisi.",
+                "Tietojen korjaaminen: Voit pyytää virheellisten tietojen korjaamista.",
+                "Tietojen poistaminen: Voit pyytää tietojesi poistamista, ellei laki edellytä niiden säilyttämistä.",
+                "Käsittelyn rajoittaminen: Voit pyytää tietojesi käsittelyn rajoittamista.",
+                "Tietojen siirrettävyys: Voit pyytää tietojesi siirtämistä toiselle palveluntarjoajalle.",
+                "Suostumuksen peruuttaminen: Voit peruuttaa markkinointiviestintään antamasi suostumuksen milloin tahansa."
+            ],
+            "contact": "Oikeuksiesi käyttämiseksi voit ottaa meihin yhteyttä osoitteessa [Lisää yhteystiedot]."
+            },
+            "internationalTransfers": {
+            "title": "10. Kansainväliset tiedonsiirrot",
+            "content": "Jos siirrämme henkilötietojasi ETA-alueen ulkopuolelle, varmistamme asianmukaiset suojatoimet, kuten vakiosopimuslausekkeet (SCC)."
+            },
+            "cookies": {
+            "title": "11. Evästeet ja seuranta",
+            "content": "Voimme käyttää evästeitä ja muita seurantatekniikoita käyttäjäkokemuksen parantamiseksi."
+            },
+            "updates": {
+            "title": "12. Päivitykset",
+            "content": "Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Suosittelemme tarkistamaan tämän käytännön säännöllisesti."
+            },
+            "contact": {
+            "title": "13. Yhteystiedot",
+            "content": "Jos sinulla on kysyttävää, ota yhteyttä osoitteessa: [Lisää yhteystiedot]"
+            }
+        }
     }
 }

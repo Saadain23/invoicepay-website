@@ -21,6 +21,386 @@
         "switchTo": "Switch to",
         "english": "English",
         "finnish": "Finnish"
+    },
+    "Hero": {
+        "title1": "Finland's",
+        "title2": "easiest",
+        "title3": "invoicing service for",
+        "title4": "Light entrepreneurs",
+        "startButton": "Start Free",
+        "description": "InvoicePay makes light entrepreneurship effortless. Invoice in minutes without registering a company. Work freely on your terms – we'll handle the rest. Sign up for free or Download our app now!",
+        "features": {
+            "work": {
+                "title": "Do the work",
+                "description": "Focus on your work and let us handle the rest"
+            },
+            "invoice": {
+                "title": "Send an invoice",
+                "description": "Create an invoice in minutes and send it to your client"
+            },
+            "expenses": {
+                "title": "Record expenses",
+                "description": "Record mileage, meal and other expenses"
+            },
+            "payment": {
+                "title": "Get paid",
+                "description": "Money in your bank account within 24 hours"
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Testimonials",
+        "items": [
+            {
+                "name": "Matti Virtanen",
+                "role": "IT-consultant",
+                "text": "Invoicing and tax reporting work automatically. I can focus fully on my work.",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Laura Korhonen",
+                "role": "Photographer",
+                "text": "I invoice directly from my phone. I recommend it to all freelancers!",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Mikko Nieminen",
+                "role": "Webshop owner",
+                "text": "The webshop integration saved me a lot of time. Excellent customer service!",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Anna Mäkelä",
+                "role": "Graphic designer",
+                "text": "Quick responses to questions and the service keeps getting better.",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Juha Saarinen",
+                "role": "Sales representative",
+                "text": "Mileage claims are easy to record on my phone.",
+                "image": "/api/placeholder/50/50"
+            }
+        ]
+    },
+    "Pricing": {
+        "title": "Clear and transparent Pricing",
+        "subtitle": "Choose the option that suits you best. No hidden costs, you only pay when you get paid.",
+        "freePlan": {
+            "title": "Free plan",
+            "price": "0€",
+            "period": "/start",
+            "description": "Start invoicing immediately without a Finnish Business ID or commitment",
+            "features": [
+                "Free invoice creation and sending",
+                "No Finnish Business ID required",
+                "Email and e-invoices",
+                "Customer register",
+                "Invoice tracking",
+                "Payment reminders",
+                "Mobile app"
+            ],
+            "button": "Start for free"
+        },
+        "percentagePlan": {
+            "title": "Percentage plan",
+            "price": "3%",
+            "period": "/per invoice",
+            "description": "Perfect for random invoicing and starting",
+            "features": [
+                "3% fee only from paid invoices",
+                "Unlimited number of invoices",
+                "Free invoice creation",
+                "Insurance for YEL",
+                "Expense tracking",
+                "Tax reporting",
+                "Fast payroll"
+            ],
+            "button": "Start now"
+        },
+        "monthlyPlan": {
+            "title": "Monthly Plan",
+            "price": "29,99€",
+            "period": "/month",
+            "description": "Perfect for regular invoicing and growing business",
+            "features": [
+                "Fixed 29,99€ monthly fee",
+                "Unlimited number of invoices per month",
+                "Free invoice creation",
+                "Insurance for YEL",
+                "Expense tracking",
+                "Tax reporting",
+                "Fast payroll"
+            ],
+            "button": "Start now"
+        }
+    },
+    "Features": {
+        "title1": "All you need for",
+        "title2": "your business",
+        "description": "InvoicePay includes all the tools you need to run your business.",
+        "cards": {
+            "mobileApp": {
+                "title": "Mobile app",
+                "description": "Invoice your clients wherever you are. Use our mobile app on iOS and Android devices."
+            },
+            "professionalInvoicing": {
+                "title": "Professional invoicing",
+                "description": "Create and send professional invoices by email or e-invoice and track payments."
+            },
+            "authentication": {
+                "title": "Strong authentication",
+                "description": "Secure Finnish.fi authentication and bank-level security ensure the security of your business."
+            },
+            "salaryPayments": {
+                "title": "Fast Salary Payments",
+                "description": "Get paid directly to your bank account after your client pays."
+            },
+            "expenseTracking": {
+                "title": "Expense tracking",
+                "description": "Record mileage claims and food expenses easily. Upload receipts directly to the app."
+            },
+            "reporting": {
+                "title": "Reporting",
+                "description": "Comprehensive reports for business tracking. Get a clear picture of income, expenses and salaries."
+            }
+        }
+    },
+    "FAQ": {
+        "title1": "Frequently Asked",
+        "title2": "Questions",
+        "description": "Find answers to common questions about freelancing and InvoicePay services",
+        "items": [
+            {
+                "question": "What is light entrepreneurship?",
+                "answer": "Light entrepreneurship is a flexible way to work entrepreneurially without setting up your own company. You handle your own clients, manage your schedule and set your own prices, while InvoicePay handles the administrative tasks, such as invoicing, taxes and payroll."
+            },
+            {
+                "question": "Who is light entrepreneurship for?",
+                "answer": {
+                    "text": "Light entrepreneurship is ideal for:",
+                    "list": [
+                        "Freelancers and creative professionals",
+                        "Service providers",
+                        "Students looking for additional income",
+                        "Full-time workers looking for a side hustle",
+                        "Retirees looking to stay active"
+                    ]
+                }
+            },
+            {
+                "question": "How does InvoicePay invoicing work?",
+                "answer": "InvoicePay works as your invoicing partner. You send invoices to your clients through our platform, and we handle invoicing, taxes and payroll on your behalf. Your salary is paid directly to your bank account, including all necessary deductions."
+            },
+              {
+                "question": "How quickly can I start?",
+                "answer": "You can start invoicing immediately after registration. The setup takes less than 5 minutes - log in, add your bank details and you're ready to create invoices."
+            }
+        ]
+    },
+    "CTA": {
+        "title": "Start invoicing today",
+        "description": "Join the thousands of satisfied freelancers. Start for free and pay only when you get paid.",
+        "button": "Start for free"
+    },
+    "Footer": {
+        "description": "We simplify invoicing and payroll for freelancers and lightentrepreneurs without business id. Modern invoicing, seamless payroll, and hassle-free accounting in one place.",
+        "sections": {
+            "pages": {
+                "title": "Pages",
+                "links": {
+                    "home": "Home",
+                    "testimonials": "Testimonials",
+                    "features": "Features",
+                    "pricing": "Pricing"
+                }
+            },
+            "company": {
+                "title": "Company",
+                "links": {
+                    "privacyPolicy": "Privacy Policy",
+                    "contact": "Contact"
+                }
+            }
+        },
+        "copyright": "2024 InvoicePay. All rights reserved."
+    },
+    "Contact": {
+        "meta": {
+            "title": "Contact Us | InvoicePay - Invoice Management Service",
+            "description": "Contact InvoicePay's team. We help you with invoicing, freelancing, and any questions related to the service.",
+            "keywords": "contact us, customer service, contact invoicepay, InvoicePay, invoicing service",
+            "og": {
+                "title": "Contact Us | InvoicePay",
+                "description": "Contact InvoicePay's team. We help you with invoicing, freelancing, and any questions related to the service."
+            }
+        },
+        "title": "Contact Us",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "sendMessage": "Send Message",
+        "emailUs": "Email Us",
+        "callUs": "Call Us"
+    },
+    "PrivacyPolicy": {
+        "meta": {
+            "title": "Privacy Policy | InvoicePay - Invoice Management Service",
+            "description": "Read InvoicePay's privacy policy to understand how we collect, use, and protect your personal information. Learn about your data rights and our commitment to privacy.",
+            "keywords": "privacy policy, data protection, GDPR, personal data, data privacy, InvoicePay privacy",
+            "og": {
+                "title": "Privacy Policy | InvoicePay",
+                "description": "Learn how InvoicePay protects your personal information and ensures compliance with GDPR and EU data protection laws."
+            }
+        },
+        "title": "Privacy Policy",
+        "lastUpdated": "Effective Date: 26.02.2025",
+        "sections": {
+            "introduction": {
+                "title": "1. Introduction",
+                "content": "Welcome to InvoicePay, an invoicing and payroll solution designed for light entrepreneurs in Finland. We are committed to protecting your privacy and ensuring the security of your personal data. This Privacy Policy outlines how we collect, use, store, and protect your personal information in compliance with the General Data Protection Regulation (GDPR) and applicable EU data protection laws."
+            },
+            "dataController": {
+                "title": "2. Data Controller",
+                "content": "InvoicePay, located in Finland, is the data controller responsible for processing your personal data. If you have any questions or concerns regarding your personal data, you may contact us at:",
+                "email": "support@invoicepay.fi"
+            },
+            "informationCollected": {
+                "title": "3. Information We Collect",
+                "intro": "We collect and process the following types of personal information:",
+                "items": [
+                    "Identifying Information: Name, personal identification number (hetu)",
+                    "Contact Information: Email, phone number",
+                    "Authentication Information: Email, password",
+                    "Financial Information: Tax information, bank account number",
+                    "Business Information: Customer information, billing information",
+                    "Verification Information: Documents for verifying identity (if required)",
+                    "Expense Information: Expense claims and related documents"
+                ]
+            },
+            "purposeOfProcessing": {
+                "title": "4. Purpose of Processing",
+                "intro": "We process personal information for the following purposes:",
+                "items": [
+                    {
+                        "title": "User Identification",
+                        "content": "Name and personal identification number are needed for user identification and tax information retrieval from authorities (e.g., Tax Administration)."
+                    },
+                    {
+                        "title": "Communication",
+                        "content": "Email and phone number are used for important notifications, reports, marketing campaigns, and customer support."
+                    },
+                    {
+                        "title": "Authentication and Security",
+                        "content": "Email and password are needed for account management and secure login."
+                    },
+                    {
+                        "title": "Payroll Calculation",
+                        "content": "Tax information is retrieved from the Tax Administration and used only for payroll calculation."
+                    },
+                    {
+                        "title": "Billing",
+                        "content": "Customer information is processed for correct billing and sending."
+                    },
+                    {
+                        "title": "Payroll Payments",
+                        "content": "Bank account information is used for payroll payment to the user's account."
+                    },
+                    {
+                        "title": "Identity Verification",
+                        "content": "If a user is required to provide identity verification or other documents, they are used only for identity verification."
+                    },
+                    {
+                        "title": "Expense Handling",
+                        "content": "If a user reports expenses and attaches documents, the information is processed for claiming and verifying vero-free expense claims."
+                    }
+                ]
+            },
+            "legalBasis": {
+                "title": "5. Legal Basis for Processing",
+                "intro": "The processing of personal information is based on the following legal bases:",
+                "items": [
+                    {
+                        "title": "Performance of Contract",
+                        "content": "Processing is necessary for the performance of our invoicing and payroll services."
+                    },
+                    {
+                        "title": "Compliance with Laws",
+                        "content": "Compliance with Finnish and EU tax laws."
+                    },
+                    {
+                        "title": "Legitimate Interest",
+                        "content": "Petitioning, security, and customer service."
+                    },
+                    {
+                        "title": "Consent",
+                        "content": "Marketing communications if the user has given consent."
+                    }
+                ]
+            },
+            "retention": {
+                "title": "6. Retention of Personal Information",
+                "content": "We retain personal information for as long as necessary to fulfill the purposes for which it was collected, to comply with legal obligations, and to resolve possible disputes. Retention periods may vary depending on legal requirements."
+            },
+            "sharing": {
+                "title": "7. Sharing and Third Parties",
+                "intro": "We may share personal information with the following parties:",
+                "items": [
+                    {
+                        "title": "Authorities",
+                        "content": "For compliance with Finnish and EU tax laws (e.g., Tax Administration for tax information)."
+                    },
+                    {
+                        "title": "Payment Service Providers",
+                        "content": "For payroll payment processing."
+                    },
+                    {
+                        "title": "Service Providers",
+                        "content": "Those assisting us in providing our services (e.g., cloud storage, customer service tools)."
+                    },
+                    {
+                        "title": "Legal or Regulatory Authorities",
+                        "content": "If required by law or to protect our interests."
+                    }
+                ],
+                "note": "We do not sell or rent your personal information to third parties."
+            },
+            "security": {
+                "title": "8. Security",
+                "content": "We use appropriate technical and organizational measures to protect your personal information from unauthorized access, loss, misuse, or alteration. These measures include encryption, access control, and secure data storage."
+            },
+            "userRights": {
+                "title": "9. User Rights",
+                "intro": "Under GDPR, you have the following rights:",
+                "items": [
+                    "Access to Information: You can request access to your personal information.",
+                    "Correction of Information: You can request correction of inaccurate or incomplete information.",
+                    "Deletion of Information: You can request deletion of your information, unless law requires its retention.",
+                    "Restriction of Processing: You can request restriction of processing of your information in certain situations.",
+                    "Data Transferability: You can request transfer of your information to another service provider.",
+                    "Withdrawal of Consent: You can withdraw consent given for marketing communications at any time."
+                ],
+                "contact": "To exercise these rights, you may contact us at [Insert Contact Information]."
+            },
+            "internationalTransfers": {
+                "title": "10. International Transfers",
+                "content": "If we transfer your personal information outside the European Economic Area (EEA), we ensure appropriate safeguards, such as standard contractual clauses (SCC), to ensure the security of the transfer."
+            },
+            "cookies": {
+                "title": "11. Cookies and Tracking",
+                "content": "We may use cookies and similar tracking technologies for improving user experience and website traffic analysis. You can manage cookie settings in your browser."
+            },
+            "updates": {
+                "title": "12. Privacy Policy Updates",
+                "content": "We may update this Privacy Policy from time to time. We will notify you of significant changes on our website or through other communication channels. We recommend that users review this policy regularly."
+            },
+            "contact": {
+                "title": "13. Contact Information",
+                "content": "If you have any questions or concerns regarding this Privacy Policy, please contact us:",
+                "info": "[Insert Contact Information]"
+            }
+        }
     }
 }
 

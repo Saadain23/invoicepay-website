@@ -1,13 +1,13 @@
 import styles from '../styles/CTA.module.css';
 
-const CTA = () => {
+const CTA = ({ translations }) => {
   return (
     <section className={styles.cta}>
       <div className={styles.container}>
         <div className={styles.ctaContent}>
-          <h2>Start invoicing today</h2>
-          <p>Join the thousands of satisfied freelancers. Start for free and pay only when you get paid.</p>
-          <a href="https://app.invoicepay.fi/register" className={styles.btn}>Start for free</a>
+          <h2>{translations.CTA.title}</h2>
+          <p>{translations.CTA.description}</p>
+          <a href="https://app.invoicepay.fi/register" className={styles.btn}>{translations.CTA.button}</a>
         </div>
       </div>
     </section>

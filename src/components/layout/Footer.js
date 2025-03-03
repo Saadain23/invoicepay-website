@@ -1,16 +1,21 @@
 import styles from '@/styles/Footer.module.css';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 
-export default function Footer() {
+export default function Footer({ translations }) {
+  const router = useRouter();
+  const currentLang = router.query.lang || 'fi';
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.footerGrid}>
           <div>
             <div className={styles.footerLogo}>
-              <img src="../logo.png" alt="InvoicePay Logo" width={180} height={58} />
+              <img src="/logo.png" alt="InvoicePay Logo" width={180} height={58} />
             </div>
             <p className={styles.footerText}>
-              We simplify invoicing and payroll for freelancers and entrepreneurs without business id. Modern invoicing, seamless payroll, and hassle-free accounting in one place.
+              {translations.Footer.description}
             </p>
             <div className={styles.footerContact}>
               <p><i className="fas fa-envelope" style={{ color: 'var(--secondary)' }}></i> 
@@ -27,26 +32,34 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className={styles.footerHeading}>Pages</h3>
+            <h3 className={styles.footerHeading}>{translations.Footer.sections.pages.title}</h3>
             <ul className={styles.footerLinks}>
-              <li><a href="/#hero">Home</a></li>
-              <li><a href="/#testimonials">Testimonials</a></li>
-              <li><a href="/#features">Features</a></li>
-              <li><a href="/#pricing">Pricing</a></li>
+              <li><a href="/#hero">{translations.Footer.sections.pages.links.home}</a></li>
+              <li><a href="/#testimonials">{translations.Footer.sections.pages.links.testimonials}</a></li>
+              <li><a href="/#features">{translations.Footer.sections.pages.links.features}</a></li>
+              <li><a href="/#pricing">{translations.Footer.sections.pages.links.pricing}</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className={styles.footerHeading}>Company</h3>
+            <h3 className={styles.footerHeading}>{translations.Footer.sections.company.title}</h3>
             <ul className={styles.footerLinks}>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-              <li><a href="/contact-us">Contact</a></li>
+              <li>
+                <Link href={`/${currentLang}/privacy-policy`}>
+                  {translations.Footer.sections.company.links.privacyPolicy}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${currentLang}/contact-us`}>
+                  {translations.Footer.sections.company.links.contact}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
         
         <div className={styles.footerBottom}>
-          <p>&copy; 2024 InvoicePay. All rights reserved. · <a href="/privacy-policy">Privacy Policy</a></p>
+          <p>&copy; {translations.Footer.copyright} · <Link href={`/${currentLang}/privacy-policy`}>{translations.Footer.sections.company.links.privacyPolicy}</Link></p>
         </div>
       </div>
     </footer>

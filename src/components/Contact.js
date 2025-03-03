@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Contact.module.css';
 
-const Contact = () => {
+const Contact = ({ translations }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
@@ -10,28 +10,28 @@ const Contact = () => {
   return (
     <section className={styles.contactUs}>
       <div className={styles.container}>
-        <h1 className={styles.sectionTitle}>Contact Us</h1>
+        <h1 className={styles.sectionTitle}>{translations.Contact.title}</h1>
         <div className={styles.contactGrid}>
           {/* Contact Form */}
           <div className={styles.contactFormCard}>
             <form id="contactForm" onSubmit={handleSubmit}>
               <div className={styles.formGroup}>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">{translations.Contact.name}</label>
                 <input type="text" id="name" name="name" required />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">{translations.Contact.email}</label>
                 <input type="email" id="email" name="email" required />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="subject">Subject</label>
+                <label htmlFor="subject">{translations.Contact.subject}</label>
                 <input type="text" id="subject" name="subject" required />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message">{translations.Contact.message}</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
               </div>
-              <button type="submit" className={styles.submitBtn}>Send Message</button>
+              <button type="submit" className={styles.submitBtn}>{translations.Contact.sendMessage}</button>
             </form>
           </div>
 
@@ -46,14 +46,14 @@ const Contact = () => {
                 <i className="fas fa-envelope"></i>
                 <div>
                   <h3>sales@invoicepay.fi</h3>
-                  <p>Email Us</p>
+                  <p>{translations.Contact.emailUs}</p>
                 </div>
               </div>
               <div className={styles.infoItem}>
                 <i className="fas fa-phone-alt"></i>
                 <div>
                   <h3>+358 50 123 4567</h3>
-                  <p>Call Us</p>
+                  <p>{translations.Contact.callUs}</p>
                 </div>
               </div>
             </div>

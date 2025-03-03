@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from '@/styles/NavbarA.module.css';
 import Link from 'next/link';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import { useRouter } from 'next/router';
 
 const NavbarA = ({translations}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,9 @@ const NavbarA = ({translations}) => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const router = useRouter();
+  const currentLang = router.query.lang || 'fi';
 
   return (
     <nav className={styles.navbar}>
@@ -18,11 +22,11 @@ const NavbarA = ({translations}) => {
         </div>
         
         <div className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
-          <a href="/">{translations.Navbar.home}</a>
-          <a href="/">{translations.Navbar.testimonials}</a>
-          <a href="/">{translations.Navbar.features}</a>
-          <a href="/">{translations.Navbar.pricing}</a>
-          <a href="/">{translations.Navbar.faq}</a>
+          <a href={`/${currentLang}`}>{translations.Navbar.home}</a>
+          <a href={`/${currentLang}/#testimonials`}>{translations.Navbar.testimonials}</a>
+          <a href={`/${currentLang}/#features`}>{translations.Navbar.features}</a>
+          <a href={`/${currentLang}/#pricing`}>{translations.Navbar.pricing}</a>
+          <a href={`/${currentLang}/#faq`}>{translations.Navbar.faq}</a>
           <LocaleSwitcher />
         </div>
         

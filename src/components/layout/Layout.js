@@ -6,7 +6,7 @@ export default function Layout({ children, translations }) {
     <div className="layout">
       <NavbarA translations={translations} />
       <main>{children}</main>
-      <Footer />
+      <Footer translations={translations} />
     </div>
   );
 }

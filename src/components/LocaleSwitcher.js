@@ -11,7 +11,7 @@ export default function LocaleSwitcher() {
         currentLang !== lang && (
           <Link 
             key={lang} 
-            href={`/${lang}${router.pathname.replace('[lang]', '')}`}
+            href={`/${lang}${router.pathname.replace('[lang]', '').replace(/^\/+/, '')}`}
             className="locale-link"
           >
             <img 

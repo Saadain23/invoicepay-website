@@ -171,6 +171,32 @@
     transform: translateY(-2px);
 }
 
+.buttonGroup {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.contactButton {
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contactButton:hover {
+    background-color: var(--secondary);
+    color: white;
+    transform: translateY(-2px);
+}
+
 .shimmer {
     position: absolute;
     top: 0;
@@ -251,6 +277,10 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         margin-top: 3rem;
+    }
+
+    .buttonGroup {
+        justify-content: center;
     }
 }
 

@@ -1,5 +1,5 @@
 .pricing {
-  padding: 8rem 0;
+  padding: 4rem 0;
   background-color: transparent;
   position: relative;
   overflow: hidden;
@@ -67,12 +67,14 @@
   border: 1px solid rgba(0, 0, 0, 0.03);
   transition: all 0.3s;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .pricingCard.featured {
-  transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(88, 42, 152, 0.1);
-  border-color: var(--primary);
+  border-color: var(--secondary);
 }
 
 .pricingCard.featured::before {
@@ -91,6 +93,7 @@
 .pricingCard:hover {
   transform: translateY(-10px);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary);
 }
 
 .pricingCard h3 {
@@ -115,6 +118,7 @@
 
 .pricingFeatures {
   margin-bottom: 2.5rem;
+  flex-grow: 1;
 }
 
 .pricingFeature {
@@ -158,4 +162,9 @@
 .btnOutline:hover {
   background: var(--primary);
   color: white;
+}
+
+.pricingCard p {
+  margin-bottom: 2rem;
+  color: #666;
 }

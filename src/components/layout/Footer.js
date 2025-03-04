@@ -15,7 +15,7 @@ export default function Footer({ translations }) {
               <img src="/logo.png" alt="InvoicePay Logo" width={180} height={58} />
             </div>
             <p className={styles.footerText}>
-              {translations.Footer.description}
+              {translations.Footer?.description}
             </p>
             <div className={styles.footerContact}>
               <p><i className="fas fa-envelope" style={{ color: 'var(--secondary)' }}></i> 
@@ -32,26 +32,26 @@ export default function Footer({ translations }) {
           </div>
           
           <div>
-            <h3 className={styles.footerHeading}>{translations.Footer.sections.pages.title}</h3>
+            <h3 className={styles.footerHeading}>{translations.Footer?.sections.pages.title}</h3>
             <ul className={styles.footerLinks}>
-              <li><a href="/#hero">{translations.Footer.sections.pages.links.home}</a></li>
-              <li><a href="/#testimonials">{translations.Footer.sections.pages.links.testimonials}</a></li>
-              <li><a href="/#features">{translations.Footer.sections.pages.links.features}</a></li>
-              <li><a href="/#pricing">{translations.Footer.sections.pages.links.pricing}</a></li>
+              <li><a href="/#hero">{translations.Footer?.sections.pages.links.home}</a></li>
+              <li><a href="/#testimonials">{translations.Footer?.sections.pages.links.testimonials}</a></li>
+              <li><a href="/#features">{translations.Footer?.sections.pages.links.features}</a></li>
+              <li><a href="/#pricing">{translations.Footer?.sections.pages.links.pricing}</a></li>
             </ul>
           </div>
 
           <div>
-            <h3 className={styles.footerHeading}>{translations.Footer.sections.company.title}</h3>
+            <h3 className={styles.footerHeading}>{translations.Footer?.sections.company.title}</h3>
             <ul className={styles.footerLinks}>
               <li>
                 <Link href={`/${currentLang}/privacy-policy`}>
-                  {translations.Footer.sections.company.links.privacyPolicy}
+                  {translations.Footer?.sections.company.links.privacyPolicy}
                 </Link>
               </li>
               <li>
                 <Link href={`/${currentLang}/contact-us`}>
-                  {translations.Footer.sections.company.links.contact}
+                  {translations.Footer?.sections.company.links.contact}
                 </Link>
               </li>
             </ul>
@@ -59,7 +59,7 @@ export default function Footer({ translations }) {
         </div>
         
         <div className={styles.footerBottom}>
-          <p>&copy; {translations.Footer.copyright} · <Link href={`/${currentLang}/privacy-policy`}>{translations.Footer.sections.company.links.privacyPolicy}</Link></p>
+          <p>&copy; {translations.Footer?.copyright} · <Link href={`/${currentLang}/privacy-policy`}>{translations.Footer?.sections.company.links.privacyPolicy}</Link></p>
         </div>
       </div>
     </footer>

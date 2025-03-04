@@ -1,15 +1,24 @@
 import styles from '@/styles/HeroA.module.css'
+import { useRouter } from 'next/router'
 
 const Hero = ({ translations }) => {
+  const router = useRouter()
+  const currentLang = router.query.lang || 'fi'
+
   return (
     <section className={styles.hero}>
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.heroTitle}>
             <h1>{translations.Hero.title1} <span style={{color: 'var(--secondary)'}}>{translations.Hero.title2}</span> {translations.Hero.title3} <span style={{color: 'var(--secondary)'}}>{translations.Hero.title4}</span></h1>
-            <button className={styles.startButton} onClick={() => window.location.href = 'https://app.invoicepay.fi/register'}>
-              {translations.Hero.startButton} <span className={styles.shimmer}></span>
-            </button>
+            <div className={styles.buttonGroup}>
+              <button className={styles.startButton} onClick={() => window.location.href = 'https://app.invoicepay.fi/register'}>
+                {translations.Hero.startButton} <span className={styles.shimmer}></span>
+              </button>
+              <button className={styles.contactButton} onClick={() => window.location.href = `/${currentLang}/contact-us`}>
+                {translations.Hero.contactButton}
+              </button>
+            </div>
           </div>
           
           <div className={styles.heroImage}>
@@ -31,22 +40,22 @@ const Hero = ({ translations }) => {
         
         <div className={styles.featureBoxes}>
           <div className={styles.featureBox} style={{backgroundColor: 'var(--light)'}}>
-            <img src="/images/work.webp" alt="Do the work" width={100} height={100} />
+            <i className="fas fa-briefcase fa-3x"></i>
             <h3>{translations.Hero.features.work.title}</h3>
             <p>{translations.Hero.features.work.description}</p>
           </div>
-          <div className={styles.featureBox} style={{backgroundColor: '#7D54B8'}}>
-            <img src="/images/invoice_3d.webp" alt="Send invoice" width={88} height={90} />
+          <div className={styles.featureBox} style={{backgroundColor: 'var(--primary)', color: 'var(--light)'}}>
+            <i className="fas fa-file-invoice fa-3x"></i>
             <h3>{translations.Hero.features.invoice.title}</h3>
             <p>{translations.Hero.features.invoice.description}</p>
           </div>
           <div className={styles.featureBox} style={{backgroundColor: 'var(--light)'}}>
-            <img src="/images/expense.webp" alt="Record expenses" width={100} height={100} />
+            <i className="fas fa-receipt fa-3x"></i>
             <h3>{translations.Hero.features.expenses.title}</h3>
             <p>{translations.Hero.features.expenses.description}</p>
           </div>
-          <div className={styles.featureBox} style={{backgroundColor: '#FF6FA3'}}>
-            <img src="/images/salary.webp" alt="Get paid" width={100} height={100} />
+          <div className={styles.featureBox} style={{backgroundColor: 'var(--secondary)', color: 'var(--light)'}}>
+            <i className="fas fa-wallet fa-3x"></i>
             <h3>{translations.Hero.features.payment.title}</h3>
             <p>{translations.Hero.features.payment.description}</p>
           </div>

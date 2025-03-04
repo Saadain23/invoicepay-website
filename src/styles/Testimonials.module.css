@@ -1,5 +1,5 @@
 .testimonials {
-    padding: 1rem 0;
+    padding: 2rem 0;
     background: linear-gradient(to right, rgba(88, 42, 152, 0.03), rgba(254, 63, 130, 0.03));
     position: relative;
     overflow: hidden;
@@ -38,12 +38,19 @@
   
   .testimonial-card {
     flex: 0 0 300px;
-    background: linear-gradient(to bottom, #ffffff, #f8f1ff);
     backdrop-filter: blur(10px);
     border-radius: 16px;
     padding: 1.5rem;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     text-align: center;
+  }
+  
+  .testimonial-card:nth-child(odd) {
+    background: linear-gradient(to bottom, #ffffff, #f8f1ff);
+  }
+  
+  .testimonial-card:nth-child(even) {
+    background: linear-gradient(to bottom, #ffffff, #fff1f8);
   }
   
   .testimonial-author {

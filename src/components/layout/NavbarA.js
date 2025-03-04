@@ -22,17 +22,17 @@ const NavbarA = ({translations}) => {
         </div>
         
         <div className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
-          <a href={`/${currentLang}`}>{translations.Navbar.home}</a>
-          <a href={`/${currentLang}/#testimonials`}>{translations.Navbar.testimonials}</a>
-          <a href={`/${currentLang}/#features`}>{translations.Navbar.features}</a>
-          <a href={`/${currentLang}/#pricing`}>{translations.Navbar.pricing}</a>
-          <a href={`/${currentLang}/#faq`}>{translations.Navbar.faq}</a>
+          <a href={`/${currentLang}`}>{translations.Navbar?.home}</a>
+          <a href={`/${currentLang}/#testimonials`}>{translations.Navbar?.testimonials}</a>
+          <a href={`/${currentLang}/#features`}>{translations.Navbar?.features}</a>
+          <a href={`/${currentLang}/#pricing`}>{translations.Navbar?.pricing}</a>
+          <a href={`/${currentLang}/#faq`}>{translations.Navbar?.faq}</a>
           <LocaleSwitcher />
         </div>
         
         <div className={`${styles.authButtons} ${isOpen ? styles.showAuthMenu : ''}`}>
-          <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>{translations.Navbar.login}</Link>
-          <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>{translations.Navbar.register}</Link>
+          <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>{translations.Navbar?.login}</Link>
+          <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>{translations.Navbar?.register}</Link>
         </div>
 
         <button 

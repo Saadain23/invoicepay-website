@@ -23,8 +23,9 @@ export default function ContactUs({ translations }) {
 }
 
 export async function getStaticProps({ params }) {
+  const lang = params.lang || 'fi';
   try {
-    const translations = require(`../../locales/${params.lang}.json`)
+    const translations = require(`../../locales/${lang}.json`)
     return { props: { translations } }
   } catch {
     return { props: { translations: require('../../locales/fi.json') } }

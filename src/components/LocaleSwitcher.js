@@ -7,20 +7,12 @@ const languages = [
   { code: 'fi', name: 'Suomi', flag: '/images/fi.png' },
 ];
 
-const LocaleSwitcher = ({ onLanguageChange }) => {
+export default function LocaleSwitcher() {
   const router = useRouter();
   const currentLang = router.query.lang || 'fi';
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
-
-  const handleLocaleChange = (locale) => {
-    setIsOpen(false);
-    router.push(router.pathname, router.asPath, { locale });
-    if (onLanguageChange) {
-      onLanguageChange();
-    }
-  };
 
   return (
     <div className="locale-switcher" onClick={toggleDropdown}>
@@ -40,7 +32,6 @@ const LocaleSwitcher = ({ onLanguageChange }) => {
                 key={code} 
                 href={`/${code}${router.pathname.replace('[lang]', '').replace(/^\/+/,'')}`} 
                 className="dropdown-item"
-                onClick={() => handleLocaleChange(code)}
               >
                 <img src={flag} alt={name} width={26} height={26} className="flag-icon" />
               </Link>
@@ -92,6 +83,4 @@ const LocaleSwitcher = ({ onLanguageChange }) => {
       `}</style>
     </div>
   );
-};
-
-export default LocaleSwitcher;
+}

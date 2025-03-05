@@ -16,7 +16,7 @@ const MobileMenu = ({ isOpen, translations, currentLang, onClose }) => {
         <a href={`/${currentLang}/#pricing`} onClick={handleLinkClick}>{translations.Navbar?.pricing}</a>
         <a href={`/${currentLang}/#faq`} onClick={handleLinkClick}>{translations.Navbar?.faq}</a>
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-          <LocaleSwitcher onLanguageChange={handleLinkClick} />
+          <LocaleSwitcher />
         </div>
       </div>
       

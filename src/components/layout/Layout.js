@@ -5,7 +5,9 @@ export default function Layout({ children, translations }) {
   return (
     <div className="layout">
       <NavbarA translations={translations} />
-      <main>{children}</main>
+      <main style={{ paddingTop: "70px"}}>
+        {children}
+      </main>
       <Footer translations={translations} />
     </div>
   );

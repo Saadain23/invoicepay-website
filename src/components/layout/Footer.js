@@ -12,7 +12,7 @@ export default function Footer({ translations }) {
         <div className={styles.footerGrid}>
           <div>
             <div className={styles.footerLogo}>
-              <img src="/logo.png" alt="InvoicePay Logo" width={180} height={58} />
+              <img src="/logo_on_primary.png" alt="InvoicePay Logo" width={180} height={58} />
             </div>
             <p className={styles.footerText}>
               {translations.Footer?.description}

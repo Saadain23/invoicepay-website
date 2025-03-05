@@ -1,12 +1,17 @@
 /* styles/Navbar.module.css */
 .navbar {
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 0.5rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
   
   .navContainer {
     max-width: 1200px;
@@ -85,61 +90,19 @@
   }
   
   @media (max-width: 768px) {
-
     .navbar {
-        padding: 0.3rem 0;
+      padding: 0.3rem 0;
     }
 
     .navContainer {
-        padding: 0 1rem;
+      padding: 0 1rem;
     }
 
-    .navLinks {
-      position: fixed;
-      top: 64px;
-      left: 0;
-      right: 0;
-      background: white;
-      flex-direction: column;
-      gap: 0;
-      padding: 1rem 0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      transform: scaleY(0);
-      transform-origin: top;
-      transition: transform 0.3s ease;
+    .navLinks, .authButtons {
       display: none;
-      height: calc(100vh - 64px);
     }
-  
-    .navLinks.showMenu {
-      transform: scaleY(1);
-      display: flex;
-    }
-  
-    .navLinks a {
-      padding: 1rem;
-      width: 100%;
-      text-align: center;
-    }
-  
+
     .hamburger {
       display: block;
-    }
-
-    .authButtons {
-      position: fixed;
-      bottom: 2rem;
-      left: 0;
-      right: 0;
-      background: white;
-      justify-content: center;
-      padding: 1rem;
-      transform: scaleY(0);
-      display: none;
-    }
-
-    .authButtons.showAuthMenu {
-      transform: scaleY(1);
-      display: flex;
     }
   }

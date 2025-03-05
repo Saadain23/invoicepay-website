@@ -116,6 +116,26 @@
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .pricingCard h3 {
+    font-size: 1.6rem;
+  }
+
+  .pricingPrice {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricingCard h3 {
+    font-size: 1.3rem;
+  }
+
+  .pricingPrice {
+    font-size: 2rem;
+  }
+}
+
 .pricingFeatures {
   margin-bottom: 2.5rem;
   flex-grow: 1;

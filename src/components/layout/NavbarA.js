@@ -3,25 +3,26 @@ import styles from '@/styles/NavbarA.module.css';
 import Link from 'next/link';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { useRouter } from 'next/router';
+import MobileMenu from '@/components/layout/MobileMenu';
 
 const NavbarA = ({translations}) => {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const currentLang = router.query.lang || 'fi';
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const router = useRouter();
-  const currentLang = router.query.lang || 'fi';
-
   return (
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
         <div className={styles.logo}>
-            <img src="/logo.png" alt="InvoicePay Logo" width={180} height={55} />
+          <img src="/logo.png" alt="InvoicePay Logo" width={180} height={55} />
         </div>
         
-        <div className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
+        {/* Desktop Navigation */}
+        <div className={styles.navLinks}>
           <a href={`/${currentLang}`}>{translations.Navbar?.home}</a>
           <a href={`/${currentLang}/#testimonials`}>{translations.Navbar?.testimonials}</a>
           <a href={`/${currentLang}/#features`}>{translations.Navbar?.features}</a>
@@ -30,7 +31,7 @@ const NavbarA = ({translations}) => {
           <LocaleSwitcher />
         </div>
         
-        <div className={`${styles.authButtons} ${isOpen ? styles.showAuthMenu : ''}`}>
+        <div className={styles.authButtons}>
           <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>{translations.Navbar?.login}</Link>
           <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>{translations.Navbar?.register}</Link>
         </div>
@@ -50,6 +51,14 @@ const NavbarA = ({translations}) => {
             </svg>
           )}
         </button>
+
+        {/* Mobile Menu */}
+        <MobileMenu 
+          isOpen={isOpen} 
+          translations={translations} 
+          currentLang={currentLang} 
+          onClose={() => setIsOpen(false)} 
+        />
       </div>
     </nav>
   );

@@ -134,17 +134,19 @@
   transform: translateX(5px);
 }
 
-.infoItem i {
+.infoItem svg {
   font-size: 1.25rem;
   color: var(--primary);
   margin-right: 1.5rem;
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgba(88, 42, 152, 0.1);
   border-radius: 50%;
+  box-sizing: content-box;
 }
 
 .infoItem div {

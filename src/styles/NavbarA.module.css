@@ -28,6 +28,12 @@
     color: #333;
   }
   
+  .logoImage {
+    width: 180px;
+    height: auto;
+    max-width: 100%;
+  }
+  
   .navLinks {
     display: flex;
     gap: 2rem;
@@ -44,6 +50,12 @@
   
   .navLinks a:hover {
     color: var(--primary);
+  }
+
+  .localeSwitcher {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
   }
 
   .authButtons {
@@ -102,7 +114,19 @@
       display: none;
     }
 
+    .localeSwitcher {
+      margin-right: 0;
+      position: absolute;
+      right: 4.2rem;
+    }
+
     .hamburger {
       display: block;
+      display: flex;
+      line-height: 0;
+    }
+
+    .logoImage {
+      width: 140px;  /* Smaller size for mobile */
     }
   }

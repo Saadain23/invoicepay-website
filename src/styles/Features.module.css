@@ -112,3 +112,10 @@
   color: #666;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+
+  .sectionTitle h2 {
+    font-size: 2rem;
+  }
+}

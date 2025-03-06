@@ -19,7 +19,7 @@ const FAQ = ({ translations }) => {
         <div className={styles.faqWrapper}>
           <div className={styles.faqGrid}>
             <div className={styles.faqIllustration}>
-              <img src="/images/chat.webp" alt="FAQ Helper Character" />
+              <img src="/images/chat.webp" alt="FAQ Helper Character" width="400" height="400"/>
             </div>
 
             <div className={styles.faqQuestions}>

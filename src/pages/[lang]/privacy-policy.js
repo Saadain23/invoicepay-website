@@ -37,6 +37,7 @@ export async function getStaticPaths() {
     paths: [
       { params: { lang: 'en' } },
       { params: { lang: 'fi' } },
+      { params: { lang: 'sv' } },
     ],
     fallback: false
   }

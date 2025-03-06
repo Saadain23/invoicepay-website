@@ -15,7 +15,9 @@
         "pricing": "Pricing",
         "faq": "FAQ",
         "login": "Login",
-        "register": "Register"
+        "register": "Register",
+        "services": "Services",
+        "b2b": "B2B"
     },
     "LocaleSwitcher": {
         "switchTo": "Switch to",

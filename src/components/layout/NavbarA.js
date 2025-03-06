@@ -18,16 +18,20 @@ const NavbarA = ({translations}) => {
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
         <div className={styles.logo}>
-          <img src="/logo.png" alt="InvoicePay Logo" width={180} height={55} />
+          <img src="/logo.webp" alt="InvoicePay Logo" className={styles.logoImage} />
         </div>
         
         {/* Desktop Navigation */}
         <div className={styles.navLinks}>
           <a href={`/${currentLang}`}>{translations.Navbar?.home}</a>
-          <a href={`/${currentLang}/#testimonials`}>{translations.Navbar?.testimonials}</a>
-          <a href={`/${currentLang}/#features`}>{translations.Navbar?.features}</a>
           <a href={`/${currentLang}/#pricing`}>{translations.Navbar?.pricing}</a>
+          <a href={`/${currentLang}/#features`}>{translations.Navbar?.features}</a>
           <a href={`/${currentLang}/#faq`}>{translations.Navbar?.faq}</a>
+          <a href={`/${currentLang}/#services`}>{translations.Navbar?.services}</a>
+          <a href={`/${currentLang}/#b2b`}>{translations.Navbar?.b2b}</a>
+        </div>
+
+        <div className={styles.localeSwitcher}>
           <LocaleSwitcher />
         </div>
         

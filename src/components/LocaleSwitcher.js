@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
+import styles from '@/styles/LocaleSwitcher.module.css';
 
 const languages = [
   { code: 'en', name: 'English', flag: '/images/en.png' },
   { code: 'fi', name: 'Suomi', flag: '/images/fi.png' },
+  { code: 'sv', name: 'Svenska', flag: '/images/sv.png' },
 ];
 
 export default function LocaleSwitcher() {
@@ -15,8 +17,8 @@ export default function LocaleSwitcher() {
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   return (
-    <div className="locale-switcher" onClick={toggleDropdown}>
-      <button className="locale-button">
+    <div className={styles.localeSwitcher} onClick={toggleDropdown}>
+      <button className={styles.localeButton}>
         <img 
           src={languages.find(lang => lang.code === currentLang)?.flag} 
           alt={currentLang} 
@@ -25,62 +27,21 @@ export default function LocaleSwitcher() {
         />
       </button>
       {isOpen && (
-        <div className="dropdown">
+        <div className={styles.dropdown}>
           {languages.map(({ code, name, flag }) => (
             code !== currentLang && (
               <Link 
                 key={code} 
-                href={`/${code}${router.pathname.replace('[lang]', '').replace(/^\/+/,'')}`} 
-                className="dropdown-item"
+                href={`/${code}/${router.pathname.replace('[lang]', '').replace(/^\/+/,'')}`} 
+                className={styles.dropdownItem}
               >
-                <img src={flag} alt={name} width={26} height={26} className="flag-icon" />
+                <img src={flag} alt={name} width={26} height={26} className={styles.flagIcon} />
+                <span className={styles.languageName}>{name}</span>
               </Link>
             )
           ))}
         </div>
       )}
-      <style jsx>{`
-        .locale-switcher {
-          position: relative;
-          display: inline-block;
-          cursor: pointer;
-          z-index: 1000;
-        }
-        .locale-button {
-          background: none;
-          border: none;
-          padding: 0;
-        }
-        .dropdown {
-          position: absolute;
-          top: 100%;
-          left: 0;
-          background: white;
-          border: 1px solid #ddd;
-          border-radius: 6px;
-          box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-          padding: 8px;
-          min-width: fit-content;
-          display: flex;
-          flex-direction: column;
-        }
-        .dropdown-item {
-          display: flex;
-          align-items: center;
-          padding: 8px;
-          text-decoration: none;
-          color: black;
-          transition: background 0.2s;
-        }
-        .dropdown-item:hover {
-          background: #f5f5f5;
-        }
-        .flag-icon {
-          width: 26px;
-          height: 26px;
-          object-fit: contain;
-        }
-      `}</style>
     </div>
   );
 }

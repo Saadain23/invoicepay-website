@@ -169,6 +169,10 @@
     grid-template-columns: 1fr;
   }
 
+  .sectionTitle h2 {
+    font-size: 2rem;
+  }
+
   .faqIllustration {
     order: -1;
   }

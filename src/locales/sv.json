@@ -1,0 +1,408 @@
+{
+    "Home": {
+      "title": "InvoicePay - Enkel fakturering för egenanställda | InvoicePay",
+      "description": "InvoicePay är en enkel faktureringslösning för frilansare och egenanställda. Hantera fakturering, reseersättningar 2024 och bokföring utan krångel. Börja gratis (gratis fakturering) idag!",
+      "keywords": "fakturering, faktureringslösning, frilansare, egenanställd, bokföring, gratis fakturering, reseersättningar, enkel bokföring",
+      "og": {
+        "title": "InvoicePay - Enkel faktureringslösning för egenanställda",
+        "description": "Enkel och pålitlig faktureringslösning för frilansare och egenanställda"
+      }
+    },
+    "Navbar": {
+        "home": "Hem",
+        "testimonials": "Omdömen",
+        "features": "Funktioner",
+        "pricing": "Priser",
+        "faq": "FAQ",
+        "login": "Logga in",
+        "register": "Registrera dig",
+        "services": "Tjänster",
+        "b2b": "B2B"
+    },
+    "LocaleSwitcher": {
+        "switchTo": "Byt till",
+        "english": "Engelska",
+        "finnish": "Finska"
+    },
+    "Hero": {
+        "title1": "Finlands",
+        "title2": "enklaste",
+        "title3": "faktureringslösning för",
+        "title4": "egenanställda",
+        "startButton": "Börja gratis",
+        "contactButton": "Kontakta oss",
+        "description": "InvoicePay gör egenanställning enkel. Fakturera på några minuter utan att registrera ett företag. Arbeta fritt på dina villkor – vi tar hand om resten. Registrera dig gratis eller ladda ner vår app nu!",
+        "features": {
+            "work": {
+                "title": "Gör jobbet",
+                "description": "Fokusera på ditt arbete och låt oss hantera resten"
+            },
+            "invoice": {
+                "title": "Skicka en faktura",
+                "description": "Skapa en faktura på några minuter och skicka den till din kund"
+            },
+            "expenses": {
+                "title": "Registrera utgifter",
+                "description": "Registrera reseersättningar, måltider och andra utgifter"
+            },
+            "payment": {
+                "title": "Få betalt",
+                "description": "Pengar på ditt bankkonto inom 24 timmar"
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Kundrecensioner",
+        "items": [
+            {
+                "name": "Matti Virtanen",
+                "role": "IT-konsult",
+                "text": "Fakturering och skatteredovisning fungerar automatiskt. Jag kan fokusera fullt ut på mitt arbete.",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Laura Korhonen",
+                "role": "Fotograf",
+                "text": "Jag fakturerar direkt från min telefon. Jag rekommenderar det till alla frilansare!",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Mikko Nieminen",
+                "role": "Webbshopägare",
+                "text": "Integrationen med webbshoppen sparade mig mycket tid. Utmärkt kundservice!",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Anna Mäkelä",
+                "role": "Grafisk designer",
+                "text": "Snabba svar på frågor och tjänsten blir bara bättre och bättre.",
+                "image": "/api/placeholder/50/50"
+            },
+            {
+                "name": "Juha Saarinen",
+                "role": "Säljare",
+                "text": "Det är enkelt att registrera milersättningar i min telefon.",
+                "image": "/api/placeholder/50/50"
+            }
+        ]
+    },
+    "Pricing": {
+        "title": "Tydlig och transparent prissättning",
+        "subtitle": "Välj det alternativ som passar dig bäst. Inga dolda kostnader, du betalar endast när du får betalt.",
+        "freePlan": {
+            "title": "Gratisplan",
+            "price": "0€",
+            "period": "/start",
+            "description": "Börja fakturera direkt utan finskt företags-ID eller bindning",
+            "features": [
+                "Gratis fakturaskapande och sändning",
+                "Inget finskt företags-ID krävs",
+                "E-post- och e-fakturor",
+                "Kundregister",
+                "Fakturauppföljning",
+                "Betalningspåminnelser",
+                "Mobilapp"
+            ],
+            "button": "Börja gratis"
+        },
+        "percentagePlan": {
+            "title": "Procentplan",
+            "price": "3%",
+            "period": "/per faktura",
+            "description": "Perfekt för sporadisk fakturering och uppstart",
+            "features": [
+                "3% avgift endast på betalda fakturor",
+                "Obegränsat antal fakturor",
+                "Gratis fakturaskapande",
+                "Försäkring för YEL",
+                "Utgiftsspårning",
+                "Skatteredovisning",
+                "Snabb löneutbetalning"
+            ],
+            "button": "Starta nu"
+        },
+        "monthlyPlan": {
+            "title": "Månadsplan",
+            "price": "29,99€",
+            "period": "/månad",
+            "description": "Perfekt för regelbunden fakturering och växande företag",
+            "features": [
+                "Fast månadsavgift på 29,99€",
+                "Obegränsat antal fakturor per månad",
+                "Gratis fakturaskapande",
+                "Försäkring för YEL",
+                "Utgiftsspårning",
+                "Skatteredovisning",
+                "Snabb löneutbetalning"
+            ],
+            "button": "Starta nu"
+        }
+    },
+    "Features": {
+        "title1": "Allt du behöver för",
+        "title2": "ditt företag",
+        "description": "InvoicePay innehåller alla verktyg du behöver för att driva ditt företag.",
+        "cards": {
+            "mobileApp": {
+                "title": "Mobilapp",
+                "description": "Fakturera dina kunder var du än är. Använd vår mobilapp på iOS- och Android-enheter."
+            },
+            "professionalInvoicing": {
+                "title": "Professionell fakturering",
+                "description": "Skapa och skicka professionella fakturor via e-post eller e-faktura och följ upp betalningar."
+            },
+            "authentication": {
+                "title": "Stark autentisering",
+                "description": "Säker Finnish.fi-autentisering och banksäkerhet garanterar säkerheten för ditt företag."
+            },
+            "salaryPayments": {
+                "title": "Snabba löneutbetalningar",
+                "description": "Få betalt direkt till ditt bankkonto efter att din kund har betalat."
+            },
+            "expenseTracking": {
+                "title": "Utgiftsspårning",
+                "description": "Registrera milersättningar och matutgifter enkelt. Ladda upp kvitton direkt i appen."
+            },
+            "reporting": {
+                "title": "Rapportering",
+                "description": "Omfattande rapporter för affärsuppföljning. Få en tydlig översikt över inkomster, utgifter och löner."
+            }
+        }
+    },
+    "FAQ": {
+        "title1": "Vanliga",
+        "title2": "Frågor",
+        "description": "Hitta svar på vanliga frågor om frilansarbete och InvoicePay-tjänster",
+        "items": [
+            {
+                "question": "Vad är lättföretagande?",
+                "answer": "Lättföretagande är ett flexibelt sätt att arbeta entreprenöriellt utan att starta ett eget företag. Du hanterar dina egna kunder, styr ditt schema och sätter dina egna priser, medan InvoicePay sköter de administrativa uppgifterna, såsom fakturering, skatter och löneutbetalning."
+            },
+            {
+                "question": "Vem passar lättföretagande för?",
+                "answer": {
+                    "text": "Lättföretagande är perfekt för:",
+                    "list": [
+                        "Frilansare och kreativa yrkesverksamma",
+                        "Tjänsteleverantörer",
+                        "Studenter som vill ha extra inkomst",
+                        "Heltidsanställda som söker en sidoverksamhet",
+                        "Pensionärer som vill hålla sig aktiva"
+                    ]
+                }
+            },
+            {
+                "question": "Hur fungerar InvoicePays fakturering?",
+                "answer": "InvoicePay fungerar som din faktureringspartner. Du skickar fakturor till dina kunder via vår plattform, och vi hanterar fakturering, skatter och löneutbetalning åt dig. Din lön betalas direkt till ditt bankkonto, inklusive alla nödvändiga avdrag."
+            },
+            {
+                "question": "Hur snabbt kan jag komma igång?",
+                "answer": "Du kan börja fakturera direkt efter registrering. Inställningen tar mindre än 5 minuter – logga in, lägg till dina bankuppgifter och du är redo att skapa fakturor."
+            }
+        ]
+    },
+    "CTA": {
+        "title": "Börja fakturera idag",
+        "description": "Gå med i tusentals nöjda frilansare. Börja gratis och betala endast när du får betalt.",
+        "button": "Börja gratis"
+    },
+    "Footer": {
+        "description": "Vi förenklar fakturering och löneutbetalning för frilansare och lättföretagare utan företags-ID. Modern fakturering, smidig löneutbetalning och enkel bokföring på ett och samma ställe.",
+        "sections": {
+            "pages": {
+                "title": "Sidor",
+                "links": {
+                    "home": "Hem",
+                    "testimonials": "Omdömen",
+                    "features": "Funktioner",
+                    "pricing": "Priser"
+                }
+            },
+            "company": {
+                "title": "Företag",
+                "links": {
+                    "privacyPolicy": "Integritetspolicy",
+                    "contact": "Kontakt"
+                }
+            }
+        },
+        "copyright": "2024 InvoicePay. Alla rättigheter förbehållna."
+    },
+    "Contact": {
+        "meta": {
+            "title": "Kontakta oss | InvoicePay - Faktureringstjänst",
+            "description": "Kontakta InvoicePays team. Vi hjälper dig med fakturering, frilansande och alla frågor om tjänsten.",
+            "keywords": "kontakta oss, kundtjänst, kontakta invoicepay, InvoicePay, faktureringstjänst",
+            "og": {
+                "title": "Kontakta oss | InvoicePay",
+                "description": "Kontakta InvoicePays team. Vi hjälper dig med fakturering, frilansande och alla frågor om tjänsten."
+            }
+        },
+        "title": "Kontakta oss",
+        "name": "Namn",
+        "email": "E-post",
+        "subject": "Ämne",
+        "message": "Meddelande",
+        "sendMessage": "Skicka meddelande",
+        "emailUs": "Mejla oss",
+        "callUs": "Ring oss"
+    },
+    "PrivacyPolicy": {
+        "meta": {
+            "title": "Sekretesspolicy | InvoicePay - Fakturahanteringstjänst",
+            "description": "Läs InvoicePays sekretesspolicy för att förstå hur vi samlar in, använder och skyddar dina personuppgifter. Lär dig om dina datarättigheter och vårt åtagande för sekretess.",
+            "keywords": "sekretesspolicy, dataskydd, GDPR, personuppgifter, datasekretess, InvoicePay sekretess",
+            "og": {
+                "title": "Sekretesspolicy | InvoicePay",
+                "description": "Lär dig hur InvoicePay skyddar dina personuppgifter och säkerställer efterlevnad av GDPR och EU:s dataskyddslagar."
+            }
+        },
+        "title": "Sekretesspolicy",
+        "lastUpdated": "Giltighetsdatum: 26.02.2025",
+        "sections": {
+            "introduction": {
+                "title": "1. Introduktion",
+                "content": "Välkommen till InvoicePay, en fakturerings- och lönehanteringstjänst för småföretagare i Finland. Vi är engagerade i att skydda din sekretess och säkerställa säkerheten för dina personuppgifter. Denna sekretesspolicy beskriver hur vi samlar in, använder, lagrar och skyddar dina personuppgifter i enlighet med den allmänna dataskyddsförordningen (GDPR) och tillämpliga EU:s dataskyddslagar."
+            },
+            "dataController": {
+                "title": "2. Personuppgiftsansvarig",
+                "content": "InvoicePay, beläget i Finland, är personuppgiftsansvarig för behandlingen av dina personuppgifter. Om du har några frågor eller funderingar om dina personuppgifter kan du kontakta oss på:",
+                "email": "support@invoicepay.fi"
+            },
+            "informationCollected": {
+                "title": "3. Information Vi Samlar In",
+                "intro": "Vi samlar in och behandlar följande typer av personuppgifter:",
+                "items": [
+                    "Identifieringsinformation: Namn, personnummer (hetu)",
+                    "Kontaktinformation: E-postadress, telefonnummer",
+                    "Autentiseringsinformation: E-postadress, lösenord",
+                    "Finansiell information: Skatteinformation, bankkontonummer",
+                    "Företagsinformation: Kundinformation, faktureringsinformation",
+                    "Verifieringsinformation: Dokument för att verifiera identitet (om nödvändigt)",
+                    "Utgiftsinformation: Utgiftsanspråk och relaterade dokument"
+                ]
+            },
+            "purposeOfProcessing": {
+                "title": "4. Syfte med Behandling",
+                "intro": "Vi behandlar personuppgifter för följande syften:",
+                "items": [
+                    {
+                        "title": "Användaridentifiering",
+                        "content": "Namn och personnummer behövs för användaridentifiering och för att hämta skatteinformation från myndigheter (t.ex. Skatteförvaltningen)."
+                    },
+                    {
+                        "title": "Kommunikation",
+                        "content": "E-postadress och telefonnummer används för viktiga meddelanden, rapporter, marknadsföringskampanjer och kundsupport."
+                    },
+                    {
+                        "title": "Autentisering och Säkerhet",
+                        "content": "E-postadress och lösenord behövs för kontohantering och säker inloggning."
+                    },
+                    {
+                        "title": "Löneberäkning",
+                        "content": "Skatteinformation hämtas från Skatteförvaltningen och används endast för löneberäkning."
+                    },
+                    {
+                        "title": "Fakturering",
+                        "content": "Kundinformation behandlas för korrekt fakturering och utskick."
+                    },
+                    {
+                        "title": "Löneutbetalningar",
+                        "content": "Bankkontoinformation används för löneutbetalning till användarens konto."
+                    },
+                    {
+                        "title": "Identitetsverifiering",
+                        "content": "Om användaren krävs att tillhandahålla identitetsverifiering eller andra dokument används dessa endast för identitetsverifiering."
+                    },
+                    {
+                        "title": "Utgiftshantering",
+                        "content": "Om en användare rapporterar utgifter och bifogar dokument, behandlas informationen för att göra och verifiera skattefria utgiftsanspråk."
+                    }
+                ]
+            },
+            "legalBasis": {
+                "title": "5. Rättslig Grund för Behandling",
+                "intro": "Behandlingen av personuppgifter baseras på följande rättsliga grunder:",
+                "items": [
+                    {
+                        "title": "Uppfyllelse av Avtal",
+                        "content": "Behandling är nödvändig för att fullfölja våra fakturerings- och lönehanteringstjänster."
+                    },
+                    {
+                        "title": "Efterlevnad av Lagar",
+                        "content": "Efterlevnad av finska och EU:s skattelagar."
+                    },
+                    {
+                        "title": "Legitimt Intresse",
+                        "content": "Petitionering, säkerhet och kundservice."
+                    },
+                    {
+                        "title": "Samtycke",
+                        "content": "Marknadsföringskommunikation om användaren har gett sitt samtycke."
+                    }
+                ]
+            },
+            "retention": {
+                "title": "6. Bevarande av Personuppgifter",
+                "content": "Vi behåller personuppgifter så länge som det är nödvändigt för att uppfylla de syften för vilka de samlades in, för att följa lagstadgade krav och för att lösa eventuella tvister. Bevaringstider kan variera beroende på rättsliga krav."
+            },
+            "sharing": {
+                "title": "7. Delning och Tredje Parter",
+                "intro": "Vi kan dela personuppgifter med följande parter:",
+                "items": [
+                    {
+                        "title": "Myndigheter",
+                        "content": "För att uppfylla finska och EU:s skattelagar (t.ex. Skatteförvaltningen för skatteinformation)."
+                    },
+                    {
+                        "title": "Betaltjänstleverantörer",
+                        "content": "För bearbetning av löneutbetalningar."
+                    },
+                    {
+                        "title": "Tjänsteleverantörer",
+                        "content": "De som hjälper oss att tillhandahålla våra tjänster (t.ex. molnlagring, kundservicetjänster)."
+                    },
+                    {
+                        "title": "Rättsliga eller Reglerande Myndigheter",
+                        "content": "Om det krävs enligt lag eller för att skydda våra intressen."
+                    }
+                ],
+                "note": "Vi säljer eller hyr inte ut dina personuppgifter till tredje parter."
+            },
+            "security": {
+                "title": "8. Säkerhet",
+                "content": "Vi använder lämpliga tekniska och organisatoriska åtgärder för att skydda dina personuppgifter från obehörig åtkomst, förlust, missbruk eller ändring. Dessa åtgärder inkluderar kryptering, åtkomstkontroll och säker datalagring."
+            },
+            "userRights": {
+                "title": "9. Användarrättigheter",
+                "intro": "Under GDPR har du följande rättigheter:",
+                "items": [
+                    "Tillgång till Information: Du kan begära tillgång till dina personuppgifter.",
+                    "Korrigering av Information: Du kan begära korrigering av felaktig eller ofullständig information.",
+                    "Radering av Information: Du kan begära radering av dina uppgifter, om inte lag kräver att de bevaras.",
+                    "Begränsning av Behandling: Du kan begära begränsning av behandlingen av dina uppgifter i vissa situationer.",
+                    "Dataportabilitet: Du kan begära överföring av dina uppgifter till en annan tjänsteleverantör.",
+                    "Återkallande av Samtycke: Du kan när som helst återkalla samtycke som du gett för marknadsföringskommunikation."
+                ],
+                "contact": "För att utöva dessa rättigheter kan du kontakta oss på [Infoga Kontaktinformation]."
+            },
+            "internationalTransfers": {
+                "title": "10. Internationella Överföringar",
+                "content": "Om vi överför dina personuppgifter utanför det Europeiska ekonomiska samarbetsområdet (EES) säkerställer vi lämpliga skyddsåtgärder, såsom standardavtalsklausuler (SCC), för att säkerställa säkerheten för överföringen."
+            },
+            "cookies": {
+                "title": "11. Cookies och Spårning",
+                "content": "Vi kan använda cookies och liknande spårningstekniker för att förbättra användarupplevelsen och analysera webbplatstrafik. Du kan hantera cookie-inställningarna i din webbläsare."
+            },
+            "updates": {
+                "title": "12. Uppdateringar av Sekretesspolicy",
+                "content": "Vi kan uppdatera denna sekretesspolicy från tid till annan. Vi kommer att informera dig om väsentliga ändringar på vår webbplats eller genom andra kommunikationskanaler. Vi rekommenderar att användare regelbundet granskar denna policy."
+            },
+            "contact": {
+                "title": "13. Kontaktinformation",
+                "content": "Om du har några frågor eller funderingar om denna sekretesspolicy, vänligen kontakta oss:",
+                "info": "[Infoga Kontaktinformation]"
+            }
+        }
+    }
+}

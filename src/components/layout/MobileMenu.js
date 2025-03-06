@@ -15,9 +15,6 @@ const MobileMenu = ({ isOpen, translations, currentLang, onClose }) => {
         <a href={`/${currentLang}/#features`} onClick={handleLinkClick}>{translations.Navbar?.features}</a>
         <a href={`/${currentLang}/#pricing`} onClick={handleLinkClick}>{translations.Navbar?.pricing}</a>
         <a href={`/${currentLang}/#faq`} onClick={handleLinkClick}>{translations.Navbar?.faq}</a>
-        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-          <LocaleSwitcher />
-        </div>
       </div>
       
       <div className={styles.authButtons}>

@@ -15,7 +15,9 @@
         "pricing": "Hinnasto",
         "faq": "UKK",
         "login": "Kirjaudu",
-        "register": "Rekisteröidy"
+        "register": "Rekisteröidy",
+        "services": "Palvelut",
+        "b2b": "B2B"
     },
     "LocaleSwitcher": {
         "switchTo": "Vaihda kieli",

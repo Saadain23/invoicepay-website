@@ -5,9 +5,9 @@
     overflow: hidden;
   }
   
-  .section-title {
+  .section-title h2 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: var(--primary);
     margin-top: 1rem;   
     margin-bottom: 3rem;
@@ -110,4 +110,10 @@
   
   .testimonial-carousel:hover .testimonial-cards {
     animation-play-state: paused;
+  }
+
+  @media (max-width: 768px) {
+    .section-title h2 {
+      font-size: 2rem;
+    }
   }

@@ -17,7 +17,10 @@
         "login": "Logga in",
         "register": "Registrera dig",
         "services": "Tjänster",
-        "b2b": "B2B"
+        "b2b": "B2B",
+        "forFreelancers": "Frilansare",
+        "forStartups": "Startups",
+        "forConstruction": "Byggföretag"
     },
     "LocaleSwitcher": {
         "switchTo": "Byt till",
@@ -403,6 +406,48 @@
                 "content": "Om du har några frågor eller funderingar om denna sekretesspolicy, vänligen kontakta oss:",
                 "info": "[Infoga Kontaktinformation]"
             }
+        }
+    },
+    "B2B": {
+        "meta": {
+            "title": "B2B | InvoicePay - Löner och fakturering för företag",
+            "description": "InvoicePay erbjuder löne- och faktureringstjänster för företag. Vi hjälper dig att betala dina anställda och tar bort den administrativa bördan från dig.",
+            "keywords": "b2b, löner, fakturering, företag, InvoicePay, faktureringstjänst",
+            "og": {
+                "title": "B2B | InvoicePay",
+                "description": "InvoicePay erbjuder löne- och faktureringstjänster för företag. Fokusera på din verksamhet, vi hanterar löner och skatter åt dina anställda."
+            }
+        },
+        "hero": {
+            "title1": "Fokusera på din",
+            "title2": "verksamhet,",
+            "title3": "låt oss hantera",
+            "title4": "löner och skatter",
+            "description": "InvoicePay erbjuder löne- och faktureringstjänster för företag. Fokusera på din verksamhet och skicka oss dina anställdas löneuppgifter. Du behöver bara betala en enda faktura till oss, så sköter vi resten!",
+            "contactButton": "Kontakta försäljning"
+        },
+        "howItWorks": {
+            "title": "Hur fungerar det?",
+            "sendPayroll": "Skicka löneuppgifter",
+            "sendPayrollDescription": "Ladda upp dina anställdas arbetsuppgifter via vår app",
+            "invoice": "InvoicePay skickar en faktura",
+            "invoiceDescription": "Ta emot en enda faktura från InvoicePay",
+            "pay": "Betala fakturan",
+            "payDescription": "Betala fakturan till InvoicePay innan förfallodatumet",
+            "weHandle": "Vi sköter resten",
+            "weHandleDescription": "Vi hanterar löner och skatter för varje anställd"
+        },
+        "features": {
+            "title": "Funktioner",
+            "items": [
+                "Betala dina frilansare med en enda faktura.",
+                "Ingen serviceavgift – vi tar betalt från frilansarna.",
+                "Inga anställningsavtal, lönehantering eller pappersarbete.",
+                "Vi hanterar skatter och juridisk rapportering – 100 % efterlevnad.",
+                "Dina frilansare får betalt snabbt och pålitligt.",
+                "Perfekt för startups, budfirmor, byggföretag, restauranger och mer.",
+                "Anlita frilansare utan långsiktiga åtaganden eller anställningsrisker."
+            ]
         }
     }
 }

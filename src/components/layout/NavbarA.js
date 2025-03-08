@@ -4,6 +4,7 @@ import Link from 'next/link';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { useRouter } from 'next/router';
 import MobileMenu from '@/components/layout/MobileMenu';
+import NavDropdown from '@/components/layout/NavDropdown';
 
 const NavbarA = ({translations}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +28,8 @@ const NavbarA = ({translations}) => {
           <a href={`/${currentLang}/#pricing`}>{translations.Navbar?.pricing}</a>
           <a href={`/${currentLang}/#features`}>{translations.Navbar?.features}</a>
           <a href={`/${currentLang}/#faq`}>{translations.Navbar?.faq}</a>
-          <a href={`/${currentLang}/#services`}>{translations.Navbar?.services}</a>
-          <a href={`/${currentLang}/#b2b`}>{translations.Navbar?.b2b}</a>
+          <NavDropdown currentLang={currentLang} translations={translations} />
+          <a href={`/${currentLang}/b2b`}>{translations.Navbar?.b2b}</a>
         </div>
 
         <div className={styles.localeSwitcher}>

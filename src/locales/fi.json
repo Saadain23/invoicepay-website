@@ -17,7 +17,10 @@
         "login": "Kirjaudu",
         "register": "Rekisteröidy",
         "services": "Palvelut",
-        "b2b": "B2B"
+        "b2b": "B2B",
+        "forFreelancers": "Freelancereille",
+        "forStartups": "Startupperit",
+        "forConstruction": "Rakennustoimisto"
     },
     "LocaleSwitcher": {
         "switchTo": "Vaihda kieli",
@@ -402,6 +405,48 @@
             "title": "13. Yhteystiedot",
             "content": "Jos sinulla on kysyttävää, ota yhteyttä osoitteessa: [Lisää yhteystiedot]"
             }
+        }
+    },
+    "B2B": {
+        "meta": {
+            "title": "B2B | InvoicePay - Palkanmaksu ja laskutus yrityksille",
+            "description": "InvoicePay tarjoaa palkanmaksu- ja laskutuspalveluita yrityksille. Autamme sinua työntekijöidesi palkanmaksussa, keventäen hallinnollista taakkaasi.",
+            "keywords": "b2b, palkanmaksu, laskutus, yritys, InvoicePay, laskutuspalvelu",
+            "og": {
+                "title": "B2B | InvoicePay",
+                "description": "InvoicePay tarjoaa palkanmaksu- ja laskutuspalveluita yrityksille. Keskity liiketoimintaasi, me hoidamme työntekijöidesi palkat ja verot."
+            }
+        },
+        "hero": {
+            "title1": "Keskity",
+            "title2": "liiketoimintaasi,",
+            "title3": "me hoidamme",
+            "title4": "palkanmaksun ja verot",
+            "description": "InvoicePay tarjoaa palkanmaksu- ja laskutuspalveluita yrityksille. Keskity liiketoimintaasi ja lähetä meille työntekijöidesi palkkatiedot. Sinun tarvitsee maksaa vain yksi lasku meille, ja me hoidamme loput!",
+            "contactButton": "Ota yhteyttä myyntiin"
+        },
+        "howItWorks": {
+            "title": "Miten se toimii?",
+            "sendPayroll": "Lähetä palkkatiedot",
+            "sendPayrollDescription": "Lataa työntekijöidesi työskentelytiedot sovelluksemme kautta",
+            "invoice": "InvoicePay lähettää laskun",
+            "invoiceDescription": "Saat yhden laskun InvoicePaylta",
+            "pay": "Maksa lasku",
+            "payDescription": "Maksa lasku InvoicePaylle eräpäivään mennessä",
+            "weHandle": "Me hoidamme loput",
+            "weHandleDescription": "Me hoidamme työntekijöidesi palkanmaksun ja verot"
+        },
+        "features": {
+            "title": "Ominaisuudet",
+            "items": [
+                "Maksa freelancereillesi yhdellä laskulla.",
+                "Ei palvelumaksua – veloitamme freelancereita.",
+                "Ei työsopimuksia, palkanlaskentaa tai paperityötä.",
+                "Me hoidamme verot ja lakisääteiset raportoinnit – 100 % vaatimusten mukainen.",
+                "Freelancereillesi maksetaan nopeasti ja luotettavasti.",
+                "Ihanteellinen startup-yrityksille, kuriireille, rakennusalalle, ravintoloille ja muille.",
+                "Palkkaa freelancereita ilman pitkäaikaisia sitoumuksia tai työsuhderiskejä."
+            ]
         }
     }
 }

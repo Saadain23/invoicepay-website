@@ -17,7 +17,10 @@
         "login": "Login",
         "register": "Register",
         "services": "Services",
-        "b2b": "B2B"
+        "b2b": "B2B",
+        "forFreelancers": "For Freelancers",
+        "forStartups": "For Startups",
+        "forConstruction": "Construction company"
     },
     "LocaleSwitcher": {
         "switchTo": "Switch to",
@@ -403,6 +406,48 @@
                 "content": "If you have any questions or concerns regarding this Privacy Policy, please contact us:",
                 "info": "[Insert Contact Information]"
             }
+        }
+    },
+    "B2B": {
+        "meta": {
+            "title": "B2B | InvoicePay - Payroll and invoicing for companies",
+            "description": "InvoicePay provides payroll and invoicing services for companies. We help you with paying your employees, taking the burden awayfrom you.",
+            "keywords": "b2b, payroll, invoicing, company, InvoicePay, invoicing service",
+            "og": {
+                "title": "B2B | InvoicePay",
+                "description": "InvoicePay provides payroll and invoicing services for companies. Focus on your business, we handle the salary and taxes for your employees."
+            }
+        },
+        "hero": {
+            "title1": "Focus on your",
+            "title2": "business,",
+            "title3": "let us handle the",
+            "title4": "payroll and taxes",
+            "description": "InvoicePay provides payroll and invoicing services for companies. Focus on your business, and send us your employees' payroll information. You just have to pay a single invoice to us, and we handle the rest!",
+            "contactButton": "Contact Sales"
+        },
+        "howItWorks": {
+            "title": "How does it work?",
+            "sendPayroll": "Send payroll information",
+            "sendPayrollDescription": "Upload your employees' work details through our app",
+            "invoice": "InvoicePay sends an invoice",
+            "invoiceDescription": "Receive a single invoice from InvoicePay",
+            "pay": "Pay the invoice",
+            "payDescription": "Pay the invoice to InvoicePay within due date",
+            "weHandle": "We handle the rest",
+            "weHandleDescription": "We handle the payroll and taxes for each employee"
+        },
+        "features": {
+            "title": "Features",
+            "items": [
+                "Pay your freelancers with a single Invoice",
+                "No service fee - we charge the freelancers.",
+                "No employment contracts, payroll headaches, or paperwork.",
+                "We handle taxes, and legal reporting — 100% compliant.",
+                "Your freelancers get paid quickly and reliably.",
+                "Ideal for startups, couriers, construction or restaurant companies and more.",
+                "Hire freelancers without long-term commitments or employment risks."
+            ]
         }
     }
 }

@@ -22,7 +22,7 @@ const B2B = ({ translations }) => {
             
             <div className={styles.heroRight}>
               <div className={styles.heroImage}>
-                <img src="/images/mobile.webp" alt="Mobile App" width={440} height={500} />
+                <img src="/images/mobile.png" alt="Mobile App" width={300} height={540} />
               </div>
             </div>
           </div>

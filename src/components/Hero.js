@@ -22,7 +22,7 @@ const Hero = ({ translations }) => {
           </div>
           
           <div className={styles.heroImage}>
-            <img src="/images/mobile.webp" alt="Mobile App" width={440} height={500} />
+            <img src="/images/mobile.png" alt="Mobile App" width={240} height={440} />
           </div>
 
           <div className={styles.heroText}>

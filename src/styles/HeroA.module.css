@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0rem;
+    gap: 4rem;
     margin-bottom: 0rem;
 }
 
@@ -94,8 +94,11 @@
 
 .heroImage {
     flex: 1;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .featureBoxes {
@@ -250,6 +253,8 @@
     .heroImage {
         order: 2;
         margin: 2rem 0;
+        padding-right: 0;
+        padding-bottom: 0;
     }
 
     .heroImage img {

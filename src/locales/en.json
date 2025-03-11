@@ -449,6 +449,124 @@
                 "Hire freelancers without long-term commitments or employment risks."
             ]
         }
+    },
+    "ForFreelancers": {
+        "meta": {
+            "title": "For Freelancers | InvoicePay - Invoice Management Service",
+            "description": "InvoicePay is the easiest way to invoice and get paid as a freelancer. No company, no payroll, no headaches. Start for free!",
+            "keywords": "freelancer, invoicing, freelancing, InvoicePay, invoicing service",
+            "og": {
+                "title": "For Freelancers | InvoicePay",
+                "description": "InvoicePay is the easiest way to invoice and get paid as a freelancer. No company, no payroll, no headaches. Start for free!"
+            }
+        },
+        "title": "Light entrepreneurship - for freelancers",
+        "sections": {
+            "intro": {
+            "title": "What is light entrepreneurship?",
+            "description": "Light entrepreneurship is a flexible way to work entrepreneurially without the need to establish your own company. You handle your own clients, manage your schedule, and set your own prices, while InvoicePay takes care of the administrative aspects like invoicing, taxes, and payroll. This model allows you to enjoy the freedom of freelancing with the benefits of having administrative tasks managed for you."
+            },
+            "whyLightEntrepreneurship": {
+            "title": "Why light entrepreneurship?",
+            "description": "Light entrepreneurship is perfect for freelancers, creative professionals, and anyone looking for flexibility in their work life. It enables you to focus on your craft while InvoicePay manages the complexities of your business. No need for a formal company structure, payroll issues, or tax complications. Start for free and enjoy a hassle-free way to run your business without any overhead."
+            },
+            "invoicing": {
+            "title": "Invoicing",
+            "description": "InvoicePay simplifies invoicing by providing an easy-to-use platform for freelancers to create and send professional invoices to clients. Forget about the complexity of managing invoices manually—InvoicePay takes care of everything, ensuring you get paid on time, every time. Start for free and make invoicing easier than ever!"
+            },
+            "expenses": {
+            "title": "Expenses",
+            "description": "Tracking and managing your expenses is made simple with InvoicePay. As a freelancer, keeping track of your business expenses is crucial, and with InvoicePay, you can do it effortlessly. You don’t need a separate accounting system—just use our platform to manage all your expenses, ensuring a smooth and organized financial workflow. Start for free and keep your finances in check."
+            },
+            "payroll": {
+            "title": "Payroll",
+            "description": "Even though you don’t have a formal company, managing payroll for any subcontractors or employees is straightforward with InvoicePay. Our platform handles payroll tasks, including tax calculations and deductions, so you can pay your team efficiently and stay compliant. No payroll headaches, just smooth payments for you and your team. Start for free and streamline your payroll process."
+            }
+        }
+    },
+    "ForStartups": {
+        "meta": {
+            "title": "For Startups | InvoicePay - Simplified Payroll and Administration for Startups",
+            "description": "InvoicePay offers startups and companies an easy way to manage payroll, invoicing, and administrative tasks. Pay one invoice for all employees while InvoicePay handles the rest. Start for free!",
+            "keywords": "startups, payroll, invoicing, administrative tasks, InvoicePay, B2B product, employee management, startup accounting, payroll service",
+            "og": {
+                "title": "For Startups | InvoicePay",
+                "description": "InvoicePay offers startups and companies an easy way to manage payroll, invoicing, and administrative tasks. Pay one invoice for all employees while InvoicePay handles the rest. Start for free!"
+            }
+        },
+        "title": "Effortless Employee Management for Startups",
+        "sections": {
+            "intro": {
+            "title": "What is InvoicePay for Startups?",
+            "description": "InvoicePay for startups simplifies payroll and administrative tasks, offering a flexible solution for managing employees without the overhead of traditional payroll systems. Startups can focus on growing their business while InvoicePay takes care of invoicing, taxes, accounting, and payroll. With InvoicePay, you only need to provide your employees' work details and we'll handle the rest—no need to worry about managing multiple invoices or dealing with tax filings."
+            },
+            "whyInvoicePayForStartups": {
+            "title": "Why InvoicePay for Startups?",
+            "description": "InvoicePay offers startups the perfect solution for managing employees without the hassle of traditional employee management systems. Forget about the complexity of managing payroll for multiple employees—InvoicePay allows you to pay a single invoice for all your employees' work, and we’ll take care of everything else, from taxes to compliance. With InvoicePay, you can scale your business efficiently while ensuring your employees are paid on time and all administrative tasks are handled automatically."
+            },
+            "invoicing": {
+            "title": "Simplified Invoicing",
+            "description": "With InvoicePay, invoicing is made easy for startups. Instead of dealing with multiple invoices and payment tracking for each employee or freelancer, you only need to manage one invoice that covers all of your employees' work. InvoicePay simplifies the invoicing process, ensuring you can focus on what matters—growing your business. Start for free and experience the simplicity of automated invoicing and payment management."
+            },
+            "expenses": {
+            "title": "Manage Expenses Effortlessly",
+            "description": "Managing business expenses is essential for startups, but it doesn’t have to be complicated. InvoicePay provides a streamlined solution for managing your startup’s expenses. Whether you’re handling payroll, office supplies, or other operational costs, InvoicePay allows you to track and categorize expenses easily, all in one place. With our platform, you can focus on scaling your business while we take care of the financial side. Start for free and get full control of your startup’s financial health."
+            },
+            "payroll": {
+            "title": "Efficient Payroll Management",
+            "description": "InvoicePay revolutionizes payroll management for startups. Forget about managing payroll manually or worrying about compliance. InvoicePay automates payroll for all your employees, including tax calculations, deductions, and payments, making sure everything is handled efficiently and on time. Pay just one invoice regardless of how many employees you have, and we’ll handle the reporting, taxes, and compliance for you. Start for free and streamline your payroll process today."
+            },
+            "employeeManagement": {
+            "title": "Effortless Employee Management",
+            "description": "Managing employees has never been easier. With InvoicePay, you only need to provide the work details for each employee, and we’ll take care of the rest. You won’t have to deal with employee contracts, payroll systems, or tax filings. Whether you have one employee or 50, InvoicePay allows you to pay them all through one simple invoice. It’s the easiest way to manage employees without the burden of traditional administrative tasks."
+            },
+            "scalability": {
+            "title": "Scalable Solutions for Growing Startups",
+            "description": "As your startup grows, InvoicePay grows with you. Our platform is designed to scale, so no matter how many employees you hire, you only need to manage one invoice for payroll and admin. We handle the complexity behind the scenes—calculating taxes, generating reports, and ensuring compliance—so you can focus on the core of your business. InvoicePay helps you stay lean and efficient while you scale your workforce without adding more administrative overhead."
+            }
+        }
+    },
+    "ForConstruction": {
+        "meta": {
+            "title": "For Construction Companies | InvoicePay - Simplified Payroll and Administration for Construction",
+            "description": "InvoicePay offers construction companies a simple solution for managing payroll, invoicing, and administrative tasks. Pay one invoice for all workers and contractors while InvoicePay handles the rest. Start for free!",
+            "keywords": "construction, payroll, invoicing, administrative tasks, InvoicePay, B2B product, contractor management, construction accounting, payroll service",
+            "og": {
+                "title": "For Construction Companies | InvoicePay",
+                "description": "InvoicePay offers construction companies a simple solution for managing payroll, invoicing, and administrative tasks. Pay one invoice for all workers and contractors while InvoicePay handles the rest. Start for free!"
+            }
+        },
+        "title": "Effortless Payroll and Contractor Management for Construction Companies",
+        "sections": {
+            "intro": {
+            "title": "What is InvoicePay for Construction?",
+            "description": "InvoicePay for construction companies simplifies payroll and administrative tasks, offering a flexible solution for managing workers, subcontractors, and contractors without the overhead of traditional payroll systems. Construction companies can focus on building projects while InvoicePay takes care of invoicing, taxes, accounting, and payroll. With InvoicePay, you only need to provide your workers' work details, and we'll handle the rest—no need to worry about managing multiple invoices or dealing with tax filings."
+            },
+            "whyInvoicePayForConstruction": {
+            "title": "Why InvoicePay for Construction Companies?",
+            "description": "InvoicePay offers construction companies the perfect solution for managing contractors and workers without the hassle of traditional employee management systems. Forget about the complexity of managing payroll for multiple workers—InvoicePay allows you to pay a single invoice for all your workers' work, and we’ll take care of everything else, from taxes to compliance. With InvoicePay, you can scale your workforce efficiently while ensuring your workers are paid on time and all administrative tasks are handled automatically."
+            },
+            "invoicing": {
+            "title": "Simplified Invoicing for Construction",
+            "description": "With InvoicePay, invoicing is made easy for construction companies. Instead of dealing with multiple invoices and payment tracking for each worker or subcontractor, you only need to manage one invoice that covers all of your workers' work. InvoicePay simplifies the invoicing process, ensuring you can focus on what matters—getting your construction projects done. Start for free and experience the simplicity of automated invoicing and payment management."
+            },
+            "expenses": {
+            "title": "Manage Expenses and Reimbursements Effortlessly",
+            "description": "Managing business expenses and reimbursements is essential for construction companies, but it doesn’t have to be complicated. InvoicePay provides a streamlined solution for managing your construction company’s expenses. Whether you're handling payroll, material purchases, tool rentals, or other operational costs, InvoicePay allows you to track and categorize expenses easily, all in one place. With our platform, you can focus on growing your business while we take care of the financial side. Start for free and get full control of your construction company’s financial health."
+            },
+            "payroll": {
+            "title": "Efficient Payroll Management for Construction Workers",
+            "description": "InvoicePay revolutionizes payroll management for construction companies. Forget about managing payroll manually or worrying about compliance. InvoicePay automates payroll for all your workers and subcontractors, including tax calculations, deductions, and payments, ensuring everything is handled efficiently and on time. Pay just one invoice regardless of how many workers or contractors you have, and we’ll handle the reporting, taxes, and compliance for you. Start for free and streamline your payroll process today."
+            },
+            "employeeManagement": {
+            "title": "Effortless Worker and Subcontractor Management",
+            "description": "Managing workers and subcontractors has never been easier in construction. With InvoicePay, you only need to provide the work details for each worker or subcontractor, and we’ll take care of the rest. You won’t have to deal with contracts, payroll systems, or tax filings. Whether you have one worker or 100, InvoicePay allows you to pay them all through one simple invoice. It’s the easiest way to manage workers without the burden of traditional administrative tasks."
+            },
+            "scalability": {
+            "title": "Scalable Solutions for Growing Construction Projects",
+            "description": "As your construction company grows, InvoicePay grows with you. Our platform is designed to scale, so no matter how many workers or subcontractors you hire, you only need to manage one invoice for payroll and admin. We handle the complexity behind the scenes—calculating taxes, generating reports, and ensuring compliance—so you can focus on the core of your business. InvoicePay helps you stay lean and efficient while you scale your workforce without adding more administrative overhead."
+            }
+        }
     }
 }
 

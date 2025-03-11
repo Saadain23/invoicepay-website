@@ -16,9 +16,9 @@ const NavDropdown = ({ currentLang, translations }) => {
         </svg>
       </a>
       <div className={styles.dropdownContent}>
-        <a href={`/${currentLang}/#forFreelancers`}>{translations.Navbar?.forFreelancers}</a>
-        <a href={`/${currentLang}/#forStartups`}>{translations.Navbar?.forStartups}</a>
-        <a href={`/${currentLang}/#forConstruction`}>{translations.Navbar?.forConstruction}</a>
+        <a href={`/${currentLang}/for-freelancers`}>{translations.Navbar?.forFreelancers}</a>
+        <a href={`/${currentLang}/for-startups`}>{translations.Navbar?.forStartups}</a>
+        <a href={`/${currentLang}/for-construction`}>{translations.Navbar?.forConstruction}</a>
       </div>
     </div>
   );

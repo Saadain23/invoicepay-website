@@ -448,5 +448,123 @@
                 "Palkkaa freelancereita ilman pitkäaikaisia sitoumuksia tai työsuhderiskejä."
             ]
         }
+    },
+    "ForFreelancers": {
+        "meta": {
+            "title": "Freelancereille | InvoicePay - Laskutuspalvelu",
+            "description": "InvoicePay on helpoin tapa laskuttaa ja saada maksu freelancerina. Ei yritystä, ei palkkalistoja, ei päänsärkyjä. Aloita ilmaiseksi!",
+            "keywords": "freelancer, laskutus, freelancointi, InvoicePay, laskutuspalvelu",
+            "og": {
+            "title": "Freelancereille | InvoicePay",
+            "description": "InvoicePay on helpoin tapa laskuttaa ja saada maksu freelancerina. Ei yritystä, ei palkkalistoja, ei päänsärkyjä. Aloita ilmaiseksi!"
+            }
+        },
+        "title": "Kevyt yrittäjyys - freelancereille",
+        "sections": {
+            "intro": {
+            "title": "Mikä on kevyt yrittäjyys?",
+            "description": "Kevyt yrittäjyys on joustava tapa työskennellä yrittäjänä ilman oman yrityksen perustamista. Hoidat omat asiakkaasi, hallitset aikataulusi ja asetat omat hinnat, samalla kun InvoicePay huolehtii hallinnollisista tehtävistä, kuten laskutuksesta, veroista ja palkanlaskennasta. Tämä malli antaa sinulle mahdollisuuden nauttia freelancoinnin vapaudesta, mutta hallinnolliset tehtävät hoituvat puolestasi."
+            },
+            "whyLightEntrepreneurship": {
+            "title": "Miksi kevyt yrittäjyys?",
+            "description": "Kevyt yrittäjyys sopii erinomaisesti freelancereille, luoville ammattilaisille ja kaikille, jotka kaipaavat joustavuutta työelämässään. Se mahdollistaa keskittymisen omaan työhön, kun InvoicePay hoitaa liiketoimintasi monimutkaisuudet. Ei tarvitse virallista yritysrakennetta, palkkalistoja tai vero-ongelmia. Aloita ilmaiseksi ja nauti vaivattomasta tavasta pyörittää liiketoimintaasi ilman ylimääräistä byrokratiaa."
+            },
+            "invoicing": {
+            "title": "Laskutus",
+            "description": "InvoicePay yksinkertaistaa laskutusta tarjoamalla helppokäyttöisen alustan freelancereille ammattimaisten laskujen luomiseen ja lähettämiseen asiakkaille. Unohda manuaalinen laskujen hallinta—InvoicePay hoitaa kaiken ja varmistaa, että saat maksun ajallaan, joka kerta. Aloita ilmaiseksi ja tee laskutuksesta helpompaa kuin koskaan!"
+            },
+            "expenses": {
+            "title": "Kulut",
+            "description": "Kulujen seuranta ja hallinta on tehty helpoksi InvoicePayn avulla. Freelancereina on tärkeää pitää kirjaa liiketoiminnan kuluista, ja InvoicePay tekee sen vaivattomaksi. Et tarvitse erillistä kirjanpitojärjestelmää—käytä vain alustamme kaikkien kulujesi hallintaan, jotta talousvirta on sujuvaa ja organisoitua. Aloita ilmaiseksi ja pidä taloutesi hallinnassa."
+            },
+            "payroll": {
+            "title": "Palkanlaskenta",
+            "description": "Vaikka sinulla ei ole virallista yritystä, palkanlaskenta alihankkijoille tai työntekijöille on suoraviivaista InvoicePayn avulla. Alustamme hoitaa palkanlaskentatehtävät, mukaan lukien verojen laskeminen ja vähennykset, jotta voit maksaa tiimillesi tehokkaasti ja pysyä lain vaatimusten mukaisena. Ei palkanlaskennan päänsärkyjä, vain sujuvat maksut sinulle ja tiimillesi. Aloita ilmaiseksi ja virtaviivaista palkanlaskentaprosessiasi."
+            }
+        }
+    },
+    "ForStartups": {
+        "meta": {
+            "title": "Startupeille | InvoicePay - Yksinkertaistettu Palkkahallinta ja Hallinto Startupeille",
+            "description": "InvoicePay tarjoaa startupeille ja yrityksille helpon tavan hallita palkkahallintoa, laskutusta ja hallintotehtäviä. Maksa yksi lasku kaikille työntekijöille, ja InvoicePay hoitaa loput. Aloita ilmaiseksi!",
+            "keywords": "startups, palkkahallinto, laskutus, hallintotehtävät, InvoicePay, B2B tuote, työntekijöiden hallinta, startup-tilinpäätös, palkkailmoitus",
+            "og": {
+            "title": "Startupeille | InvoicePay",
+            "description": "InvoicePay tarjoaa startupeille ja yrityksille helpon tavan hallita palkkahallintoa, laskutusta ja hallintotehtäviä. Maksa yksi lasku kaikille työntekijöille, ja InvoicePay hoitaa loput. Aloita ilmaiseksi!"
+            }
+        },
+        "title": "Vaivaton Työntekijähallinta Startupeille",
+        "sections": {
+            "intro": {
+            "title": "Mikä on InvoicePay Startupeille?",
+            "description": "InvoicePay tarjoaa startupeille yksinkertaistetun ratkaisun palkkahallintaan ja hallintotehtäviin, mahdollistaen työntekijöiden hallinnan ilman perinteisten palkkahallintojärjestelmien raskasta taakkaa. Startupit voivat keskittyä liiketoiminnan kasvuun, kun InvoicePay hoitaa laskutuksen, verot, kirjanpidon ja palkkahallinnan. InvoicePayn avulla sinun tarvitsee vain antaa työntekijöidesi työtiedot, ja me hoidamme loput—ei enää monen laskun hallintaa tai verotukseen liittyviä huolia."
+            },
+            "whyInvoicePayForStartups": {
+            "title": "Miksi InvoicePay Startupeille?",
+            "description": "InvoicePay tarjoaa startupeille täydellisen ratkaisun työntekijöiden hallintaan ilman perinteisten työntekijöiden hallintajärjestelmien hankaluuksia. Unohda monien työntekijöiden palkkahallinnan monimutkaisuus—InvoicePay mahdollistaa yhden laskun maksamisen kaikkien työntekijöiden työstä, ja me huolehdimme kaikesta muusta, verojen ja säädöksien noudattamisesta. InvoicePayn avulla voit skaalata liiketoimintaasi tehokkaasti samalla, kun varmistat, että työntekijäsi saavat palkkansa ajallaan ja kaikki hallintotehtävät hoidetaan automaattisesti."
+            },
+            "invoicing": {
+            "title": "Yksinkertaistettu Laskutus",
+            "description": "InvoicePayn avulla laskutus on helppoa startupeille. Sen sijaan, että käsittelisit useita laskuja ja maksujen seurantaa jokaiselle työntekijälle tai freelancerille, sinun tarvitsee vain hallita yksi lasku, joka kattaa kaikkien työntekijöidesi työt. InvoicePay yksinkertaistaa laskutusprosessia ja varmistaa, että voit keskittyä siihen, mikä on tärkeintä—liiketoimintasi kasvuun. Aloita ilmaiseksi ja koe automatisoidun laskutuksen ja maksujen hallinnan yksinkertaisuus."
+            },
+            "expenses": {
+            "title": "Kulujen Hallinta Vaivattomasti",
+            "description": "Liiketoiminnan kulujen hallinta on tärkeää startupeille, mutta sen ei tarvitse olla monimutkaista. InvoicePay tarjoaa virtaviivaistetun ratkaisun startupisi kulujen hallintaan. Olitpa sitten käsittelemässä palkkoja, toimistotarvikkeita tai muita operatiivisia kuluja, InvoicePay mahdollistaa kulujen seuraamisen ja luokittelun helposti yhdessä paikassa. Alustamme avulla voit keskittyä liiketoimintasi skaalaamiseen, kun me huolehdimme talouspuolesta. Aloita ilmaiseksi ja hallitse startupisi taloudellista terveyttä täydellisesti."
+            },
+            "payroll": {
+            "title": "Tehokas Palkkahallinta",
+            "description": "InvoicePay mullistaa palkkahallinnan startupeille. Unohda manuaalinen palkkahallinta ja huoli säädöksistä. InvoicePay automatisoi palkkahallinnan kaikille työntekijöillesi, mukaan lukien verolaskelmat, vähennykset ja maksut, varmistaen, että kaikki hoidetaan tehokkaasti ja ajallaan. Maksa vain yksi lasku riippumatta siitä, kuinka monta työntekijää sinulla on, ja me huolehdimme raportoinnista, veroista ja sääntöjen noudattamisesta puolestasi. Aloita ilmaiseksi ja virtaviivaista palkkahallintoprosessiasi tänään."
+            },
+            "employeeManagement": {
+            "title": "Vaivaton Työntekijöiden Hallinta",
+            "description": "Työntekijöiden hallinta ei ole koskaan ollut helpompaa. InvoicePayn avulla sinun tarvitsee vain antaa kunkin työntekijän työtiedot, ja me hoidamme loput. Et tarvitse käsitellä työntekijäsopimuksia, palkkahallintojärjestelmiä tai verotukseen liittyviä asioita. Olitpa sitten palkkaamassa yhden työntekijän tai 50, InvoicePay mahdollistaa niiden kaikkien maksamisen yhdellä yksinkertaisella laskulla. Se on helpoin tapa hallita työntekijöitä ilman perinteisten hallintotehtävien taakkaa."
+            },
+            "scalability": {
+            "title": "Skaalautuvat Ratkaisut Kasvaville Startupeille",
+            "description": "Kun startupisi kasvaa, InvoicePay kasvaa kanssasi. Alustamme on suunniteltu skaalautumaan, joten riippumatta siitä, kuinka monta työntekijää palkkaat, sinun tarvitsee hallita vain yksi lasku palkkahallintoa ja hallintoa varten. Me huolehdimme monimutkaisuuksista kulissien takana—verojen laskemisesta, raporttien luomisesta ja sääntöjen noudattamisesta—jotta voit keskittyä liiketoimintasi ytimeen. InvoicePay auttaa pitämään sinut ketteränä ja tehokkaana, kun skaalaat työvoimaasi ilman lisää hallinnollista taakkaa."
+            }
+        }
+    },
+    "ForConstruction": {
+        "meta": {
+            "title": "Rakennusyrityksille | InvoicePay - Yksinkertaistettu Palkkahallinto ja Hallinto Rakennusalalle",
+            "description": "InvoicePay tarjoaa rakennusyrityksille yksinkertaisen ratkaisun palkkahallinnan, laskutuksen ja hallinnollisten tehtävien hoitamiseen. Maksa yksi lasku kaikista työntekijöistä ja aliurakoitsijoista, samalla kun InvoicePay hoitaa loput. Aloita ilmaiseksi!",
+            "keywords": "rakennus, palkkahallinto, laskutus, hallinnolliset tehtävät, InvoicePay, B2B-tuote, aliurakoitsijoiden hallinta, rakennuslaskenta, palkkapalvelu",
+            "og": {
+                "title": "Rakennusyrityksille | InvoicePay",
+                "description": "InvoicePay tarjoaa rakennusyrityksille yksinkertaisen ratkaisun palkkahallinnan, laskutuksen ja hallinnollisten tehtävien hoitamiseen. Maksa yksi lasku kaikista työntekijöistä ja aliurakoitsijoista, samalla kun InvoicePay hoitaa loput. Aloita ilmaiseksi!"
+            }
+        },
+        "title": "Yksinkertaistettu Palkkahallinto ja Aliurakoitsijoiden Hallinta Rakennusyrityksille",
+        "sections": {
+            "intro": {
+                "title": "Mitä on InvoicePay rakennusyrityksille?",
+                "description": "InvoicePay rakennusyrityksille yksinkertaistaa palkkahallintoa ja hallinnollisia tehtäviä, tarjoten joustavan ratkaisun työntekijöiden, aliurakoitsijoiden ja urakoitsijoiden hallintaan ilman perinteisten palkkahallintojärjestelmien byrokratiaa. Rakennusyritykset voivat keskittyä rakennusprojekteihin, kun InvoicePay huolehtii laskutuksesta, veroista, kirjanpidosta ja palkoista. InvoicePayn avulla sinun tarvitsee vain toimittaa työntekijöidesi työskentelytiedot, ja me hoidamme loput—ei tarvitse huolehtia useista laskuista tai verotuksen hallinnasta."
+            },
+            "whyInvoicePayForConstruction": {
+                "title": "Miksi InvoicePay rakennusyrityksille?",
+                "description": "InvoicePay tarjoaa rakennusyrityksille täydellisen ratkaisun urakoitsijoiden ja työntekijöiden hallintaan ilman perinteisten työntekijähallintajärjestelmien hankaluuksia. Unohda useiden työntekijöiden palkkahallinnan monimutkaisuus—InvoicePay sallii sinun maksaa yhden laskun kaikista työntekijöidesi töistä, ja me huolehdimme kaikesta muusta, veroista ja vaatimustenmukaisuudesta. InvoicePayn avulla voit skaalata työvoimaasi tehokkaasti samalla varmistamalla, että työntekijäsi saavat palkkansa ajallaan ja kaikki hallinnolliset tehtävät hoituvat automaattisesti."
+            },
+            "invoicing": {
+                "title": "Yksinkertaistettu Laskutus Rakennusalalle",
+                "description": "InvoicePay tekee laskutuksesta helppoa rakennusyrityksille. Sen sijaan, että käsittelet useita laskuja ja maksujen seurantaa jokaiselle työntekijälle tai aliurakoitsijalle, sinun tarvitsee hallita vain yhtä laskua, joka kattaa kaikkien työntekijöidesi työn. InvoicePay yksinkertaistaa laskutusprosessia varmistaen, että voit keskittyä tärkeimpään—rakennusprojektien viimeistelyyn. Aloita ilmaiseksi ja koe automatisoidun laskutuksen ja maksuhallinnan yksinkertaisuus."
+            },
+            "expenses": {
+                "title": "Hallinnoi Kuluja ja Kustannuskorvauksia Vaivattomasti",
+                "description": "Yrityksen kulujen ja kustannuskorvausten hallinta on tärkeää rakennusyrityksille, mutta sen ei tarvitse olla monimutkaista. InvoicePay tarjoaa sujuvan ratkaisun rakennusyrityksesi kulujen hallintaan. Olipa kyseessä palkat, materiaalihankinnat, työkalujen vuokraus tai muut operatiiviset kulut, InvoicePay mahdollistaa kulujen seuraamisen ja luokittelun helposti, kaikki yhdessä paikassa. Alustan avulla voit keskittyä liiketoimintasi kasvuun, kun me huolehdimme taloudellisista asioista. Aloita ilmaiseksi ja saa täysi kontrolli rakennusyrityksesi taloudelliseen hyvinvointiin."
+            },
+            "payroll": {
+                "title": "Tehokas Palkkahallinto Rakennustyöntekijöille",
+                "description": "InvoicePay mullistaa palkkahallinnon rakennusyrityksille. Unohda palkkahallinnan manuaalinen hoitaminen tai huoli vaatimustenmukaisuudesta. InvoicePay automatisoi palkkahallinnon kaikille työntekijöillesi ja aliurakoitsijoillesi, mukaan lukien verolaskelmat, vähennykset ja maksut, varmistaen, että kaikki hoituu tehokkaasti ja ajallaan. Maksa vain yksi lasku riippumatta siitä, kuinka monta työntekijää tai urakoitsijaa sinulla on, ja me huolehdimme raportoinnista, veroista ja vaatimustenmukaisuudesta puolestasi. Aloita ilmaiseksi ja virtaviivaista palkkahallintoprosessiasi tänään."
+            },
+            "employeeManagement": {
+                "title": "Vaivaton Työntekijöiden ja Aliurakoitsijoiden Hallinta",
+                "description": "Työntekijöiden ja aliurakoitsijoiden hallinta rakennusalalla ei ole koskaan ollut näin helppoa. InvoicePayn avulla sinun tarvitsee vain toimittaa työskentelytiedot jokaiselle työntekijälle tai aliurakoitsijalle, ja me hoidamme loput. Sinun ei tarvitse käsitellä sopimuksia, palkkahallintojärjestelmiä tai verovelvoitteita. Olitpa sitten yhden tai sadan työntekijän kanssa, InvoicePay mahdollistaa maksamisen kaikille yhdellä yksinkertaisella laskulla. Se on helpoin tapa hallita työntekijöitä ilman perinteisten hallinnollisten tehtävien taakkaa."
+            },
+            "scalability": {
+                "title": "Skaalautuvat Ratkaisut Kasvaville Rakennusprojekteille",
+                "description": "Kun rakennusyrityksesi kasvaa, InvoicePay kasvaa kanssasi. Alustamme on suunniteltu skaalaamaan, joten ei ole väliä kuinka monta työntekijää tai aliurakoitsijaa palkkaat, sinun tarvitsee hallita vain yhtä laskua palkkahallintoa ja hallintoa varten. Me huolehdimme monimutkaisista taustatehtävistä—verojen laskemisesta, raporttien luomisesta ja vaatimustenmukaisuuden varmistamisesta—jotta voit keskittyä liiketoimintasi ytimeen. InvoicePay auttaa sinua pysymään kevyenä ja tehokkaana, kun kasvatat työvoimaasi ilman lisähallinnollista kuormaa."
+            }
+        }
     }
 }

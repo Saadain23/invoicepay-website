@@ -16,7 +16,7 @@ const Testimonials = ({ translations }) => {
               <div className={styles['testimonial-card']} key={index}>
                 <div className={styles['testimonial-author']}>
                   <div className={styles['testimonial-avatar']}>
-                    <img src={testimonial.image} alt={testimonial.name} />
+                    <img src={`/images/review${index + 1}.webp`} alt={testimonial.name} />
                   </div>
                   <div className={styles['testimonial-info']}>
                     <h4>{testimonial.name}</h4>
@@ -31,7 +31,7 @@ const Testimonials = ({ translations }) => {
               <div className={styles['testimonial-card']} key={`duplicate-${index}`}>
                 <div className={styles['testimonial-author']}>
                   <div className={styles['testimonial-avatar']}>
-                    <img src={testimonial.image} alt={testimonial.name} />
+                    <img src={`/images/review${index + 1}.webp`} alt={testimonial.name} />
                   </div>
                   <div className={styles['testimonial-info']}>
                     <h4>{testimonial.name}</h4>

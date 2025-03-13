@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    
+
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -17,12 +17,10 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(
-        45deg,
-        rgba(88, 42, 152, 0.15) 0%,
-        rgba(254, 63, 130, 0.15) 50%,
-        rgba(88, 42, 152, 0.15) 100%
-    );
+    background: linear-gradient(45deg,
+            rgba(88, 42, 152, 0.15) 0%,
+            rgba(254, 63, 130, 0.15) 50%,
+            rgba(88, 42, 152, 0.15) 100%);
     background-size: 400% 400%;
     z-index: -1;
     animation: gradientMove 12s ease infinite;
@@ -32,9 +30,11 @@
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -200,12 +200,10 @@
     left: -150%;
     width: 150%;
     height: 100%;
-    background: linear-gradient(
-        120deg,
-        transparent 20%,
-        rgba(255, 255, 255, 0.5) 50%,
-        transparent 80%
-    );
+    background: linear-gradient(120deg,
+            transparent 20%,
+            rgba(255, 255, 255, 0.5) 50%,
+            transparent 80%);
     transform: skewX(-20deg);
     animation: shimmer 2s infinite linear;
 }
@@ -214,6 +212,7 @@
     0% {
         left: -150%;
     }
+
     100% {
         left: 150%;
     }
@@ -225,7 +224,7 @@
     left: 1rem;
     font-size: 3rem;
     font-weight: bold;
-    opacity: 0.15;
+    /* opacity: 0.15; */
 }
 
 @media (max-width: 768px) {
@@ -281,7 +280,7 @@
         padding: 0.8rem 1.5rem;
         font-size: 1rem;
     }
-    
+
     .contactButton {
         padding: 0.8rem 1.5rem;
         font-size: 1rem;
@@ -308,4 +307,3 @@
         grid-template-columns: 1fr;
     }
 }
-  

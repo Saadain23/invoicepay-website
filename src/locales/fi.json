@@ -1,16 +1,16 @@
 {
     "Home": {
-      "title": "InvoicePay - Helppo laskutusratkaisu yrityksellesi | Laskutuspalvelu",
-      "description": "InvoicePay on helppokäyttöinen laskutuspalvelu yrittäjille ja kevytyrittäjille. Hoida laskutus, kilometrikorvaukset 2024 ja kirjanpito vaivattomasti. Aloita ilmaiseksi (free laskutus) jo tänään!",
-      "keywords": "laskutuspalvelu, laskutuspalvelut, kevytyrittäjä, kilometrikorvaus 2024, free laskutus, kevytyrittäjyys, yrittäjä, laskutus",
-      "og": {
-        "title": "InvoicePay - Moderni laskutusratkaisu",
-        "description": "Helppo ja luotettava laskutuspalvelu yrittäjille ja kevytyrittäjille"
-      }
+        "title": "InvoicePay - Helppo laskutusratkaisu yrityksellesi | Laskutuspalvelu",
+        "description": "InvoicePay on helppokäyttöinen laskutuspalvelu yrittäjille ja kevytyrittäjille. Hoida laskutus, kilometrikorvaukset 2024 ja kirjanpito vaivattomasti. Aloita ilmaiseksi (free laskutus) jo tänään!",
+        "keywords": "laskutuspalvelu, laskutuspalvelut, kevytyrittäjä, kilometrikorvaus 2024, free laskutus, kevytyrittäjyys, yrittäjä, laskutus",
+        "og": {
+            "title": "InvoicePay - Moderni laskutusratkaisu",
+            "description": "Helppo ja luotettava laskutuspalvelu yrittäjille ja kevytyrittäjille"
+        }
     },
     "Navbar": {
         "home": "Koti",
-        "testimonials": "Arvioit",
+        "testimonials": "Arvostelut",
         "features": "Ominaisuudet",
         "pricing": "Hinnasto",
         "faq": "UKK",
@@ -55,7 +55,7 @@
         }
     },
     "Testimonials": {
-        "title": "Arvioit",
+        "title": "Arvostelut",
         "items": [
             {
                 "name": "Matti Virtanen",
@@ -198,7 +198,7 @@
                 "question": "Miten InvoicePayn laskutus toimii ?",
                 "answer": "InvoicePay toimii laskutuskumppaninasi. Lähetät laskut asiakkaillesi alustamme kautta, ja me huolehdimme laskutuksesta, veroista ja palkanmaksusta puolestasi. Palkkasi maksetaan suoraan tilillesi kaikki tarvittavat vähennykset huomioiden."
             },
-              {
+            {
                 "question": "Kuinka nopeasti voin aloittaa ?",
                 "answer": "Voit aloittaa laskutuksen heti rekisteröitymisen jälkeen. Käyttöönotto vie alle 5 minuuttia - tunnistaudu, lisää pankkitilisi ja olet valmis luomaan laskuja."
             }
@@ -216,7 +216,7 @@
                 "title": "Sivut",
                 "links": {
                     "home": "Etusivu",
-                    "testimonials": "Asiakaskokemukset",
+                    "testimonials": "Arvostelut",
                     "features": "Ominaisuudet",
                     "pricing": "Hinnoittelu"
                 }
@@ -264,146 +264,146 @@
         "lastUpdated": "Voimaantulopäivä: 26.02.2025",
         "sections": {
             "introduction": {
-            "title": "1. Johdanto",
-            "content": "Tervetuloa InvoicePay-palveluun, joka on Suomessa toimiville kevytyrittäjille suunnattu laskutus- ja palkanmaksuratkaisu. Olemme sitoutuneet suojaamaan yksityisyyttäsi ja varmistamaan henkilötietojesi turvallisuuden. Tämä tietosuojakäytäntö kuvaa, kuinka keräämme, käytämme, säilytämme ja suojaamme henkilötietojasi EU:n yleisen tietosuoja-asetuksen (GDPR) ja sovellettavien EU:n tietosuojalakien mukaisesti."
+                "title": "1. Johdanto",
+                "content": "Tervetuloa InvoicePay-palveluun, joka on Suomessa toimiville kevytyrittäjille suunnattu laskutus- ja palkanmaksuratkaisu. Olemme sitoutuneet suojaamaan yksityisyyttäsi ja varmistamaan henkilötietojesi turvallisuuden. Tämä tietosuojakäytäntö kuvaa, kuinka keräämme, käytämme, säilytämme ja suojaamme henkilötietojasi EU:n yleisen tietosuoja-asetuksen (GDPR) ja sovellettavien EU:n tietosuojalakien mukaisesti."
             },
             "dataController": {
-            "title": "2. Rekisterinpitäjä",
-            "content": "InvoicePay, joka sijaitsee Suomessa, toimii rekisterinpitäjänä ja vastaa henkilötietojesi käsittelystä. Jos sinulla on kysyttävää tai huolenaiheita henkilötietojesi käsittelystä, voit ottaa meihin yhteyttä:",
-            "email": "support@invoicepay.fi"
+                "title": "2. Rekisterinpitäjä",
+                "content": "InvoicePay, joka sijaitsee Suomessa, toimii rekisterinpitäjänä ja vastaa henkilötietojesi käsittelystä. Jos sinulla on kysyttävää tai huolenaiheita henkilötietojesi käsittelystä, voit ottaa meihin yhteyttä:",
+                "email": "support@invoicepay.fi"
             },
             "informationCollected": {
-            "title": "3. Keräämämme tiedot",
-            "intro": "Keräämme ja käsittelemme seuraavia henkilötietoryhmiä:",
-            "items": [
-                "Tunnistetiedot: Nimi, henkilötunnus (hetu)",
-                "Yhteystiedot: Sähköposti, puhelinnumero",
-                "Tunnistautumistiedot: Sähköposti, salasana",
-                "Taloudelliset tiedot: Verotiedot, pankkitilin numero",
-                "Liiketoimintatiedot: Asiakastiedot, laskutustiedot",
-                "Varmennustiedot: Henkilöllisyystodistukset (tarvittaessa)",
-                "Kulutustiedot: Kulukorvaukset ja niihin liittyvät asiakirjat"
-            ]
+                "title": "3. Keräämämme tiedot",
+                "intro": "Keräämme ja käsittelemme seuraavia henkilötietoryhmiä:",
+                "items": [
+                    "Tunnistetiedot: Nimi, henkilötunnus (hetu)",
+                    "Yhteystiedot: Sähköposti, puhelinnumero",
+                    "Tunnistautumistiedot: Sähköposti, salasana",
+                    "Taloudelliset tiedot: Verotiedot, pankkitilin numero",
+                    "Liiketoimintatiedot: Asiakastiedot, laskutustiedot",
+                    "Varmennustiedot: Henkilöllisyystodistukset (tarvittaessa)",
+                    "Kulutustiedot: Kulukorvaukset ja niihin liittyvät asiakirjat"
+                ]
             },
             "purposeOfProcessing": {
-            "title": "4. Tietojen käsittelyn tarkoitus",
-            "intro": "Käsittelemme henkilötietoja seuraaviin tarkoituksiin:",
-            "items": [
-                {
-                "title": "Käyttäjän tunnistaminen",
-                "content": "Nimi ja henkilötunnus tarvitaan käyttäjän tunnistamiseen ja verotietojen hakemiseen viranomaisilta (esim. Verohallinto)."
-                },
-                {
-                "title": "Viestintä",
-                "content": "Sähköpostia ja puhelinnumeroa käytetään tärkeisiin ilmoituksiin, raportteihin, markkinointiin ja asiakastukeen."
-                },
-                {
-                "title": "Tunnistautuminen ja turvallisuus",
-                "content": "Sähköposti ja salasana ovat tarpeen tilinhallintaan ja turvalliseen kirjautumiseen."
-                },
-                {
-                "title": "Palkanlaskenta",
-                "content": "Verotiedot haetaan Verohallinnosta ja niitä käytetään vain palkan laskemiseen."
-                },
-                {
-                "title": "Laskutus",
-                "content": "Asiakastietoja käsitellään oikean laskutuksen ja laskujen lähettämisen varmistamiseksi."
-                },
-                {
-                "title": "Palkkamaksut",
-                "content": "Pankkitilitietoja käytetään palkan maksamiseen käyttäjän tilille."
-                },
-                {
-                "title": "Henkilöllisyyden varmentaminen",
-                "content": "Jos käyttäjältä vaaditaan henkilöllisyyden todentamista, tietoja käytetään vain tähän tarkoitukseen."
-                },
-                {
-                "title": "Kulujen käsittely",
-                "content": "Jos käyttäjä ilmoittaa kuluja ja liittää asiakirjoja, tietoja käytetään verovapaiden kulukorvausten käsittelyyn."
-                }
-            ]
+                "title": "4. Tietojen käsittelyn tarkoitus",
+                "intro": "Käsittelemme henkilötietoja seuraaviin tarkoituksiin:",
+                "items": [
+                    {
+                        "title": "Käyttäjän tunnistaminen",
+                        "content": "Nimi ja henkilötunnus tarvitaan käyttäjän tunnistamiseen ja verotietojen hakemiseen viranomaisilta (esim. Verohallinto)."
+                    },
+                    {
+                        "title": "Viestintä",
+                        "content": "Sähköpostia ja puhelinnumeroa käytetään tärkeisiin ilmoituksiin, raportteihin, markkinointiin ja asiakastukeen."
+                    },
+                    {
+                        "title": "Tunnistautuminen ja turvallisuus",
+                        "content": "Sähköposti ja salasana ovat tarpeen tilinhallintaan ja turvalliseen kirjautumiseen."
+                    },
+                    {
+                        "title": "Palkanlaskenta",
+                        "content": "Verotiedot haetaan Verohallinnosta ja niitä käytetään vain palkan laskemiseen."
+                    },
+                    {
+                        "title": "Laskutus",
+                        "content": "Asiakastietoja käsitellään oikean laskutuksen ja laskujen lähettämisen varmistamiseksi."
+                    },
+                    {
+                        "title": "Palkkamaksut",
+                        "content": "Pankkitilitietoja käytetään palkan maksamiseen käyttäjän tilille."
+                    },
+                    {
+                        "title": "Henkilöllisyyden varmentaminen",
+                        "content": "Jos käyttäjältä vaaditaan henkilöllisyyden todentamista, tietoja käytetään vain tähän tarkoitukseen."
+                    },
+                    {
+                        "title": "Kulujen käsittely",
+                        "content": "Jos käyttäjä ilmoittaa kuluja ja liittää asiakirjoja, tietoja käytetään verovapaiden kulukorvausten käsittelyyn."
+                    }
+                ]
             },
             "legalBasis": {
-            "title": "5. Tietojen käsittelyn oikeusperuste",
-            "intro": "Henkilötietojen käsittely perustuu seuraaviin oikeusperusteisiin:",
-            "items": [
-                {
-                "title": "Sopimuksen täytäntöönpano",
-                "content": "Tietojen käsittely on tarpeen laskutus- ja palkanmaksupalveluidemme tarjoamiseksi."
-                },
-                {
-                "title": "Lakien noudattaminen",
-                "content": "Tietojen käsittely on tarpeen Suomen ja EU:n verolakien noudattamiseksi."
-                },
-                {
-                "title": "Oikeutettu etu",
-                "content": "Petosten ehkäisy, tietoturva ja asiakaspalvelu."
-                },
-                {
-                "title": "Suostumus",
-                "content": "Markkinointiviestintään, jos käyttäjä on antanut siihen luvan."
-                }
-            ]
+                "title": "5. Tietojen käsittelyn oikeusperuste",
+                "intro": "Henkilötietojen käsittely perustuu seuraaviin oikeusperusteisiin:",
+                "items": [
+                    {
+                        "title": "Sopimuksen täytäntöönpano",
+                        "content": "Tietojen käsittely on tarpeen laskutus- ja palkanmaksupalveluidemme tarjoamiseksi."
+                    },
+                    {
+                        "title": "Lakien noudattaminen",
+                        "content": "Tietojen käsittely on tarpeen Suomen ja EU:n verolakien noudattamiseksi."
+                    },
+                    {
+                        "title": "Oikeutettu etu",
+                        "content": "Petosten ehkäisy, tietoturva ja asiakaspalvelu."
+                    },
+                    {
+                        "title": "Suostumus",
+                        "content": "Markkinointiviestintään, jos käyttäjä on antanut siihen luvan."
+                    }
+                ]
             },
             "retention": {
-            "title": "6. Tietojen säilyttäminen",
-            "content": "Säilytämme henkilötietoja niin kauan kuin on tarpeen tietosuojakäytännössä määriteltyjen tarkoitusten täyttämiseksi, lakisääteisten velvoitteiden täyttämiseksi ja mahdollisten riitatilanteiden ratkaisemiseksi."
+                "title": "6. Tietojen säilyttäminen",
+                "content": "Säilytämme henkilötietoja niin kauan kuin on tarpeen tietosuojakäytännössä määriteltyjen tarkoitusten täyttämiseksi, lakisääteisten velvoitteiden täyttämiseksi ja mahdollisten riitatilanteiden ratkaisemiseksi."
             },
             "sharing": {
-            "title": "7. Tietojen jakaminen ja kolmannet osapuolet",
-            "intro": "Voimme jakaa henkilötietoja seuraavien tahojen kanssa:",
-            "items": [
-                {
-                "title": "Viranomaiset",
-                "content": "Veroviranomaiset ja muut sääntelyelimet lakisääteisten velvoitteiden täyttämiseksi."
-                },
-                {
-                "title": "Maksupalveluntarjoajat",
-                "content": "Palkanmaksujen käsittelyä varten."
-                },
-                {
-                "title": "Palveluntarjoajat",
-                "content": "Ne, jotka auttavat meitä palveluidemme toteuttamisessa (esim. pilvipalvelut, asiakastuki)."
-                },
-                {
-                "title": "Oikeudelliset ja sääntelyviranomaiset",
-                "content": "Jos laki sitä edellyttää tai oikeuksiemme suojelemiseksi."
-                }
-            ],
-            "note": "Emme myy tai vuokraa henkilötietojasi kolmansille osapuolille."
+                "title": "7. Tietojen jakaminen ja kolmannet osapuolet",
+                "intro": "Voimme jakaa henkilötietoja seuraavien tahojen kanssa:",
+                "items": [
+                    {
+                        "title": "Viranomaiset",
+                        "content": "Veroviranomaiset ja muut sääntelyelimet lakisääteisten velvoitteiden täyttämiseksi."
+                    },
+                    {
+                        "title": "Maksupalveluntarjoajat",
+                        "content": "Palkanmaksujen käsittelyä varten."
+                    },
+                    {
+                        "title": "Palveluntarjoajat",
+                        "content": "Ne, jotka auttavat meitä palveluidemme toteuttamisessa (esim. pilvipalvelut, asiakastuki)."
+                    },
+                    {
+                        "title": "Oikeudelliset ja sääntelyviranomaiset",
+                        "content": "Jos laki sitä edellyttää tai oikeuksiemme suojelemiseksi."
+                    }
+                ],
+                "note": "Emme myy tai vuokraa henkilötietojasi kolmansille osapuolille."
             },
             "security": {
-            "title": "8. Tietoturva",
-            "content": "Käytämme asianmukaisia teknisiä ja organisatorisia toimenpiteitä henkilötietojesi suojaamiseksi luvattomalta käytöltä, katoamiselta, väärinkäytöltä tai muuttamiselta."
+                "title": "8. Tietoturva",
+                "content": "Käytämme asianmukaisia teknisiä ja organisatorisia toimenpiteitä henkilötietojesi suojaamiseksi luvattomalta käytöltä, katoamiselta, väärinkäytöltä tai muuttamiselta."
             },
             "userRights": {
-            "title": "9. Käyttäjän oikeudet",
-            "intro": "GDPR:n mukaisesti sinulla on seuraavat oikeudet:",
-            "items": [
-                "Pääsy tietoihin: Voit pyytää pääsyä henkilötietoihisi.",
-                "Tietojen korjaaminen: Voit pyytää virheellisten tietojen korjaamista.",
-                "Tietojen poistaminen: Voit pyytää tietojesi poistamista, ellei laki edellytä niiden säilyttämistä.",
-                "Käsittelyn rajoittaminen: Voit pyytää tietojesi käsittelyn rajoittamista.",
-                "Tietojen siirrettävyys: Voit pyytää tietojesi siirtämistä toiselle palveluntarjoajalle.",
-                "Suostumuksen peruuttaminen: Voit peruuttaa markkinointiviestintään antamasi suostumuksen milloin tahansa."
-            ],
-            "contact": "Oikeuksiesi käyttämiseksi voit ottaa meihin yhteyttä osoitteessa [Lisää yhteystiedot]."
+                "title": "9. Käyttäjän oikeudet",
+                "intro": "GDPR:n mukaisesti sinulla on seuraavat oikeudet:",
+                "items": [
+                    "Pääsy tietoihin: Voit pyytää pääsyä henkilötietoihisi.",
+                    "Tietojen korjaaminen: Voit pyytää virheellisten tietojen korjaamista.",
+                    "Tietojen poistaminen: Voit pyytää tietojesi poistamista, ellei laki edellytä niiden säilyttämistä.",
+                    "Käsittelyn rajoittaminen: Voit pyytää tietojesi käsittelyn rajoittamista.",
+                    "Tietojen siirrettävyys: Voit pyytää tietojesi siirtämistä toiselle palveluntarjoajalle.",
+                    "Suostumuksen peruuttaminen: Voit peruuttaa markkinointiviestintään antamasi suostumuksen milloin tahansa."
+                ],
+                "contact": "Oikeuksiesi käyttämiseksi voit ottaa meihin yhteyttä osoitteessa [Lisää yhteystiedot]."
             },
             "internationalTransfers": {
-            "title": "10. Kansainväliset tiedonsiirrot",
-            "content": "Jos siirrämme henkilötietojasi ETA-alueen ulkopuolelle, varmistamme asianmukaiset suojatoimet, kuten vakiosopimuslausekkeet (SCC)."
+                "title": "10. Kansainväliset tiedonsiirrot",
+                "content": "Jos siirrämme henkilötietojasi ETA-alueen ulkopuolelle, varmistamme asianmukaiset suojatoimet, kuten vakiosopimuslausekkeet (SCC)."
             },
             "cookies": {
-            "title": "11. Evästeet ja seuranta",
-            "content": "Voimme käyttää evästeitä ja muita seurantatekniikoita käyttäjäkokemuksen parantamiseksi."
+                "title": "11. Evästeet ja seuranta",
+                "content": "Voimme käyttää evästeitä ja muita seurantatekniikoita käyttäjäkokemuksen parantamiseksi."
             },
             "updates": {
-            "title": "12. Päivitykset",
-            "content": "Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Suosittelemme tarkistamaan tämän käytännön säännöllisesti."
+                "title": "12. Päivitykset",
+                "content": "Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Suosittelemme tarkistamaan tämän käytännön säännöllisesti."
             },
             "contact": {
-            "title": "13. Yhteystiedot",
-            "content": "Jos sinulla on kysyttävää, ota yhteyttä osoitteessa: [Lisää yhteystiedot]"
+                "title": "13. Yhteystiedot",
+                "content": "Jos sinulla on kysyttävää, ota yhteyttä osoitteessa: [Lisää yhteystiedot]"
             }
         }
     },
@@ -455,31 +455,31 @@
             "description": "InvoicePay on helpoin tapa laskuttaa ja saada maksu freelancerina. Ei yritystä, ei palkkalistoja, ei päänsärkyjä. Aloita ilmaiseksi!",
             "keywords": "freelancer, laskutus, freelancointi, InvoicePay, laskutuspalvelu",
             "og": {
-            "title": "Freelancereille | InvoicePay",
-            "description": "InvoicePay on helpoin tapa laskuttaa ja saada maksu freelancerina. Ei yritystä, ei palkkalistoja, ei päänsärkyjä. Aloita ilmaiseksi!"
+                "title": "Freelancereille | InvoicePay",
+                "description": "InvoicePay on helpoin tapa laskuttaa ja saada maksu freelancerina. Ei yritystä, ei palkkalistoja, ei päänsärkyjä. Aloita ilmaiseksi!"
             }
         },
         "title": "Kevyt yrittäjyys - freelancereille",
         "sections": {
             "intro": {
-            "title": "Mikä on kevyt yrittäjyys?",
-            "description": "Kevyt yrittäjyys on joustava tapa työskennellä yrittäjänä ilman oman yrityksen perustamista. Hoidat omat asiakkaasi, hallitset aikataulusi ja asetat omat hinnat, samalla kun InvoicePay huolehtii hallinnollisista tehtävistä, kuten laskutuksesta, veroista ja palkanlaskennasta. Tämä malli antaa sinulle mahdollisuuden nauttia freelancoinnin vapaudesta, mutta hallinnolliset tehtävät hoituvat puolestasi."
+                "title": "Mikä on kevyt yrittäjyys?",
+                "description": "Kevyt yrittäjyys on joustava tapa työskennellä yrittäjänä ilman oman yrityksen perustamista. Hoidat omat asiakkaasi, hallitset aikataulusi ja asetat omat hinnat, samalla kun InvoicePay huolehtii hallinnollisista tehtävistä, kuten laskutuksesta, veroista ja palkanlaskennasta. Tämä malli antaa sinulle mahdollisuuden nauttia freelancoinnin vapaudesta, mutta hallinnolliset tehtävät hoituvat puolestasi."
             },
             "whyLightEntrepreneurship": {
-            "title": "Miksi kevyt yrittäjyys?",
-            "description": "Kevyt yrittäjyys sopii erinomaisesti freelancereille, luoville ammattilaisille ja kaikille, jotka kaipaavat joustavuutta työelämässään. Se mahdollistaa keskittymisen omaan työhön, kun InvoicePay hoitaa liiketoimintasi monimutkaisuudet. Ei tarvitse virallista yritysrakennetta, palkkalistoja tai vero-ongelmia. Aloita ilmaiseksi ja nauti vaivattomasta tavasta pyörittää liiketoimintaasi ilman ylimääräistä byrokratiaa."
+                "title": "Miksi kevyt yrittäjyys?",
+                "description": "Kevyt yrittäjyys sopii erinomaisesti freelancereille, luoville ammattilaisille ja kaikille, jotka kaipaavat joustavuutta työelämässään. Se mahdollistaa keskittymisen omaan työhön, kun InvoicePay hoitaa liiketoimintasi monimutkaisuudet. Ei tarvitse virallista yritysrakennetta, palkkalistoja tai vero-ongelmia. Aloita ilmaiseksi ja nauti vaivattomasta tavasta pyörittää liiketoimintaasi ilman ylimääräistä byrokratiaa."
             },
             "invoicing": {
-            "title": "Laskutus",
-            "description": "InvoicePay yksinkertaistaa laskutusta tarjoamalla helppokäyttöisen alustan freelancereille ammattimaisten laskujen luomiseen ja lähettämiseen asiakkaille. Unohda manuaalinen laskujen hallinta—InvoicePay hoitaa kaiken ja varmistaa, että saat maksun ajallaan, joka kerta. Aloita ilmaiseksi ja tee laskutuksesta helpompaa kuin koskaan!"
+                "title": "Laskutus",
+                "description": "InvoicePay yksinkertaistaa laskutusta tarjoamalla helppokäyttöisen alustan freelancereille ammattimaisten laskujen luomiseen ja lähettämiseen asiakkaille. Unohda manuaalinen laskujen hallinta—InvoicePay hoitaa kaiken ja varmistaa, että saat maksun ajallaan, joka kerta. Aloita ilmaiseksi ja tee laskutuksesta helpompaa kuin koskaan!"
             },
             "expenses": {
-            "title": "Kulut",
-            "description": "Kulujen seuranta ja hallinta on tehty helpoksi InvoicePayn avulla. Freelancereina on tärkeää pitää kirjaa liiketoiminnan kuluista, ja InvoicePay tekee sen vaivattomaksi. Et tarvitse erillistä kirjanpitojärjestelmää—käytä vain alustamme kaikkien kulujesi hallintaan, jotta talousvirta on sujuvaa ja organisoitua. Aloita ilmaiseksi ja pidä taloutesi hallinnassa."
+                "title": "Kulut",
+                "description": "Kulujen seuranta ja hallinta on tehty helpoksi InvoicePayn avulla. Freelancereina on tärkeää pitää kirjaa liiketoiminnan kuluista, ja InvoicePay tekee sen vaivattomaksi. Et tarvitse erillistä kirjanpitojärjestelmää—käytä vain alustamme kaikkien kulujesi hallintaan, jotta talousvirta on sujuvaa ja organisoitua. Aloita ilmaiseksi ja pidä taloutesi hallinnassa."
             },
             "payroll": {
-            "title": "Palkanlaskenta",
-            "description": "Vaikka sinulla ei ole virallista yritystä, palkanlaskenta alihankkijoille tai työntekijöille on suoraviivaista InvoicePayn avulla. Alustamme hoitaa palkanlaskentatehtävät, mukaan lukien verojen laskeminen ja vähennykset, jotta voit maksaa tiimillesi tehokkaasti ja pysyä lain vaatimusten mukaisena. Ei palkanlaskennan päänsärkyjä, vain sujuvat maksut sinulle ja tiimillesi. Aloita ilmaiseksi ja virtaviivaista palkanlaskentaprosessiasi."
+                "title": "Palkanlaskenta",
+                "description": "Vaikka sinulla ei ole virallista yritystä, palkanlaskenta alihankkijoille tai työntekijöille on suoraviivaista InvoicePayn avulla. Alustamme hoitaa palkanlaskentatehtävät, mukaan lukien verojen laskeminen ja vähennykset, jotta voit maksaa tiimillesi tehokkaasti ja pysyä lain vaatimusten mukaisena. Ei palkanlaskennan päänsärkyjä, vain sujuvat maksut sinulle ja tiimillesi. Aloita ilmaiseksi ja virtaviivaista palkanlaskentaprosessiasi."
             }
         }
     },
@@ -489,39 +489,39 @@
             "description": "InvoicePay tarjoaa startupeille ja yrityksille helpon tavan hallita palkkahallintoa, laskutusta ja hallintotehtäviä. Maksa yksi lasku kaikille työntekijöille, ja InvoicePay hoitaa loput. Aloita ilmaiseksi!",
             "keywords": "startups, palkkahallinto, laskutus, hallintotehtävät, InvoicePay, B2B tuote, työntekijöiden hallinta, startup-tilinpäätös, palkkailmoitus",
             "og": {
-            "title": "Startupeille | InvoicePay",
-            "description": "InvoicePay tarjoaa startupeille ja yrityksille helpon tavan hallita palkkahallintoa, laskutusta ja hallintotehtäviä. Maksa yksi lasku kaikille työntekijöille, ja InvoicePay hoitaa loput. Aloita ilmaiseksi!"
+                "title": "Startupeille | InvoicePay",
+                "description": "InvoicePay tarjoaa startupeille ja yrityksille helpon tavan hallita palkkahallintoa, laskutusta ja hallintotehtäviä. Maksa yksi lasku kaikille työntekijöille, ja InvoicePay hoitaa loput. Aloita ilmaiseksi!"
             }
         },
         "title": "Vaivaton Työntekijähallinta Startupeille",
         "sections": {
             "intro": {
-            "title": "Mikä on InvoicePay Startupeille?",
-            "description": "InvoicePay tarjoaa startupeille yksinkertaistetun ratkaisun palkkahallintaan ja hallintotehtäviin, mahdollistaen työntekijöiden hallinnan ilman perinteisten palkkahallintojärjestelmien raskasta taakkaa. Startupit voivat keskittyä liiketoiminnan kasvuun, kun InvoicePay hoitaa laskutuksen, verot, kirjanpidon ja palkkahallinnan. InvoicePayn avulla sinun tarvitsee vain antaa työntekijöidesi työtiedot, ja me hoidamme loput—ei enää monen laskun hallintaa tai verotukseen liittyviä huolia."
+                "title": "Mikä on InvoicePay Startupeille?",
+                "description": "InvoicePay tarjoaa startupeille yksinkertaistetun ratkaisun palkkahallintaan ja hallintotehtäviin, mahdollistaen työntekijöiden hallinnan ilman perinteisten palkkahallintojärjestelmien raskasta taakkaa. Startupit voivat keskittyä liiketoiminnan kasvuun, kun InvoicePay hoitaa laskutuksen, verot, kirjanpidon ja palkkahallinnan. InvoicePayn avulla sinun tarvitsee vain antaa työntekijöidesi työtiedot, ja me hoidamme loput—ei enää monen laskun hallintaa tai verotukseen liittyviä huolia."
             },
             "whyInvoicePayForStartups": {
-            "title": "Miksi InvoicePay Startupeille?",
-            "description": "InvoicePay tarjoaa startupeille täydellisen ratkaisun työntekijöiden hallintaan ilman perinteisten työntekijöiden hallintajärjestelmien hankaluuksia. Unohda monien työntekijöiden palkkahallinnan monimutkaisuus—InvoicePay mahdollistaa yhden laskun maksamisen kaikkien työntekijöiden työstä, ja me huolehdimme kaikesta muusta, verojen ja säädöksien noudattamisesta. InvoicePayn avulla voit skaalata liiketoimintaasi tehokkaasti samalla, kun varmistat, että työntekijäsi saavat palkkansa ajallaan ja kaikki hallintotehtävät hoidetaan automaattisesti."
+                "title": "Miksi InvoicePay Startupeille?",
+                "description": "InvoicePay tarjoaa startupeille täydellisen ratkaisun työntekijöiden hallintaan ilman perinteisten työntekijöiden hallintajärjestelmien hankaluuksia. Unohda monien työntekijöiden palkkahallinnan monimutkaisuus—InvoicePay mahdollistaa yhden laskun maksamisen kaikkien työntekijöiden työstä, ja me huolehdimme kaikesta muusta, verojen ja säädöksien noudattamisesta. InvoicePayn avulla voit skaalata liiketoimintaasi tehokkaasti samalla, kun varmistat, että työntekijäsi saavat palkkansa ajallaan ja kaikki hallintotehtävät hoidetaan automaattisesti."
             },
             "invoicing": {
-            "title": "Yksinkertaistettu Laskutus",
-            "description": "InvoicePayn avulla laskutus on helppoa startupeille. Sen sijaan, että käsittelisit useita laskuja ja maksujen seurantaa jokaiselle työntekijälle tai freelancerille, sinun tarvitsee vain hallita yksi lasku, joka kattaa kaikkien työntekijöidesi työt. InvoicePay yksinkertaistaa laskutusprosessia ja varmistaa, että voit keskittyä siihen, mikä on tärkeintä—liiketoimintasi kasvuun. Aloita ilmaiseksi ja koe automatisoidun laskutuksen ja maksujen hallinnan yksinkertaisuus."
+                "title": "Yksinkertaistettu Laskutus",
+                "description": "InvoicePayn avulla laskutus on helppoa startupeille. Sen sijaan, että käsittelisit useita laskuja ja maksujen seurantaa jokaiselle työntekijälle tai freelancerille, sinun tarvitsee vain hallita yksi lasku, joka kattaa kaikkien työntekijöidesi työt. InvoicePay yksinkertaistaa laskutusprosessia ja varmistaa, että voit keskittyä siihen, mikä on tärkeintä—liiketoimintasi kasvuun. Aloita ilmaiseksi ja koe automatisoidun laskutuksen ja maksujen hallinnan yksinkertaisuus."
             },
             "expenses": {
-            "title": "Kulujen Hallinta Vaivattomasti",
-            "description": "Liiketoiminnan kulujen hallinta on tärkeää startupeille, mutta sen ei tarvitse olla monimutkaista. InvoicePay tarjoaa virtaviivaistetun ratkaisun startupisi kulujen hallintaan. Olitpa sitten käsittelemässä palkkoja, toimistotarvikkeita tai muita operatiivisia kuluja, InvoicePay mahdollistaa kulujen seuraamisen ja luokittelun helposti yhdessä paikassa. Alustamme avulla voit keskittyä liiketoimintasi skaalaamiseen, kun me huolehdimme talouspuolesta. Aloita ilmaiseksi ja hallitse startupisi taloudellista terveyttä täydellisesti."
+                "title": "Kulujen Hallinta Vaivattomasti",
+                "description": "Liiketoiminnan kulujen hallinta on tärkeää startupeille, mutta sen ei tarvitse olla monimutkaista. InvoicePay tarjoaa virtaviivaistetun ratkaisun startupisi kulujen hallintaan. Olitpa sitten käsittelemässä palkkoja, toimistotarvikkeita tai muita operatiivisia kuluja, InvoicePay mahdollistaa kulujen seuraamisen ja luokittelun helposti yhdessä paikassa. Alustamme avulla voit keskittyä liiketoimintasi skaalaamiseen, kun me huolehdimme talouspuolesta. Aloita ilmaiseksi ja hallitse startupisi taloudellista terveyttä täydellisesti."
             },
             "payroll": {
-            "title": "Tehokas Palkkahallinta",
-            "description": "InvoicePay mullistaa palkkahallinnan startupeille. Unohda manuaalinen palkkahallinta ja huoli säädöksistä. InvoicePay automatisoi palkkahallinnan kaikille työntekijöillesi, mukaan lukien verolaskelmat, vähennykset ja maksut, varmistaen, että kaikki hoidetaan tehokkaasti ja ajallaan. Maksa vain yksi lasku riippumatta siitä, kuinka monta työntekijää sinulla on, ja me huolehdimme raportoinnista, veroista ja sääntöjen noudattamisesta puolestasi. Aloita ilmaiseksi ja virtaviivaista palkkahallintoprosessiasi tänään."
+                "title": "Tehokas Palkkahallinta",
+                "description": "InvoicePay mullistaa palkkahallinnan startupeille. Unohda manuaalinen palkkahallinta ja huoli säädöksistä. InvoicePay automatisoi palkkahallinnan kaikille työntekijöillesi, mukaan lukien verolaskelmat, vähennykset ja maksut, varmistaen, että kaikki hoidetaan tehokkaasti ja ajallaan. Maksa vain yksi lasku riippumatta siitä, kuinka monta työntekijää sinulla on, ja me huolehdimme raportoinnista, veroista ja sääntöjen noudattamisesta puolestasi. Aloita ilmaiseksi ja virtaviivaista palkkahallintoprosessiasi tänään."
             },
             "employeeManagement": {
-            "title": "Vaivaton Työntekijöiden Hallinta",
-            "description": "Työntekijöiden hallinta ei ole koskaan ollut helpompaa. InvoicePayn avulla sinun tarvitsee vain antaa kunkin työntekijän työtiedot, ja me hoidamme loput. Et tarvitse käsitellä työntekijäsopimuksia, palkkahallintojärjestelmiä tai verotukseen liittyviä asioita. Olitpa sitten palkkaamassa yhden työntekijän tai 50, InvoicePay mahdollistaa niiden kaikkien maksamisen yhdellä yksinkertaisella laskulla. Se on helpoin tapa hallita työntekijöitä ilman perinteisten hallintotehtävien taakkaa."
+                "title": "Vaivaton Työntekijöiden Hallinta",
+                "description": "Työntekijöiden hallinta ei ole koskaan ollut helpompaa. InvoicePayn avulla sinun tarvitsee vain antaa kunkin työntekijän työtiedot, ja me hoidamme loput. Et tarvitse käsitellä työntekijäsopimuksia, palkkahallintojärjestelmiä tai verotukseen liittyviä asioita. Olitpa sitten palkkaamassa yhden työntekijän tai 50, InvoicePay mahdollistaa niiden kaikkien maksamisen yhdellä yksinkertaisella laskulla. Se on helpoin tapa hallita työntekijöitä ilman perinteisten hallintotehtävien taakkaa."
             },
             "scalability": {
-            "title": "Skaalautuvat Ratkaisut Kasvaville Startupeille",
-            "description": "Kun startupisi kasvaa, InvoicePay kasvaa kanssasi. Alustamme on suunniteltu skaalautumaan, joten riippumatta siitä, kuinka monta työntekijää palkkaat, sinun tarvitsee hallita vain yksi lasku palkkahallintoa ja hallintoa varten. Me huolehdimme monimutkaisuuksista kulissien takana—verojen laskemisesta, raporttien luomisesta ja sääntöjen noudattamisesta—jotta voit keskittyä liiketoimintasi ytimeen. InvoicePay auttaa pitämään sinut ketteränä ja tehokkaana, kun skaalaat työvoimaasi ilman lisää hallinnollista taakkaa."
+                "title": "Skaalautuvat Ratkaisut Kasvaville Startupeille",
+                "description": "Kun startupisi kasvaa, InvoicePay kasvaa kanssasi. Alustamme on suunniteltu skaalautumaan, joten riippumatta siitä, kuinka monta työntekijää palkkaat, sinun tarvitsee hallita vain yksi lasku palkkahallintoa ja hallintoa varten. Me huolehdimme monimutkaisuuksista kulissien takana—verojen laskemisesta, raporttien luomisesta ja sääntöjen noudattamisesta—jotta voit keskittyä liiketoimintasi ytimeen. InvoicePay auttaa pitämään sinut ketteränä ja tehokkaana, kun skaalaat työvoimaasi ilman lisää hallinnollista taakkaa."
             }
         }
     },

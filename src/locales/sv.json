@@ -1,16 +1,16 @@
 {
     "Home": {
-      "title": "InvoicePay - Enkel fakturering för egenanställda | InvoicePay",
-      "description": "InvoicePay är en enkel faktureringslösning för frilansare och egenanställda. Hantera fakturering, reseersättningar 2024 och bokföring utan krångel. Börja gratis (gratis fakturering) idag!",
-      "keywords": "fakturering, faktureringslösning, frilansare, egenanställd, bokföring, gratis fakturering, reseersättningar, enkel bokföring",
-      "og": {
-        "title": "InvoicePay - Enkel faktureringslösning för egenanställda",
-        "description": "Enkel och pålitlig faktureringslösning för frilansare och egenanställda"
-      }
+        "title": "InvoicePay - Enkel fakturering för egenanställda | InvoicePay",
+        "description": "InvoicePay är en enkel faktureringslösning för frilansare och egenanställda. Hantera fakturering, reseersättningar 2024 och bokföring utan krångel. Börja gratis (gratis fakturering) idag!",
+        "keywords": "fakturering, faktureringslösning, frilansare, egenanställd, bokföring, gratis fakturering, reseersättningar, enkel bokföring",
+        "og": {
+            "title": "InvoicePay - Enkel faktureringslösning för egenanställda",
+            "description": "Enkel och pålitlig faktureringslösning för frilansare och egenanställda"
+        }
     },
     "Navbar": {
         "home": "Hem",
-        "testimonials": "Omdömen",
+        "testimonials": "Recensioner",
         "features": "Funktioner",
         "pricing": "Priser",
         "faq": "FAQ",
@@ -55,7 +55,7 @@
         }
     },
     "Testimonials": {
-        "title": "Kundrecensioner",
+        "title": "Recensioner",
         "items": [
             {
                 "name": "Matti Virtanen",
@@ -456,31 +456,31 @@
             "description": "InvoicePay är det enklaste sättet att fakturera och få betalt som frilansare. Ingen företag, ingen löneadministration, inga huvudvärk. Börja gratis!",
             "keywords": "frilansare, fakturering, frilansarbete, InvoicePay, faktureringstjänst",
             "og": {
-            "title": "För frilansare | InvoicePay",
-            "description": "InvoicePay är det enklaste sättet att fakturera och få betalt som frilansare. Ingen företag, ingen löneadministration, inga huvudvärk. Börja gratis!"
+                "title": "För frilansare | InvoicePay",
+                "description": "InvoicePay är det enklaste sättet att fakturera och få betalt som frilansare. Ingen företag, ingen löneadministration, inga huvudvärk. Börja gratis!"
             }
         },
         "title": "Lätt entreprenörskap - för frilansare",
         "sections": {
             "intro": {
-            "title": "Vad är lätt entreprenörskap?",
-            "description": "Lätt entreprenörskap är ett flexibelt sätt att arbeta entreprenöriellt utan att behöva starta eget företag. Du hanterar dina egna kunder, styr din egen tid och sätter dina egna priser, medan InvoicePay tar hand om de administrativa uppgifterna som fakturering, skatter och lönehantering. Denna modell gör att du kan njuta av friheten som frilansare, samtidigt som du får hjälp med de administrativa uppgifterna."
+                "title": "Vad är lätt entreprenörskap?",
+                "description": "Lätt entreprenörskap är ett flexibelt sätt att arbeta entreprenöriellt utan att behöva starta eget företag. Du hanterar dina egna kunder, styr din egen tid och sätter dina egna priser, medan InvoicePay tar hand om de administrativa uppgifterna som fakturering, skatter och lönehantering. Denna modell gör att du kan njuta av friheten som frilansare, samtidigt som du får hjälp med de administrativa uppgifterna."
             },
             "whyLightEntrepreneurship": {
-            "title": "Varför lätt entreprenörskap?",
-            "description": "Lätt entreprenörskap är perfekt för frilansare, kreativa yrkesverksamma och alla som söker flexibilitet i sitt arbetsliv. Det gör att du kan fokusera på ditt hantverk medan InvoicePay hanterar affärens komplexiteter. Ingen behov av en formell företagsstruktur, löneadministration eller skatteproblem. Börja gratis och njut av ett enkelt sätt att driva ditt företag utan extra administration."
+                "title": "Varför lätt entreprenörskap?",
+                "description": "Lätt entreprenörskap är perfekt för frilansare, kreativa yrkesverksamma och alla som söker flexibilitet i sitt arbetsliv. Det gör att du kan fokusera på ditt hantverk medan InvoicePay hanterar affärens komplexiteter. Ingen behov av en formell företagsstruktur, löneadministration eller skatteproblem. Börja gratis och njut av ett enkelt sätt att driva ditt företag utan extra administration."
             },
             "invoicing": {
-            "title": "Fakturering",
-            "description": "InvoicePay förenklar faktureringen genom att erbjuda en lättanvänd plattform för frilansare att skapa och skicka professionella fakturor till sina kunder. Glöm allt krångel med att hantera fakturor manuellt—InvoicePay sköter allt och ser till att du får betalt i tid, varje gång. Börja gratis och gör faktureringen enklare än någonsin!"
+                "title": "Fakturering",
+                "description": "InvoicePay förenklar faktureringen genom att erbjuda en lättanvänd plattform för frilansare att skapa och skicka professionella fakturor till sina kunder. Glöm allt krångel med att hantera fakturor manuellt—InvoicePay sköter allt och ser till att du får betalt i tid, varje gång. Börja gratis och gör faktureringen enklare än någonsin!"
             },
             "expenses": {
-            "title": "Kostnader",
-            "description": "Att hålla koll på och hantera dina kostnader är enkelt med InvoicePay. Som frilansare är det viktigt att hålla reda på affärens kostnader, och med InvoicePay kan du göra detta utan problem. Du behöver inte ett separat bokföringssystem—använd bara vår plattform för att hantera alla dina kostnader och säkerställa ett smidigt och organiserat ekonomiskt flöde. Börja gratis och håll koll på din ekonomi."
+                "title": "Kostnader",
+                "description": "Att hålla koll på och hantera dina kostnader är enkelt med InvoicePay. Som frilansare är det viktigt att hålla reda på affärens kostnader, och med InvoicePay kan du göra detta utan problem. Du behöver inte ett separat bokföringssystem—använd bara vår plattform för att hantera alla dina kostnader och säkerställa ett smidigt och organiserat ekonomiskt flöde. Börja gratis och håll koll på din ekonomi."
             },
             "payroll": {
-            "title": "Lönesystem",
-            "description": "Även om du inte har ett formellt företag är hantering av löner för eventuella underleverantörer eller anställda enkelt med InvoicePay. Vår plattform hanterar löneadministration, inklusive skatteberäkningar och avdrag, så att du kan betala ditt team effektivt och vara compliant. Inga problem med löneadministration, bara smidiga betalningar till dig och ditt team. Börja gratis och förenkla din lönehantering."
+                "title": "Lönesystem",
+                "description": "Även om du inte har ett formellt företag är hantering av löner för eventuella underleverantörer eller anställda enkelt med InvoicePay. Vår plattform hanterar löneadministration, inklusive skatteberäkningar och avdrag, så att du kan betala ditt team effektivt och vara compliant. Inga problem med löneadministration, bara smidiga betalningar till dig och ditt team. Börja gratis och förenkla din lönehantering."
             }
         }
     },
@@ -490,39 +490,39 @@
             "description": "InvoicePay erbjuder startups och företag ett enkelt sätt att hantera löner, fakturering och administrativa uppgifter. Betala en faktura för alla anställda medan InvoicePay hanterar resten. Börja gratis!",
             "keywords": "startups, löner, fakturering, administrativa uppgifter, InvoicePay, B2B produkt, personalhantering, startup redovisning, löntjänst",
             "og": {
-            "title": "För Startups | InvoicePay",
-            "description": "InvoicePay erbjuder startups och företag ett enkelt sätt att hantera löner, fakturering och administrativa uppgifter. Betala en faktura för alla anställda medan InvoicePay hanterar resten. Börja gratis!"
+                "title": "För Startups | InvoicePay",
+                "description": "InvoicePay erbjuder startups och företag ett enkelt sätt att hantera löner, fakturering och administrativa uppgifter. Betala en faktura för alla anställda medan InvoicePay hanterar resten. Börja gratis!"
             }
         },
         "title": "Enkel Personalhantering för Startups",
         "sections": {
             "intro": {
-            "title": "Vad är InvoicePay för Startups?",
-            "description": "InvoicePay för startups förenklar lönehantering och administrativa uppgifter, och erbjuder en flexibel lösning för att hantera anställda utan de traditionella lönehanteringssystemens överflödiga administration. Startups kan fokusera på att växa sitt företag medan InvoicePay tar hand om fakturering, skatter, bokföring och löner. Med InvoicePay behöver du bara lämna in dina anställdas arbetstider, och vi hanterar resten—du slipper hantera flera fakturor eller bekymra dig om skattedeklarationer."
+                "title": "Vad är InvoicePay för Startups?",
+                "description": "InvoicePay för startups förenklar lönehantering och administrativa uppgifter, och erbjuder en flexibel lösning för att hantera anställda utan de traditionella lönehanteringssystemens överflödiga administration. Startups kan fokusera på att växa sitt företag medan InvoicePay tar hand om fakturering, skatter, bokföring och löner. Med InvoicePay behöver du bara lämna in dina anställdas arbetstider, och vi hanterar resten—du slipper hantera flera fakturor eller bekymra dig om skattedeklarationer."
             },
             "whyInvoicePayForStartups": {
-            "title": "Varför InvoicePay för Startups?",
-            "description": "InvoicePay erbjuder startups den perfekta lösningen för att hantera anställda utan krångel med traditionella personalhanteringssystem. Glöm bort att hantera löner för flera anställda—InvoicePay låter dig betala en enda faktura för allt arbete från dina anställda, och vi tar hand om allt annat, från skatter till efterlevnad. Med InvoicePay kan du skala ditt företag effektivt och samtidigt säkerställa att dina anställda får betalt i tid och att alla administrativa uppgifter hanteras automatiskt."
+                "title": "Varför InvoicePay för Startups?",
+                "description": "InvoicePay erbjuder startups den perfekta lösningen för att hantera anställda utan krångel med traditionella personalhanteringssystem. Glöm bort att hantera löner för flera anställda—InvoicePay låter dig betala en enda faktura för allt arbete från dina anställda, och vi tar hand om allt annat, från skatter till efterlevnad. Med InvoicePay kan du skala ditt företag effektivt och samtidigt säkerställa att dina anställda får betalt i tid och att alla administrativa uppgifter hanteras automatiskt."
             },
             "invoicing": {
-            "title": "Förenklad Fakturering",
-            "description": "Med InvoicePay blir faktureringen enkel för startups. Istället för att hantera flera fakturor och betalningstracking för varje anställd eller frilansare, behöver du bara hantera en faktura som täcker allt arbete från dina anställda. InvoicePay förenklar faktureringsprocessen så att du kan fokusera på det som verkligen betyder något—att växa ditt företag. Börja gratis och upplev enkelheten med automatiserad fakturering och betalningshantering."
+                "title": "Förenklad Fakturering",
+                "description": "Med InvoicePay blir faktureringen enkel för startups. Istället för att hantera flera fakturor och betalningstracking för varje anställd eller frilansare, behöver du bara hantera en faktura som täcker allt arbete från dina anställda. InvoicePay förenklar faktureringsprocessen så att du kan fokusera på det som verkligen betyder något—att växa ditt företag. Börja gratis och upplev enkelheten med automatiserad fakturering och betalningshantering."
             },
             "expenses": {
-            "title": "Hantera Kostnader Smidigt",
-            "description": "Att hantera företagskostnader är avgörande för startups, men det behöver inte vara komplicerat. InvoicePay erbjuder en strömlinjeformad lösning för att hantera ditt startups kostnader. Oavsett om du hanterar löner, kontorsmaterial eller andra driftskostnader, låter InvoicePay dig enkelt spåra och kategorisera kostnader på ett och samma ställe. Med vår plattform kan du fokusera på att växa ditt företag medan vi tar hand om den ekonomiska sidan. Börja gratis och få full kontroll över ditt startups ekonomiska hälsa."
+                "title": "Hantera Kostnader Smidigt",
+                "description": "Att hantera företagskostnader är avgörande för startups, men det behöver inte vara komplicerat. InvoicePay erbjuder en strömlinjeformad lösning för att hantera ditt startups kostnader. Oavsett om du hanterar löner, kontorsmaterial eller andra driftskostnader, låter InvoicePay dig enkelt spåra och kategorisera kostnader på ett och samma ställe. Med vår plattform kan du fokusera på att växa ditt företag medan vi tar hand om den ekonomiska sidan. Börja gratis och få full kontroll över ditt startups ekonomiska hälsa."
             },
             "payroll": {
-            "title": "Effektiv Lönehantering",
-            "description": "InvoicePay revolutionerar lönehantering för startups. Glöm bort manuell lönehantering och oron för efterlevnad. InvoicePay automatiserar löner för alla dina anställda, inklusive skatteberäkningar, avdrag och betalningar, och ser till att allt hanteras effektivt och i tid. Betala bara en faktura oavsett hur många anställda du har, och vi tar hand om rapportering, skatter och efterlevnad för dig. Börja gratis och strömlinjeforma din lönehanteringsprocess idag."
+                "title": "Effektiv Lönehantering",
+                "description": "InvoicePay revolutionerar lönehantering för startups. Glöm bort manuell lönehantering och oron för efterlevnad. InvoicePay automatiserar löner för alla dina anställda, inklusive skatteberäkningar, avdrag och betalningar, och ser till att allt hanteras effektivt och i tid. Betala bara en faktura oavsett hur många anställda du har, och vi tar hand om rapportering, skatter och efterlevnad för dig. Börja gratis och strömlinjeforma din lönehanteringsprocess idag."
             },
             "employeeManagement": {
-            "title": "Enkel Personalhantering",
-            "description": "Att hantera personal har aldrig varit enklare. Med InvoicePay behöver du bara lämna in arbetstiderna för varje anställd, och vi hanterar resten. Du slipper oroa dig för anställningsavtal, lönehanteringssystem eller skattedeklarationer. Oavsett om du har en anställd eller 50, låter InvoicePay dig betala alla genom en enda enkel faktura. Det är det enklaste sättet att hantera anställda utan den traditionella administrativa bördan."
+                "title": "Enkel Personalhantering",
+                "description": "Att hantera personal har aldrig varit enklare. Med InvoicePay behöver du bara lämna in arbetstiderna för varje anställd, och vi hanterar resten. Du slipper oroa dig för anställningsavtal, lönehanteringssystem eller skattedeklarationer. Oavsett om du har en anställd eller 50, låter InvoicePay dig betala alla genom en enda enkel faktura. Det är det enklaste sättet att hantera anställda utan den traditionella administrativa bördan."
             },
             "scalability": {
-            "title": "Skalbara Lösningar för Växande Startups",
-            "description": "När ditt startup växer, växer InvoicePay med dig. Vår plattform är designad för att skalas, så oavsett hur många anställda du anställer, behöver du bara hantera en faktura för löner och administration. Vi hanterar komplexiteten bakom kulisserna—beräknar skatter, skapar rapporter och ser till att alla regler följs—så att du kan fokusera på kärnan i ditt företag. InvoicePay hjälper dig att förbli smidig och effektiv medan du skalar upp din arbetsstyrka utan att lägga till mer administrativ börda."
+                "title": "Skalbara Lösningar för Växande Startups",
+                "description": "När ditt startup växer, växer InvoicePay med dig. Vår plattform är designad för att skalas, så oavsett hur många anställda du anställer, behöver du bara hantera en faktura för löner och administration. Vi hanterar komplexiteten bakom kulisserna—beräknar skatter, skapar rapporter och ser till att alla regler följs—så att du kan fokusera på kärnan i ditt företag. InvoicePay hjälper dig att förbli smidig och effektiv medan du skalar upp din arbetsstyrka utan att lägga till mer administrativ börda."
             }
         }
     },

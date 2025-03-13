@@ -19,6 +19,9 @@ const NavDropdown = ({ currentLang, translations }) => {
         <a href={`/${currentLang}/for-freelancers`}>{translations.Navbar?.forFreelancers}</a>
         <a href={`/${currentLang}/for-startups`}>{translations.Navbar?.forStartups}</a>
         <a href={`/${currentLang}/for-construction`}>{translations.Navbar?.forConstruction}</a>
+        <a href={`/${currentLang}/for-restaurants`}>{translations.Navbar?.forRestaurants}</a>
+        <a href={`/${currentLang}/for-stores`}>{translations.Navbar?.forStores}</a>
+
       </div>
     </div>
   );

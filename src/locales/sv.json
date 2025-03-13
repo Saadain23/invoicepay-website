@@ -567,5 +567,73 @@
                 "description": "När ditt byggföretag växer, växer InvoicePay med dig. Vår plattform är designad för att skala, så oavsett hur många arbetare eller underentreprenörer du anställer behöver du bara hantera en faktura för löner och administration. Vi tar hand om komplexiteten bakom kulisserna—beräknar skatter, skapar rapporter och säkerställer efterlevnad—så att du kan fokusera på kärnan i ditt företag. InvoicePay hjälper dig att hålla företaget smidigt och effektivt medan du skalar din arbetsstyrka utan att lägga till mer administrativ börda."
             }
         }
+    },
+    "ForRestaurants": {
+        "meta": {
+            "title": "För Restauranger | InvoicePay - Fakturahanteringstjänst",
+            "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för restauranger. Ingen företagsuppsättning, inga löneproblem, bara effektiv fakturering och ekonomihantering. Börja gratis!",
+            "keywords": "restauranger, fakturering, restaurangfakturering, InvoicePay, restauranghantering",
+            "og": {
+                "title": "För Restauranger | InvoicePay",
+                "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för restauranger. Ingen företagsuppsättning, inga löneproblem, bara effektiv fakturering och ekonomihantering. Börja gratis!"
+            }
+        },
+        "title": "Effektiv fakturering för restauranger",
+        "sections": {
+            "intro": {
+                "title": "Vad är InvoicePay för restauranger?",
+                "description": "InvoicePay erbjuder en enkel och effektiv faktureringslösning för restauranger. Det hjälper restaurangägare att effektivisera sin fakturering, betalningar och ekonomihantering utan behov av komplicerade bokföringssystem. Med InvoicePay kan du fokusera på att driva din restaurang medan vi tar hand om pappersarbetet."
+            },
+            "whyInvoicePayForRestaurants": {
+                "title": "Varför InvoicePay för restauranger?",
+                "description": "InvoicePay är utformat för att hjälpa restaurangägare att enkelt hantera sin fakturering och ekonomiska uppgifter. Oavsett om det gäller fakturering för catering, hantering av leverantörsbetalningar eller att hålla koll på skatter och avdrag, hanterar InvoicePay allt. Det förenklar ditt ekonomiska flöde, sparar tid och ansträngning så att du kan fokusera på det som är viktigast—att driva din restaurang."
+            },
+            "invoicing": {
+                "title": "Fakturering",
+                "description": "InvoicePay gör faktureringen enkel för restauranger genom att låta dig skapa och skicka professionella fakturor till kunder, leverantörer och cateringarrangemang. Plattformen tar bort manuella fakturauppgifter och ser till att alla dina fakturor är korrekta, i tid och lätta att följa. Börja gratis och ta bort besväret med restaurangfakturering!"
+            },
+            "expenses": {
+                "title": "Kostnader",
+                "description": "Att hantera restaurangkostnader kan vara komplicerat, men med InvoicePay blir det enkelt. Håll koll på kostnader för köksmaterial, elräkningar, personallöner och andra affärsutgifter med lätthet. InvoicePay gör det möjligt att organisera din ekonomi och hålla koll på dina kostnader, allt på en och samma plattform. Börja gratis och förenkla din restaurangs kostnadshantering!"
+            },
+            "payroll": {
+                "title": "Löner",
+                "description": "Att hantera löner för din restaurangpersonal kan vara tidskrävande. Med InvoicePay kan du enkelt hantera anställdas löner, dricks, skatteberäkningar och avdrag. Oavsett om du har ett litet team eller en större arbetsstyrka, gör vår plattform lönehantering enkel och säkerställer efterlevnad. Börja gratis och ta bort stressen från restaurangens lönehantering!"
+            }
+        }
+    },
+    "ForStores": {
+        "meta": {
+            "title": "For Stores | InvoicePay - Fakturahanteringstjänst",
+            "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för butiker. Ingen företagsregistrering, inga lönefrågor, bara effektiv fakturering och ekonomihantering. Börja gratis!",
+            "keywords": "butiker, fakturering, butikfakturering, InvoicePay, butikshantering",
+            "og": {
+                "title": "For Stores | InvoicePay",
+                "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för butiker. Ingen företagsregistrering, inga lönefrågor, bara effektiv fakturering och ekonomihantering. Börja gratis!"
+            }
+        },
+        "title": "Effektiv fakturering för butiker",
+        "sections": {
+            "intro": {
+                "title": "Vad är InvoicePay för butiker?",
+                "description": "InvoicePay erbjuder en enkel och effektiv faktureringslösning för butiker. Det hjälper butikägare att strömlinjeforma sina fakturor, betalningar och ekonomihantering utan att behöva komplicerade bokföringssystem. Med InvoicePay kan du fokusera på att driva din butik medan vi tar hand om pappersarbetet."
+            },
+            "whyInvoicePayForStores": {
+                "title": "Varför InvoicePay för butiker?",
+                "description": "InvoicePay är utformat för att hjälpa butikägare att enkelt hantera sina faktureringar och ekonomiska uppgifter. Oavsett om det gäller fakturering av produktförsäljning, hantering av leverantörsbetalningar eller att hålla reda på skatter och avdrag, hanterar InvoicePay allt. Det förenklar din ekonomiska arbetsflöde, sparar tid och ansträngning så att du kan fokusera på det som är viktigast—att driva din butik."
+            },
+            "invoicing": {
+                "title": "Fakturering",
+                "description": "InvoicePay gör faktureringen enkel för butiker genom att låta dig skapa och skicka professionella fakturor till kunder, leverantörer och andra affärstransaktioner. Plattformen eliminerar manuella faktureringsuppgifter och säkerställer att alla dina fakturor är korrekta, i tid och lätta att spåra. Börja gratis och ta bort krånglet med butikens fakturering!"
+            },
+            "expenses": {
+                "title": "Kostnader",
+                "description": "Att hantera butikens kostnader kan vara komplicerat, men med InvoicePay blir det enkelt. Spåra dina lagerkostnader, elräkningar, personal löner och andra affärskostnader med lätthet. InvoicePay låter dig organisera din ekonomi och hålla koll på kostnaderna, allt på en och samma plattform. Börja gratis och förenkla hanteringen av butikens kostnader!"
+            },
+            "payroll": {
+                "title": "Lönehantering",
+                "description": "Att hantera löner för butikspersonal kan vara en tidskrävande uppgift. Med InvoicePay kan du enkelt hantera anställdas löner, tips, skatteberäkningar och avdrag. Oavsett om du har ett litet team eller en större arbetsstyrka, gör vår plattform lönehantering enkel och säkerställer efterlevnad. Börja gratis och ta bort stressen med butikens lönehantering!"
+            }
+        }
     }
 }

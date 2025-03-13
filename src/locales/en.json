@@ -567,5 +567,73 @@
                 "description": "As your construction company grows, InvoicePay grows with you. Our platform is designed to scale, so no matter how many workers or subcontractors you hire, you only need to manage one invoice for payroll and admin. We handle the complexity behind the scenes—calculating taxes, generating reports, and ensuring compliance—so you can focus on the core of your business. InvoicePay helps you stay lean and efficient while you scale your workforce without adding more administrative overhead."
             }
         }
+    },
+    "ForRestaurants": {
+        "meta": {
+            "title": "For Restaurants | InvoicePay - Invoice Management Service",
+            "description": "InvoicePay is the easiest way to manage invoices and payments for restaurants. No company setup, no payroll issues, just efficient invoicing and financial management. Start for free!",
+            "keywords": "restaurants, invoicing, restaurant invoicing, InvoicePay, restaurant management",
+            "og": {
+                "title": "For Restaurants | InvoicePay",
+                "description": "InvoicePay is the easiest way to manage invoices and payments for restaurants. No company setup, no payroll issues, just efficient invoicing and financial management. Start for free!"
+            }
+        },
+        "title": "Efficient invoicing for restaurants",
+        "sections": {
+            "intro": {
+                "title": "What is InvoicePay for restaurants?",
+                "description": "InvoicePay provides a simple and efficient invoicing solution for restaurants. It helps restaurant owners streamline their invoicing, payments, and financial management tasks without the need for complicated accounting systems. With InvoicePay, you can focus on running your restaurant while we take care of the paperwork."
+            },
+            "whyInvoicePayForRestaurants": {
+                "title": "Why InvoicePay for restaurants?",
+                "description": "InvoicePay is designed to help restaurant owners easily manage their invoicing and financial tasks. Whether it's invoicing for catering services, managing supplier payments, or keeping track of taxes and deductions, InvoicePay handles it all. It simplifies your financial workflow, saving you time and effort so you can focus on what matters most—running your restaurant."
+            },
+            "invoicing": {
+                "title": "Invoicing",
+                "description": "InvoicePay makes invoicing simple for restaurants by allowing you to create and send professional invoices to clients, suppliers, and catering events. The platform eliminates manual invoicing tasks and ensures that all your invoices are accurate, on time, and easy to track. Start for free and take the hassle out of restaurant invoicing!"
+            },
+            "expenses": {
+                "title": "Expenses",
+                "description": "Managing restaurant expenses can be complicated, but with InvoicePay, it becomes effortless. Track your kitchen supply costs, utility bills, staff wages, and other business expenses with ease. InvoicePay allows you to organize your finances and keep your expenses in check, all on one platform. Start for free and simplify your restaurant’s expense management!"
+            },
+            "payroll": {
+                "title": "Payroll",
+                "description": "Managing payroll for your restaurant staff can be a time-consuming task. With InvoicePay, you can easily handle employee wages, tips, tax calculations, and deductions. Whether you have a small team or a larger workforce, our platform makes payroll simple and ensures compliance. Start for free and take the stress out of restaurant payroll management!"
+            }
+        }
+    },
+    "ForStores": {
+        "meta": {
+            "title": "For Stores | InvoicePay - Invoice Management Service",
+            "description": "InvoicePay is the easiest way to manage invoices and payments for stores. No company setup, no payroll issues, just efficient invoicing and financial management. Start for free!",
+            "keywords": "stores, invoicing, store invoicing, InvoicePay, store management",
+            "og": {
+                "title": "For Stores | InvoicePay",
+                "description": "InvoicePay is the easiest way to manage invoices and payments for stores. No company setup, no payroll issues, just efficient invoicing and financial management. Start for free!"
+            }
+        },
+        "title": "Efficient invoicing for stores",
+        "sections": {
+            "intro": {
+                "title": "What is InvoicePay for stores?",
+                "description": "InvoicePay provides a simple and efficient invoicing solution for stores. It helps store owners streamline their invoicing, payments, and financial management tasks without the need for complicated accounting systems. With InvoicePay, you can focus on running your store while we take care of the paperwork."
+            },
+            "whyInvoicePayForStores": {
+                "title": "Why InvoicePay for stores?",
+                "description": "InvoicePay is designed to help store owners easily manage their invoicing and financial tasks. Whether it's invoicing for product sales, managing supplier payments, or keeping track of taxes and deductions, InvoicePay handles it all. It simplifies your financial workflow, saving you time and effort so you can focus on what matters most—running your store."
+            },
+            "invoicing": {
+                "title": "Invoicing",
+                "description": "InvoicePay makes invoicing simple for stores by allowing you to create and send professional invoices to clients, suppliers, and other business transactions. The platform eliminates manual invoicing tasks and ensures that all your invoices are accurate, on time, and easy to track. Start for free and take the hassle out of store invoicing!"
+            },
+            "expenses": {
+                "title": "Expenses",
+                "description": "Managing store expenses can be complicated, but with InvoicePay, it becomes effortless. Track your inventory costs, utility bills, staff wages, and other business expenses with ease. InvoicePay allows you to organize your finances and keep your expenses in check, all on one platform. Start for free and simplify your store’s expense management!"
+            },
+            "payroll": {
+                "title": "Payroll",
+                "description": "Managing payroll for your store staff can be a time-consuming task. With InvoicePay, you can easily handle employee wages, tips, tax calculations, and deductions. Whether you have a small team or a larger workforce, our platform makes payroll simple and ensures compliance. Start for free and take the stress out of store payroll management!"
+            }
+        }
     }
 }

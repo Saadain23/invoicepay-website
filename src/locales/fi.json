@@ -566,5 +566,73 @@
                 "description": "Kun rakennusyrityksesi kasvaa, InvoicePay kasvaa kanssasi. Alustamme on suunniteltu skaalaamaan, joten ei ole väliä kuinka monta työntekijää tai aliurakoitsijaa palkkaat, sinun tarvitsee hallita vain yhtä laskua palkkahallintoa ja hallintoa varten. Me huolehdimme monimutkaisista taustatehtävistä—verojen laskemisesta, raporttien luomisesta ja vaatimustenmukaisuuden varmistamisesta—jotta voit keskittyä liiketoimintasi ytimeen. InvoicePay auttaa sinua pysymään kevyenä ja tehokkaana, kun kasvatat työvoimaasi ilman lisähallinnollista kuormaa."
             }
         }
+    },
+    "ForRestaurants": {
+        "meta": {
+            "title": "Ravintoloille | InvoicePay - Laskujen hallintapalvelu",
+            "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja ravintoloille. Ei yrityksen perustamista, ei palkkahallintokysymyksiä, vain tehokas laskutus ja taloushallinta. Aloita ilmaiseksi!",
+            "keywords": "ravintolat, laskutus, ravintolan laskutus, InvoicePay, ravintolahallinta",
+            "og": {
+                "title": "Ravintoloille | InvoicePay",
+                "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja ravintoloille. Ei yrityksen perustamista, ei palkkahallintokysymyksiä, vain tehokas laskutus ja taloushallinta. Aloita ilmaiseksi!"
+            }
+        },
+        "title": "Tehokas laskutus ravintoloille",
+        "sections": {
+            "intro": {
+                "title": "Mikä on InvoicePay ravintoloille?",
+                "description": "InvoicePay tarjoaa yksinkertaisen ja tehokkaan laskutusratkaisun ravintoloille. Se auttaa ravintolan omistajia virtaviivaistamaan laskutuksen, maksut ja taloushallinnan tehtävät ilman monimutkaisia kirjanpitojärjestelmiä. InvoicePayn avulla voit keskittyä ravintolasi pyörittämiseen, kun me huolehdimme paperitöistä."
+            },
+            "whyInvoicePayForRestaurants": {
+                "title": "Miksi InvoicePay ravintoloille?",
+                "description": "InvoicePay on suunniteltu auttamaan ravintoloiden omistajia hallitsemaan helposti laskutusta ja talousasioita. Olipa kyseessä catering-palveluiden laskutus, toimittajamaksujen hallinta tai verojen ja vähennysten seuraaminen, InvoicePay hoitaa kaiken. Se yksinkertaistaa talousvirtaasi, säästäen aikaasi ja vaivannäköäsi, jotta voit keskittyä siihen, mikä on tärkeintä—ravintolasi pyörittämiseen."
+            },
+            "invoicing": {
+                "title": "Laskutus",
+                "description": "InvoicePay tekee laskutuksesta yksinkertaista ravintoloille antamalla sinun luoda ja lähettää ammattimaisia laskuja asiakkaille, toimittajille ja catering-tapahtumiin. Alusta poistaa manuaaliset laskutustehtävät ja varmistaa, että kaikki laskusi ovat tarkkoja, ajantasaisia ja helppoja seurata. Aloita ilmaiseksi ja ota ravintolan laskutus vaivattomaksi!"
+            },
+            "expenses": {
+                "title": "Kulut",
+                "description": "Ravintolan kulujen hallinta voi olla monimutkaista, mutta InvoicePayn avulla siitä tulee vaivatonta. Seuraa keittiötarvikekustannuksia, energiakuluja, henkilöstöpalkkoja ja muita liiketoimintakuluja helposti. InvoicePay auttaa sinua järjestämään taloutesi ja pitämään kulut kurissa, kaikki yhdellä alustalla. Aloita ilmaiseksi ja yksinkertaista ravintolasi kulujen hallinta!"
+            },
+            "payroll": {
+                "title": "Palkat",
+                "description": "Ravintolasi henkilöstön palkanlaskenta voi olla aikaa vievää. InvoicePayn avulla voit hoitaa helposti työntekijöiden palkat, juomatipit, verolaskelmat ja vähennykset. Olitpa sitten pieni tiimi tai suurempi työvoima, alusta tekee palkanlaskennasta yksinkertaista ja varmistaa sääntöjen noudattamisen. Aloita ilmaiseksi ja vie ravintolasi palkkahallinta pois stressistä!"
+            }
+        }
+    },
+    "ForStores": {
+        "meta": {
+            "title": "For Stores | InvoicePay - Laskujen Hallintapalvelu",
+            "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja kaupoille. Ei yrityksen perustamista, ei palkanlaskentakysymyksiä, vain tehokasta laskutusta ja taloushallintoa. Aloita ilmaiseksi!",
+            "keywords": "kaupat, laskutus, kaupan laskutus, InvoicePay, kaupan hallinta",
+            "og": {
+                "title": "For Stores | InvoicePay",
+                "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja kaupoille. Ei yrityksen perustamista, ei palkanlaskentakysymyksiä, vain tehokasta laskutusta ja taloushallintoa. Aloita ilmaiseksi!"
+            }
+        },
+        "title": "Tehokas laskutus kaupoille",
+        "sections": {
+            "intro": {
+                "title": "Mikä on InvoicePay kaupoille?",
+                "description": "InvoicePay tarjoaa yksinkertaisen ja tehokkaan laskutusratkaisun kaupoille. Se auttaa kauppiaita virtaviivaistamaan laskutusta, maksuja ja taloushallintatehtäviä ilman monimutkaisia kirjanpitojärjestelmiä. InvoicePayn avulla voit keskittyä kauppasi pyörittämiseen, kun me huolehdimme paperitöistä."
+            },
+            "whyInvoicePayForStores": {
+                "title": "Miksi InvoicePay kaupoille?",
+                "description": "InvoicePay on suunniteltu auttamaan kauppiaita hallitsemaan helposti laskutusta ja taloustöitä. Olipa kyseessä tuotelaskut, toimittajamaksut tai verojen ja vähennysten seuranta, InvoicePay hoitaa kaiken. Se yksinkertaistaa talousprosessisi, säästäen aikaa ja vaivannäköä, jotta voit keskittyä siihen, mikä on tärkeintä—kauppasi pyörittämiseen."
+            },
+            "invoicing": {
+                "title": "Laskutus",
+                "description": "InvoicePay tekee laskutuksesta yksinkertaista kaupoille antamalla sinun luoda ja lähettää ammatillisia laskuja asiakkaille, toimittajille ja muihin liiketoimintatransaktioihin. Alusta poistaa manuaaliset laskutustehtävät ja varmistaa, että kaikki laskusi ovat tarkkoja, ajallaan ja helppo seurata. Aloita ilmaiseksi ja ota laskutuksen vaivattomuus käyttöön!"
+            },
+            "expenses": {
+                "title": "Kulut",
+                "description": "Kaupan kulujen hallinta voi olla monimutkaista, mutta InvoicePay tekee siitä vaivattoman. Seuraa varastokustannuksia, energiakustannuksia, henkilöstöpalkkoja ja muita liiketoiminnan kuluja vaivattomasti. InvoicePay antaa sinun järjestää taloutesi ja pitää kulut hallinnassa, kaikki yhdellä alustalla. Aloita ilmaiseksi ja yksinkertaista kauppasi kulujen hallintaa!"
+            },
+            "payroll": {
+                "title": "Palkanlaskenta",
+                "description": "Palkanlaskenta kaupan henkilöstölle voi olla aikaa vievä tehtävä. InvoicePayn avulla voit helposti hoitaa työntekijöiden palkat, tipit, verolaskelmat ja vähennykset. Olipa kyseessä pieni tai suurempi tiimi, alusta tekee palkanlaskennasta yksinkertaista ja varmistaa säädösten noudattamisen. Aloita ilmaiseksi ja ota stressi pois kaupan palkanlaskennasta!"
+            }
+        }
     }
 }

@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import MobileMenu from '@/components/layout/MobileMenu';
 import NavDropdown from '@/components/layout/NavDropdown';
 
-const NavbarA = ({translations}) => {
+const NavbarA = ({ translations }) => {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
   const currentLang = router.query.lang || 'fi';
@@ -21,7 +21,7 @@ const NavbarA = ({translations}) => {
         <div className={styles.logo}>
           <img src="/logo.webp" alt="InvoicePay Logo" className={styles.logoImage} />
         </div>
-        
+
         {/* Desktop Navigation */}
         <div className={styles.navLinks}>
           <a href={`/${currentLang}`}>{translations.Navbar?.home}</a>
@@ -35,34 +35,34 @@ const NavbarA = ({translations}) => {
         <div className={styles.localeSwitcher}>
           <LocaleSwitcher />
         </div>
-        
+
         <div className={styles.authButtons}>
           <Link href="https://app.invoicepay.fi/login" className={styles.loginBtn}>{translations.Navbar?.login}</Link>
           <Link href="https://app.invoicepay.fi/register" className={styles.registerBtn}>{translations.Navbar?.register}</Link>
         </div>
 
-        <button 
-          className={styles.hamburger} 
+        <button
+          className={styles.hamburger}
           onClick={toggleMenu}
           aria-label="Toggle navigation menu"
         >
           {isOpen ? (
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
             </svg>
           ) : (
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
             </svg>
           )}
         </button>
 
         {/* Mobile Menu */}
-        <MobileMenu 
-          isOpen={isOpen} 
-          translations={translations} 
-          currentLang={currentLang} 
-          onClose={() => setIsOpen(false)} 
+        <MobileMenu
+          isOpen={isOpen}
+          translations={translations}
+          currentLang={currentLang}
+          onClose={() => setIsOpen(false)}
         />
       </div>
     </nav>

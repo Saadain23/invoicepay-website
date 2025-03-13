@@ -3,8 +3,8 @@
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 0.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.7rem 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,121 +12,127 @@
   width: 100%;
   z-index: 1000;
 }
-  
+
+.navContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  width: 150px;
+  height: auto;
+  max-width: 100%;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.navLinks a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: var(--primary);
+}
+
+.localeSwitcher {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.authButtons {
+  display: flex;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
+.loginBtn,
+.registerBtn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+  color: white;
+}
+
+.loginBtn {
+  background: var(--primary);
+  color: var(--light);
+}
+
+.loginBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(88, 42, 152, 0.4);
+}
+
+.registerBtn {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+.registerBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(254, 63, 130, 0.4);
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.6rem 0;
+  }
+
   .navContainer {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0 1rem;
   }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .logoImage {
-    width: 180px;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  .navLinks {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    flex: 1;
-    justify-content: center;
-  }
-  
-  .navLinks a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .navLinks a:hover {
-    color: var(--primary);
+
+  .navLinks,
+  .authButtons {
+    display: none;
   }
 
   .localeSwitcher {
-    margin-right: 2rem;
-    display: flex;
-    align-items: center;
+    margin-right: 0;
+    position: absolute;
+    right: 4.2rem;
   }
 
-  .authButtons {
-    display: flex;
-    gap: 1rem;
-    padding-right: 2rem;
-  }
-  
-  .loginBtn, .registerBtn {
-    padding: 0.5rem 1.5rem;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    border: none;
-    color: white;
-  }
-  
-  .loginBtn {
-    background: var(--primary);
-    color: var(--light);
-  }
-  
-  .loginBtn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(88, 42, 152, 0.4);
-  }
-  
-  .registerBtn {
-    background: var(--secondary);
-    color: var(--light);
-  }
-  
-  .registerBtn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(254, 63, 130, 0.4);
-  }
-  
   .hamburger {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
+    display: block;
+    display: flex;
+    line-height: 0;
   }
-  
-  @media (max-width: 768px) {
-    .navbar {
-      padding: 0.3rem 0;
-    }
 
-    .navContainer {
-      padding: 0 1rem;
-    }
-
-    .navLinks, .authButtons {
-      display: none;
-    }
-
-    .localeSwitcher {
-      margin-right: 0;
-      position: absolute;
-      right: 4.2rem;
-    }
-
-    .hamburger {
-      display: block;
-      display: flex;
-      line-height: 0;
-    }
-
-    .logoImage {
-      width: 140px;  /* Smaller size for mobile */
-    }
+  .logoImage {
+    width: 120px;
+    /* Smaller size for mobile */
   }
+}

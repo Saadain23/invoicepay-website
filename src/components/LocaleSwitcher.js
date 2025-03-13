@@ -19,23 +19,25 @@ export default function LocaleSwitcher() {
   return (
     <div className={styles.localeSwitcher} onClick={toggleDropdown}>
       <button className={styles.localeButton}>
-        <img 
-          src={languages.find(lang => lang.code === currentLang)?.flag} 
-          alt={currentLang} 
-          width={26} 
-          height={26} 
+        <img
+          src={languages.find(lang => lang.code === currentLang)?.flag}
+          alt={currentLang}
+          width={32}
+          height={32}
         />
       </button>
       {isOpen && (
         <div className={styles.dropdown}>
           {languages.map(({ code, name, flag }) => (
             code !== currentLang && (
-              <Link 
-                key={code} 
-                href={`/${code}/${router.pathname.replace('[lang]', '').replace(/^\/+/,'')}`} 
+              <Link
+                key={code}
+                href={`/${code}/${router.pathname.replace('[lang]', '').replace(/^\/+/, '')}`}
                 className={styles.dropdownItem}
               >
-                <img src={flag} alt={name} width={26} height={26} className={styles.flagIcon} />
+                <div style={{ marginRight: "8px" }}>
+                  <img src={flag} alt={name} width={32} height={32} className={styles.flagIcon} />
+                </div>
                 <span className={styles.languageName}>{name}</span>
               </Link>
             )

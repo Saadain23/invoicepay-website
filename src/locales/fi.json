@@ -20,7 +20,9 @@
         "b2b": "B2B",
         "forFreelancers": "Freelancereille",
         "forStartups": "Startupperit",
-        "forConstruction": "Rakennustoimisto"
+        "forConstruction": "Rakennustoimisto",
+        "forRestaurants": "Ravintoloille",
+        "forStores": "Myymälöille"
     },
     "LocaleSwitcher": {
         "switchTo": "Vaihda kieli",

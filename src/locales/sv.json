@@ -20,7 +20,9 @@
         "b2b": "B2B",
         "forFreelancers": "Frilansare",
         "forStartups": "Startups",
-        "forConstruction": "Byggföretag"
+        "forConstruction": "Byggföretag",
+        "forRestaurants": "För restauranger",
+        "forStores": "För butiker"
     },
     "LocaleSwitcher": {
         "switchTo": "Byt till",

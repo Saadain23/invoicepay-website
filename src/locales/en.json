@@ -20,7 +20,9 @@
         "b2b": "B2B",
         "forFreelancers": "For Freelancers",
         "forStartups": "For Startups",
-        "forConstruction": "Construction company"
+        "forConstruction": "Construction company",
+        "forRestaurants": "For Restaurants",
+        "forStores": "For Stores"
     },
     "LocaleSwitcher": {
         "switchTo": "Switch to",

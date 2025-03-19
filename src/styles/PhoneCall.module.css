@@ -1,0 +1,90 @@
+.phoneCallContainer {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: 60px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.phoneInput {
+    background-color: white;
+    padding: 0 20px;
+    color: #666;
+    font-size: 18px;
+    border: none;
+    height: 100%;
+    flex-grow: 1;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+}
+
+.languageSelect {
+    background-color: var(--primary);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    padding: 0 20px;
+    appearance: none;
+    cursor: pointer;
+    flex-basis: 130px;
+    position: relative;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6' fill='none'%3E%3Cpath fill='white' d='M0 0h12L6 6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    padding-right: 40px;
+    outline: none;
+}
+
+.callButton {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.callButton:hover {
+    background-color: var(--secondary);
+}
+
+.callButton:active {
+    transform: scale(0.98);
+    background-color: var(--secondary);
+}
+
+@media (max-width: 600px) {
+    .phoneCallContainer {
+        flex-wrap: wrap;
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .phoneInput {
+        flex-basis: 100%;
+        border-radius: 25px 25px 0 0;
+        padding: 15px 20px;
+    }
+
+    .languageSelect {
+        flex-basis: 40%;
+        padding: 15px 20px;
+        border-radius: 0 0 0 25px;
+        padding-right: 40px;
+        background-position: right 15px center;
+    }
+
+    .callButton {
+        flex-basis: 60%;
+        padding: 15px 20px;
+        border-radius: 0 0 25px 0;
+    }
+}

@@ -1,5 +1,6 @@
 import styles from '@/styles/HeroA.module.css'
 import { useRouter } from 'next/router'
+import PhoneCall from './PhoneCall'
 
 const Hero = ({ translations }) => {
   const router = useRouter()
@@ -19,6 +20,7 @@ const Hero = ({ translations }) => {
                 {translations.Hero.contactButton}
               </button>
             </div>
+            <PhoneCall />
           </div>
 
           <div className={styles.heroImage}>

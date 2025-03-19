@@ -9,12 +9,12 @@ const Pricing = ({ translations }) => {
 
   return (
     <section className={styles.pricing} id="pricing">
-      <div className={styles.container}>
+      <div className={styles.pricingcontainer} >
         <div className={styles.sectionTitle}>
           <h2>{translations.Pricing.title}</h2>
           <p>{translations.Pricing.subtitle}</p>
         </div>
-        
+
         <div className={styles.pricingPlans}>
           {/* Free Plan */}
           <div className={styles.pricingCard}>
@@ -59,6 +59,27 @@ const Pricing = ({ translations }) => {
           </div>
 
           {/* Monthly Plan */}
+          <div className={`${styles.pricingCard}`}>
+            <h3>{translations.Pricing.monthlyPlan.title}</h3>
+            <div className={styles.pricingPrice}>
+              {translations.Pricing.monthlyPlan.price}
+              <span>{translations.Pricing.monthlyPlan.period}</span>
+            </div>
+            <p>{translations.Pricing.monthlyPlan.description}</p>
+            <div className={styles.pricingFeatures}>
+              {translations.Pricing.monthlyPlan.features.map((feature, index) => (
+                <div key={index} className={styles.pricingFeature}>
+                  {checkmarkSvg}
+                  <span>{feature}</span>
+                </div>
+              ))}
+            </div>
+            <a href="https://app.invoicepay.fi/register" className={`${styles.btn} ${styles.btnOutline}`}>
+              {translations.Pricing.monthlyPlan.button}
+            </a>
+          </div>
+
+          {/* Yearly Plan */}
           <div className={`${styles.pricingCard} ${styles.featured}`}>
             <h3>{translations.Pricing.monthlyPlan.title}</h3>
             <div className={styles.pricingPrice}>

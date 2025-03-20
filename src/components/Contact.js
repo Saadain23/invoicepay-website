@@ -2,9 +2,38 @@ import React from 'react';
 import styles from '../styles/Contact.module.css';
 
 const Contact = ({ translations }) => {
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+    
+    // Get form data
+    const formData = {
+      name: e.target.name.value,
+      email: e.target.email.value,
+      subject: e.target.subject.value,
+      message: e.target.message.value,
+    };
+
+    try {
+      const response = await fetch('https://api.invoicepay.fi/support/api/contact-us', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      // Clear form after successful submission
+      e.target.reset();
+      alert('Message sent successfully!');
+      
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('Failed to send message. Please try again.');
+    }
   };
 
   return (

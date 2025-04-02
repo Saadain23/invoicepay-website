@@ -229,6 +229,16 @@
                     "privacyPolicy": "Integritetspolicy",
                     "contact": "Kontakt"
                 }
+            },
+            "services": {
+                "title": "Tjänster",
+                "links": {
+                    "forFreelancers": "För frilansare",
+                    "forStartups": "För startups",
+                    "forConstruction": "Byggföretag",
+                    "forRestaurants": "För restauranger",
+                    "forStores": "För butiker"
+                }
             }
         },
         "copyright": "2024 InvoicePay. Alla rättigheter förbehållna."
@@ -572,69 +582,69 @@
     },
     "ForRestaurants": {
         "meta": {
-            "title": "För Restauranger | InvoicePay - Fakturahanteringstjänst",
-            "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för restauranger. Ingen företagsuppsättning, inga löneproblem, bara effektiv fakturering och ekonomihantering. Börja gratis!",
-            "keywords": "restauranger, fakturering, restaurangfakturering, InvoicePay, restauranghantering",
+            "title": "Restauranghantering & Faktureringslösning | InvoicePay",
+            "description": "Effektivisera din restaurangs verksamhet med InvoicePays specialiserade faktureringslösning. Hantera leverantörsbetalningar, personalens löner och matkostnader smidigt. Perfekt för restauranger, caféer och cateringföretag!",
+            "keywords": "restauranghantering, fakturering för matbranschen, restauranglön, leverantörsbetalningar, cateringfakturor, caféhantering, restaurangbokföring, matkostnadsspårning",
             "og": {
-                "title": "För Restauranger | InvoicePay",
-                "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för restauranger. Ingen företagsuppsättning, inga löneproblem, bara effektiv fakturering och ekonomihantering. Börja gratis!"
+                "title": "Restauranghantering & Faktureringslösning | InvoicePay",
+                "description": "En helhetslösning för restaurangens ekonomihantering. Hantera leverantörsbetalningar, personalens löner och matkostnader smidigt. Perfekt för restauranger, caféer och cateringföretag!"
             }
         },
-        "title": "Effektiv fakturering för restauranger",
+        "title": "Smart ekonomihantering för restauranger",
         "sections": {
             "intro": {
-                "title": "Vad är InvoicePay för restauranger?",
-                "description": "InvoicePay erbjuder en enkel och effektiv faktureringslösning för restauranger. Det hjälper restaurangägare att effektivisera sin fakturering, betalningar och ekonomihantering utan behov av komplicerade bokföringssystem. Med InvoicePay kan du fokusera på att driva din restaurang medan vi tar hand om pappersarbetet."
+                "title": "Specialiserade lösningar för restauranger",
+                "description": "InvoicePay förstår de unika utmaningarna inom restaurangbranschen. Vår plattform är skräddarsydd för matserviceföretag och hjälper dig att hantera allt från leverantörsfakturor till dagligt kassaflöde. Spåra matkostnader, hantera cateringavtal och administrera flera servicepunkter – allt på ett ställe."
             },
             "whyInvoicePayForRestaurants": {
-                "title": "Varför InvoicePay för restauranger?",
-                "description": "InvoicePay är utformat för att hjälpa restaurangägare att enkelt hantera sin fakturering och ekonomiska uppgifter. Oavsett om det gäller fakturering för catering, hantering av leverantörsbetalningar eller att hålla koll på skatter och avdrag, hanterar InvoicePay allt. Det förenklar ditt ekonomiska flöde, sparar tid och ansträngning så att du kan fokusera på det som är viktigast—att driva din restaurang."
+                "title": "Varför restauranger väljer InvoicePay",
+                "description": "InvoicePay är utvecklat specifikt för matbranschen och täcker alla dina behov – från att hantera leverantörer och ingredienskostnader till cateringavtal och dricksfördelning. Perfekt för restauranger, caféer, food trucks och cateringföretag av alla storlekar."
             },
             "invoicing": {
-                "title": "Fakturering",
-                "description": "InvoicePay gör faktureringen enkel för restauranger genom att låta dig skapa och skicka professionella fakturor till kunder, leverantörer och cateringarrangemang. Plattformen tar bort manuella fakturauppgifter och ser till att alla dina fakturor är korrekta, i tid och lätta att följa. Börja gratis och ta bort besväret med restaurangfakturering!"
+                "title": "Fakturering för restauranger och catering",
+                "description": "Skapa professionella fakturor för cateringevenemang, hantera återkommande leverantörsbetalningar och spåra matleveranser. Vår plattform har funktioner anpassade för restauranger, som delade notor, dricksfördelning och integration med populära kassasystem. Hantera både restaurang- och cateringintäkter effektivt."
             },
             "expenses": {
-                "title": "Kostnader",
-                "description": "Att hantera restaurangkostnader kan vara komplicerat, men med InvoicePay blir det enkelt. Håll koll på kostnader för köksmaterial, elräkningar, personallöner och andra affärsutgifter med lätthet. InvoicePay gör det möjligt att organisera din ekonomi och hålla koll på dina kostnader, allt på en och samma plattform. Börja gratis och förenkla din restaurangs kostnadshantering!"
+                "title": "Matkostnad & lagerhantering",
+                "description": "Få kontroll över restaurangens ekonomi med vår specialiserade utgiftsspårning. Håll koll på matkostnader, ingredienspriser, lagerstatus och analysera lönsamheten per rätt. Vår plattform hjälper dig att optimera lagernivåer och hålla kostnaderna nere."
             },
             "payroll": {
-                "title": "Löner",
-                "description": "Att hantera löner för din restaurangpersonal kan vara tidskrävande. Med InvoicePay kan du enkelt hantera anställdas löner, dricks, skatteberäkningar och avdrag. Oavsett om du har ett litet team eller en större arbetsstyrka, gör vår plattform lönehantering enkel och säkerställer efterlevnad. Börja gratis och ta bort stressen från restaurangens lönehantering!"
+                "title": "Löner för restaurangpersonal",
+                "description": "Vårt lönesystem är anpassat för restaurangbranschen och hanterar skiftarbete, dricksfördelning och serviceavgifter automatiskt. Administrera löner för både köks- och serveringspersonal, inklusive övertid, semesterersättning och prestationsbonusar. Perfekt för restauranger med säsongsbaserad personal."
             }
         }
     },
     "ForStores": {
         "meta": {
-            "title": "For Stores | InvoicePay - Fakturahanteringstjänst",
-            "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för butiker. Ingen företagsregistrering, inga lönefrågor, bara effektiv fakturering och ekonomihantering. Börja gratis!",
-            "keywords": "butiker, fakturering, butikfakturering, InvoicePay, butikshantering",
+            "title": "Butikshantering & Faktureringslösning | InvoicePay",
+            "description": "Effektivisera din butik med InvoicePays omfattande lösning för detaljhandel. Hantera lagerbetalningar, försäljningsuppföljning och personaladministration på ett och samma ställe. Perfekt för butiker, boutiques och kedjor!",
+            "keywords": "butikshantering, butiksfakturering, detaljhandel lön, lagerhantering, detaljhandel bokföring, butikens drift, butikskassa, varuspårning",
             "og": {
-                "title": "For Stores | InvoicePay",
-                "description": "InvoicePay är det enklaste sättet att hantera fakturor och betalningar för butiker. Ingen företagsregistrering, inga lönefrågor, bara effektiv fakturering och ekonomihantering. Börja gratis!"
+                "title": "Butikshantering & Faktureringslösning | InvoicePay",
+                "description": "En helhetslösning för detaljhandelns ekonomihantering. Hantera lager, försäljningsuppföljning och personaladministration smidigt. Perfekt för butiker, boutiques och kedjor!"
             }
         },
-        "title": "Effektiv fakturering för butiker",
+        "title": "Komplett hanteringslösning för detaljhandeln",
         "sections": {
             "intro": {
-                "title": "Vad är InvoicePay för butiker?",
-                "description": "InvoicePay erbjuder en enkel och effektiv faktureringslösning för butiker. Det hjälper butikägare att strömlinjeforma sina fakturor, betalningar och ekonomihantering utan att behöva komplicerade bokföringssystem. Med InvoicePay kan du fokusera på att driva din butik medan vi tar hand om pappersarbetet."
+                "title": "Ekonomihantering anpassad för detaljhandeln",
+                "description": "InvoicePay erbjuder en komplett lösning för butiker och kedjor. Hantera flera leverantörer, spåra säsongslager och driva en butikskedja effektivt – allt på en och samma plattform."
             },
             "whyInvoicePayForStores": {
-                "title": "Varför InvoicePay för butiker?",
-                "description": "InvoicePay är utformat för att hjälpa butikägare att enkelt hantera sina faktureringar och ekonomiska uppgifter. Oavsett om det gäller fakturering av produktförsäljning, hantering av leverantörsbetalningar eller att hålla reda på skatter och avdrag, hanterar InvoicePay allt. Det förenklar din ekonomiska arbetsflöde, sparar tid och ansträngning så att du kan fokusera på det som är viktigast—att driva din butik."
+                "title": "Varför butiker väljer InvoicePay",
+                "description": "Vår plattform är designad för att möta de komplexa behoven hos moderna detaljhandelsföretag. Oavsett om du hanterar säsongsvaror, flera leverantörer eller driver en kedja, förenklar InvoicePay din verksamhet. Perfekt för boutiques, kedjor och specialbutiker."
             },
             "invoicing": {
-                "title": "Fakturering",
-                "description": "InvoicePay gör faktureringen enkel för butiker genom att låta dig skapa och skicka professionella fakturor till kunder, leverantörer och andra affärstransaktioner. Plattformen eliminerar manuella faktureringsuppgifter och säkerställer att alla dina fakturor är korrekta, i tid och lätta att spåra. Börja gratis och ta bort krånglet med butikens fakturering!"
+                "title": "Fakturering & leverantörshantering",
+                "description": "Effektivisera butikens verksamhet med vårt omfattande faktureringssystem. Hantera bulkbeställningar, flera leverantörsrelationer och inköp av säsongsvaror. Vår plattform integreras med populära kassasystem och stöder både B2B- och B2C-transaktioner."
             },
             "expenses": {
-                "title": "Kostnader",
-                "description": "Att hantera butikens kostnader kan vara komplicerat, men med InvoicePay blir det enkelt. Spåra dina lagerkostnader, elräkningar, personal löner och andra affärskostnader med lätthet. InvoicePay låter dig organisera din ekonomi och hålla koll på kostnaderna, allt på en och samma plattform. Börja gratis och förenkla hanteringen av butikens kostnader!"
+                "title": "Lager & driftskostnader",
+                "description": "Håll koll på butikens utgifter med vårt specialiserade spårningssystem. Övervaka lagervärden, prissänkningar, driftskostnader och analysera lönsamheten per produktkategori. Vår plattform hjälper dig att optimera lagernivåer och minska onödiga kostnader."
             },
             "payroll": {
-                "title": "Lönehantering",
-                "description": "Att hantera löner för butikspersonal kan vara en tidskrävande uppgift. Med InvoicePay kan du enkelt hantera anställdas löner, tips, skatteberäkningar och avdrag. Oavsett om du har ett litet team eller en större arbetsstyrka, gör vår plattform lönehantering enkel och säkerställer efterlevnad. Börja gratis och ta bort stressen med butikens lönehantering!"
+                "title": "Personaladministration i detaljhandeln",
+                "description": "Vårt lönesystem är utformat för detaljhandelns anställningsmönster och hanterar provisionssystem, säljbonusar och skiftersättningar automatiskt. Perfekt för hantering av heltids-, deltids- och säsongsanställda i flera butiker. Inkluderar även prestationsuppföljning och bonusberäkning."
             }
         }
     }

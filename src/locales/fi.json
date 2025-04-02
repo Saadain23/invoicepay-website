@@ -229,6 +229,16 @@
                     "privacyPolicy": "Tietosuojakäytäntö",
                     "contact": "Yhteystiedot"
                 }
+            },
+            "services": {
+                "title": "Palvelut",
+                "links": {
+                    "forFreelancers": "Kevytyrittäjille",
+                    "forStartups": "Yrityksille",
+                    "forConstruction": "Rakennustoimistot",
+                    "forRestaurants": "Ruokapalvelut",
+                    "forStores": "Kaupat"
+                }
             }
         },
         "copyright": "2024 InvoicePay. Kaikki oikeudet pidätetään."
@@ -571,69 +581,69 @@
     },
     "ForRestaurants": {
         "meta": {
-            "title": "Ravintoloille | InvoicePay - Laskujen hallintapalvelu",
-            "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja ravintoloille. Ei yrityksen perustamista, ei palkkahallintokysymyksiä, vain tehokas laskutus ja taloushallinta. Aloita ilmaiseksi!",
-            "keywords": "ravintolat, laskutus, ravintolan laskutus, InvoicePay, ravintolahallinta",
+            "title": "Ravintoloiden hallinta- ja laskutusratkaisu | InvoicePay",
+            "description": "Tehosta ravintolasi toimintaa InvoicePayn erikoistuneella laskutusratkaisulla. Hoida toimittajamaksut, henkilöstöpalkat ja ruokakustannukset vaivattomasti. Täydellinen ratkaisu ravintoloille, kahviloille ja catering-yrityksille!",
+            "keywords": "ravintolan hallinta, ruokapalvelun laskutus, ravintolan palkanlaskenta, toimittajamaksut, catering-laskut, kahvilan hallinta, ravintolan kirjanpito, ruokakustannusten seuranta",
             "og": {
-                "title": "Ravintoloille | InvoicePay",
-                "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja ravintoloille. Ei yrityksen perustamista, ei palkkahallintokysymyksiä, vain tehokas laskutus ja taloushallinta. Aloita ilmaiseksi!"
+                "title": "Ravintoloiden hallinta- ja laskutusratkaisu | InvoicePay",
+                "description": "Kaikki yhdessä -ratkaisu ravintolan taloushallintaan. Hoida toimittajamaksut, henkilöstöpalkat ja ruokakustannukset vaivattomasti. Täydellinen ravintoloille, kahviloille ja catering-yrityksille!"
             }
         },
-        "title": "Tehokas laskutus ravintoloille",
+        "title": "Älykäs taloushallinta ravintoloille",
         "sections": {
             "intro": {
-                "title": "Mikä on InvoicePay ravintoloille?",
-                "description": "InvoicePay tarjoaa yksinkertaisen ja tehokkaan laskutusratkaisun ravintoloille. Se auttaa ravintolan omistajia virtaviivaistamaan laskutuksen, maksut ja taloushallinnan tehtävät ilman monimutkaisia kirjanpitojärjestelmiä. InvoicePayn avulla voit keskittyä ravintolasi pyörittämiseen, kun me huolehdimme paperitöistä."
+                "title": "Erikoisratkaisu ravintoloille",
+                "description": "InvoicePay ymmärtää ravintolatoiminnan haasteet. Alustamme on suunniteltu ruokapalvelualalle, auttaen sinua hallitsemaan kaikkea toimittajalaskuista päivittäiseen kassavirtaan. Seuraa ruokakustannuksia, hallitse catering-sopimuksia ja pyöritä useita palvelupisteitä helposti yhdellä alustalla."
             },
             "whyInvoicePayForRestaurants": {
-                "title": "Miksi InvoicePay ravintoloille?",
-                "description": "InvoicePay on suunniteltu auttamaan ravintoloiden omistajia hallitsemaan helposti laskutusta ja talousasioita. Olipa kyseessä catering-palveluiden laskutus, toimittajamaksujen hallinta tai verojen ja vähennysten seuraaminen, InvoicePay hoitaa kaiken. Se yksinkertaistaa talousvirtaasi, säästäen aikaasi ja vaivannäköäsi, jotta voit keskittyä siihen, mikä on tärkeintä—ravintolasi pyörittämiseen."
+                "title": "Miksi ravintolat valitsevat InvoicePayn?",
+                "description": "InvoicePay on kehitetty erityisesti ravintola-alalle. Hallitse elintarviketoimittajien suhteita, seuraa raaka-aineiden hintoja, käsittele catering-sopimuksia ja hallitse tippien jakoa – kaikki yhdellä alustalla. Täydellinen ratkaisu ravintoloille, kahviloille, ruokarekoille ja catering-yrityksille."
             },
             "invoicing": {
-                "title": "Laskutus",
-                "description": "InvoicePay tekee laskutuksesta yksinkertaista ravintoloille antamalla sinun luoda ja lähettää ammattimaisia laskuja asiakkaille, toimittajille ja catering-tapahtumiin. Alusta poistaa manuaaliset laskutustehtävät ja varmistaa, että kaikki laskusi ovat tarkkoja, ajantasaisia ja helppoja seurata. Aloita ilmaiseksi ja ota ravintolan laskutus vaivattomaksi!"
+                "title": "Ravintola- ja catering-laskutus",
+                "description": "Luo ammattimaisia laskuja catering-tapahtumiin, hallitse toistuvia toimittajamaksuja ja seuraa ruokatoimituksia. Alustamme sisältää erityisesti ravintoloille suunniteltuja ominaisuuksia, kuten jaetut laskut, tippien hallinnan ja integroinnin suosittuihin kassajärjestelmiin. Hallitse sekä ruokailu- että catering-tuloja tehokkaasti."
             },
             "expenses": {
-                "title": "Kulut",
-                "description": "Ravintolan kulujen hallinta voi olla monimutkaista, mutta InvoicePayn avulla siitä tulee vaivatonta. Seuraa keittiötarvikekustannuksia, energiakuluja, henkilöstöpalkkoja ja muita liiketoimintakuluja helposti. InvoicePay auttaa sinua järjestämään taloutesi ja pitämään kulut kurissa, kaikki yhdellä alustalla. Aloita ilmaiseksi ja yksinkertaista ravintolasi kulujen hallinta!"
+                "title": "Ruokakustannusten ja varaston hallinta",
+                "description": "Hallitse ravintolasi taloutta tehokkaasti erikoistuneella kulujen seurannalla. Seuraa ruokakustannuksia, raaka-aineiden hintoja, hallitse varastotasoa ja analysoi katteita annoskohtaisesti. Alustamme auttaa sinua ylläpitämään optimaalista varastotasoa ja pitämään ruokakustannukset hallinnassa."
             },
             "payroll": {
-                "title": "Palkat",
-                "description": "Ravintolasi henkilöstön palkanlaskenta voi olla aikaa vievää. InvoicePayn avulla voit hoitaa helposti työntekijöiden palkat, juomatipit, verolaskelmat ja vähennykset. Olitpa sitten pieni tiimi tai suurempi työvoima, alusta tekee palkanlaskennasta yksinkertaista ja varmistaa sääntöjen noudattamisen. Aloita ilmaiseksi ja vie ravintolasi palkkahallinta pois stressistä!"
+                "title": "Henkilöstöpalkanlaskenta ravintoloille",
+                "description": "Suunniteltu ravintola-alan erityistarpeisiin – palkkajärjestelmämme hallitsee vuorotyöt, tippien jakamisen ja palvelumaksut automaattisesti. Hallitse sekä keittiö- että salihenkilökunnan palkkoja, mukaan lukien ylityöt, lomakorvaukset ja bonukset. Täydellinen ratkaisu kausiluonteisesti vaihtuvaan henkilöstöön."
             }
         }
     },
     "ForStores": {
         "meta": {
-            "title": "For Stores | InvoicePay - Laskujen Hallintapalvelu",
-            "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja kaupoille. Ei yrityksen perustamista, ei palkanlaskentakysymyksiä, vain tehokasta laskutusta ja taloushallintoa. Aloita ilmaiseksi!",
-            "keywords": "kaupat, laskutus, kaupan laskutus, InvoicePay, kaupan hallinta",
+            "title": "Vähittäiskaupan hallinta- ja laskutusratkaisu | InvoicePay",
+            "description": "Tehosta vähittäiskaupan toimintaa InvoicePayn kattavalla hallintaratkaisulla. Hoida varastomaksut, myynninseuranta ja henkilöstöhallinta helposti yhdestä paikasta. Täydellinen ratkaisu myymälöille, putiikeille ja ketjuliikkeille!",
+            "keywords": "vähittäiskaupan hallinta, myymälän laskutus, vähittäiskaupan palkanlaskenta, varastonhallinta, vähittäiskaupan kirjanpito, myymälätoiminta, vähittäiskaupan kassajärjestelmä, tuotteiden seuranta",
             "og": {
-                "title": "For Stores | InvoicePay",
-                "description": "InvoicePay on helpoin tapa hallita laskuja ja maksuja kaupoille. Ei yrityksen perustamista, ei palkanlaskentakysymyksiä, vain tehokasta laskutusta ja taloushallintoa. Aloita ilmaiseksi!"
+                "title": "Vähittäiskaupan hallinta- ja laskutusratkaisu | InvoicePay",
+                "description": "Kaikki yhdessä -ratkaisu vähittäiskaupan taloushallintaan. Hallitse varastoa, myynninseurantaa ja henkilöstöhallintaa vaivattomasti. Täydellinen myymälöille, putiikeille ja ketjuliikkeille!"
             }
         },
-        "title": "Tehokas laskutus kaupoille",
+        "title": "Kattava hallintaratkaisu vähittäiskaupalle",
         "sections": {
             "intro": {
-                "title": "Mikä on InvoicePay kaupoille?",
-                "description": "InvoicePay tarjoaa yksinkertaisen ja tehokkaan laskutusratkaisun kaupoille. Se auttaa kauppiaita virtaviivaistamaan laskutusta, maksuja ja taloushallintatehtäviä ilman monimutkaisia kirjanpitojärjestelmiä. InvoicePayn avulla voit keskittyä kauppasi pyörittämiseen, kun me huolehdimme paperitöistä."
+                "title": "Vähittäiskauppaan räätälöity taloushallinta",
+                "description": "InvoicePay tarjoaa kattavan ratkaisun vähittäiskaupan tarpeisiin. Hallitse useita toimittajia, seuraa kausiluonteista varastoa ja pyöritä monipaikkaista liiketoimintaa tehokkaasti yhdellä alustalla."
             },
             "whyInvoicePayForStores": {
-                "title": "Miksi InvoicePay kaupoille?",
-                "description": "InvoicePay on suunniteltu auttamaan kauppiaita hallitsemaan helposti laskutusta ja taloustöitä. Olipa kyseessä tuotelaskut, toimittajamaksut tai verojen ja vähennysten seuranta, InvoicePay hoitaa kaiken. Se yksinkertaistaa talousprosessisi, säästäen aikaa ja vaivannäköä, jotta voit keskittyä siihen, mikä on tärkeintä—kauppasi pyörittämiseen."
+                "title": "Miksi jälleenmyyjät valitsevat InvoicePayn?",
+                "description": "Alustamme on suunniteltu käsittelemään nykyaikaisten vähittäiskauppojen monimutkaisia tarpeita. Hallitse kausituotteita, toimittajasuhteita tai ketjumyymälän toimintaa helposti. Täydellinen ratkaisu putiikeille, ketjuliikkeille ja erikoismyymälöille."
             },
             "invoicing": {
-                "title": "Laskutus",
-                "description": "InvoicePay tekee laskutuksesta yksinkertaista kaupoille antamalla sinun luoda ja lähettää ammatillisia laskuja asiakkaille, toimittajille ja muihin liiketoimintatransaktioihin. Alusta poistaa manuaaliset laskutustehtävät ja varmistaa, että kaikki laskusi ovat tarkkoja, ajallaan ja helppo seurata. Aloita ilmaiseksi ja ota laskutuksen vaivattomuus käyttöön!"
+                "title": "Vähittäiskaupan ja toimittajien hallinta",
+                "description": "Tehosta vähittäiskaupan toimintaa kattavalla laskutusjärjestelmällämme. Hallitse tukkutilauksia, useita toimittajasuhteita ja kausiluonteisia varastohankintoja. Alustamme integroituu suosittuihin kassajärjestelmiin ja tukee sekä B2B- että B2C-kauppaa."
             },
             "expenses": {
-                "title": "Kulut",
-                "description": "Kaupan kulujen hallinta voi olla monimutkaista, mutta InvoicePay tekee siitä vaivattoman. Seuraa varastokustannuksia, energiakustannuksia, henkilöstöpalkkoja ja muita liiketoiminnan kuluja vaivattomasti. InvoicePay antaa sinun järjestää taloutesi ja pitää kulut hallinnassa, kaikki yhdellä alustalla. Aloita ilmaiseksi ja yksinkertaista kauppasi kulujen hallintaa!"
+                "title": "Varasto- ja käyttökustannukset",
+                "description": "Hallitse vähittäiskaupan kuluja erikoistuneella seurantajärjestelmällämme. Seuraa varastokustannuksia, alennuksia, myymälän käyttökustannuksia ja analysoi katteita tuoteryhmittäin. Alustamme auttaa optimoimaan varastotasot ja vähentämään turhia kuluja."
             },
             "payroll": {
-                "title": "Palkanlaskenta",
-                "description": "Palkanlaskenta kaupan henkilöstölle voi olla aikaa vievä tehtävä. InvoicePayn avulla voit helposti hoitaa työntekijöiden palkat, tipit, verolaskelmat ja vähennykset. Olipa kyseessä pieni tai suurempi tiimi, alusta tekee palkanlaskennasta yksinkertaista ja varmistaa säädösten noudattamisen. Aloita ilmaiseksi ja ota stressi pois kaupan palkanlaskennasta!"
+                "title": "Henkilöstöhallinta vähittäiskaupassa",
+                "description": "Palkanlaskentajärjestelmämme on suunniteltu vähittäiskaupan henkilöstömallien mukaan. Hallitse komissiojärjestelmät, myyntibonukset ja vuorolisät automaattisesti. Täydellinen ratkaisu täysi-, osa-aikaisille ja kausityöntekijöille eri toimipisteissä. Sisältää suorituskyvyn seuranta- ja bonuslaskentaominaisuudet."
             }
         }
     }

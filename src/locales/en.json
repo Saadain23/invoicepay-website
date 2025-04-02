@@ -141,6 +141,23 @@
                 "Fast payroll"
             ],
             "button": "Start now"
+        },
+        "yearlyPlan": {
+            "title": "Yearly Plan",
+            "price": "275€",
+            "period": "/year",
+            "description": "Perfect for regular invoicing and growing business",
+            "features": [
+                "Fixed 275€ yearly fee",
+                "You save 85€ compared to the monthly plan",
+                "Unlimited number of invoices per year",
+                "Free invoice creation",
+                "Insurance for YEL",
+                "Expense tracking",
+                "Tax reporting",
+                "Fast payroll"
+            ],
+            "button": "Start now"
         }
     },
     "Features": {

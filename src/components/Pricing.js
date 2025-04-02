@@ -81,14 +81,14 @@ const Pricing = ({ translations }) => {
 
           {/* Yearly Plan */}
           <div className={`${styles.pricingCard} ${styles.featured}`}>
-            <h3>{translations.Pricing.monthlyPlan.title}</h3>
+            <h3>{translations.Pricing.yearlyPlan.title}</h3>
             <div className={styles.pricingPrice}>
-              {translations.Pricing.monthlyPlan.price}
-              <span>{translations.Pricing.monthlyPlan.period}</span>
+              {translations.Pricing.yearlyPlan.price}
+              <span>{translations.Pricing.yearlyPlan.period}</span>
             </div>
-            <p>{translations.Pricing.monthlyPlan.description}</p>
+            <p>{translations.Pricing.yearlyPlan.description}</p>
             <div className={styles.pricingFeatures}>
-              {translations.Pricing.monthlyPlan.features.map((feature, index) => (
+              {translations.Pricing.yearlyPlan.features.map((feature, index) => (
                 <div key={index} className={styles.pricingFeature}>
                   {checkmarkSvg}
                   <span>{feature}</span>
@@ -96,7 +96,7 @@ const Pricing = ({ translations }) => {
               ))}
             </div>
             <a href="https://app.invoicepay.fi/register" className={styles.btn}>
-              {translations.Pricing.monthlyPlan.button}
+              {translations.Pricing.yearlyPlan.button}
             </a>
           </div>
         </div>

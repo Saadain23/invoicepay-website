@@ -111,7 +111,7 @@
             "button": "Aloita ilmaiseksi"
         },
         "percentagePlan": {
-            "title": "Prosenttisuunnitelma",
+            "title": "Prosentti suunnitelma",
             "price": "3%",
             "period": "/lasku",
             "description": "Täydellinen satunnaiseen laskutukseen ja aloittamiseen",
@@ -127,13 +127,30 @@
             "button": "Aloita nyt"
         },
         "monthlyPlan": {
-            "title": "Kuukausisuunnitelma",
+            "title": "Kuukausi suunnitelma",
             "price": "29,99€",
             "period": "/kuukausi",
             "description": "Täydellinen säännölliseen laskutukseen ja kasvavalle liiketoiminnalle",
             "features": [
                 "Kiinteä 29,99€ kuukausimaksu",
                 "Rajoittamaton määrä laskuja kuukaudessa",
+                "Ilmainen laskun luonti",
+                "YEL-vakuutus",
+                "Kulujen seuranta",
+                "Veroraportointi",
+                "Nopea palkanmaksu"
+            ],
+            "button": "Aloita nyt"
+        },
+        "yearlyPlan": {
+            "title": "Vuosittainen suunnitelma",
+            "price": "275€",
+            "period": "/vuosi",
+            "description": "Täydellinen säännölliseen laskutukseen ja kasvavalle liiketoiminnalle",
+            "features": [
+                "Kiinteä 275€ vuosimaksu",
+                "Säästät 85€ verrattuna kuukausitilaukseen",
+                "Rajoittamaton määrä laskuja vuodessa",
                 "Ilmainen laskun luonti",
                 "YEL-vakuutus",
                 "Kulujen seuranta",

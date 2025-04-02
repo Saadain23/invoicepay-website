@@ -141,6 +141,23 @@
                 "Snabb löneutbetalning"
             ],
             "button": "Starta nu"
+        },
+        "yearlyPlan": {
+            "title": "Årlig plan",
+            "price": "275€",
+            "period": "/år",
+            "description": "Perfekt för regelbunden fakturering och växande företag",
+            "features": [
+                "Fast 275€ årlig avgift",
+                "Du spara 85€ jämfört med månadsplanen",
+                "Obegränsat antal fakturor per år",
+                "Gratis fakturaskapande",
+                "Försäkring för YEL",
+                "Utgiftsspårning",
+                "Skatteredovisning",
+                "Snabb löneutbetalning"
+            ],
+            "button": "Starta nu"
         }
     },
     "Features": {

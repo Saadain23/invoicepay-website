@@ -6,11 +6,35 @@ class PhoneCall extends Component {
         super(props);
         this.state = {
             phoneNumber: '',
-            language: 'en'
+            language: 'en',
+            isValidNumber: false
         };
     }
 
+    validatePhoneNumber = (number) => {
+        const numberOnly = number.replace(/\D/g, '');
+        return numberOnly.length === 9 && !numberOnly.startsWith('0');
+    };
+
+    handlePhoneChange = (e) => {
+        const input = e.target.value;
+        const sanitizedInput = input.replace(/\D/g, '').slice(0, 9);
+        
+        // Don't allow input starting with 0
+        const validInput = sanitizedInput.startsWith('0') ? sanitizedInput.slice(1) : sanitizedInput;
+        
+        this.setState({
+            phoneNumber: validInput,
+            isValidNumber: this.validatePhoneNumber(validInput)
+        });
+    };
+
     handleSubmit = async () => {
+        if (!this.state.isValidNumber) {
+            alert(this.props.translations?.PhoneCall?.invalidNumber || 'Please enter a valid phone number');
+            return;
+        }
+
         try {
             const response = await fetch('https://api.invoicepay.fi/support/api/request-call', {
                 method: 'POST',
@@ -18,7 +42,7 @@ class PhoneCall extends Component {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    phone_number: this.state.phoneNumber,
+                    phone_number: '+358' + this.state.phoneNumber,
                     language: this.state.language
                 })
             });
@@ -34,31 +58,39 @@ class PhoneCall extends Component {
     };
 
     render() {
+        const { translations } = this.props;
         return (
             <div className={styles.phoneCallContainer}>
-                <input
-                    type="tel"
-                    className={styles.phoneInput}
-                    placeholder="+358123456789"
-                    value={this.state.phoneNumber}
-                    onChange={(e) => this.setState({ phoneNumber: e.target.value })}
-                />
+                <div className={styles.phoneInputWrapper}>
+                    <span className={styles.phonePrefix}>+358</span>
+                    <input
+                        type="tel"
+                        className={`${styles.phoneInput} ${!this.state.isValidNumber && this.state.phoneNumber ? styles.invalid : ''}`}
+                        placeholder={translations?.PhoneCall?.placeholder || "123456789"}
+                        value={this.state.phoneNumber}
+                        onChange={this.handlePhoneChange}
+                        pattern="[0-9]*"
+                        inputMode="numeric"
+                        aria-label={translations?.PhoneCall?.ariaLabel || "Enter your phone number"}
+                    />
+                </div>
                 <select 
                     className={styles.languageSelect}
                     value={this.state.language}
                     onChange={(e) => this.setState({ language: e.target.value })}
                 >
-                    <option value="en">English</option>
-                    <option value="ar">Arabic</option>
-                    <option value="ur">Urdu</option>
-                    <option value="hi">Hindi</option>
-                    <option value="fi">Finnish</option>
+                    <option value="fi">{translations?.languages?.finnish || "Finnish"}</option>
+                    <option value="en">{translations?.languages?.english || "English"}</option>
+                    <option value="ar">{translations?.languages?.arabic || "Arabic"}</option>
+                    <option value="ur">{translations?.languages?.urdu || "Urdu"}</option>
+                    <option value="hi">{translations?.languages?.hindi || "Hindi"}</option>
+                    <option value="bn">{translations?.languages?.bengali || "Bengali"}</option>
                 </select>
                 <button 
                     className={styles.callButton}
                     onClick={this.handleSubmit}
                 >
-                    Request a call
+                    {translations?.callButton || "Request a call"}
                 </button>
             </div>
         );

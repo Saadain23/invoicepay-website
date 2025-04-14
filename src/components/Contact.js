@@ -69,7 +69,7 @@ const Contact = ({ translations }) => {
             <div className={styles.contactDetails}>
               <div className={styles.companyInfo}>
                 <h2>InvoicePay</h2>
-                <p>1234567-8</p>
+                <p>2869584-4</p>
               </div>
               <div className={styles.infoItem}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
@@ -93,7 +93,7 @@ const Contact = ({ translations }) => {
             </div>
             <div className={styles.mapContainer}>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.9310024687054!2d24.93844!3d60.16784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNjDCsDEwJzA0LjIiTiAyNMKwNTYnMTguNCJF!5e0!3m2!1sfi!2sfi!4v1234567890!5m2!1sfi!2sfi" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7731795602242!2d24.732396777111692!3d60.16793374361449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df4fc8e1deadf%3A0x25de44bcf666f902!2sKomeetankatu%201%2C%2002210%20Espoo!5e0!3m2!1sen!2sfi!4v1744212855984!5m2!1sen!2sfi"
                 width="100%" 
                 height="300" 
                 style={{border: 0}} 

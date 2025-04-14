@@ -20,7 +20,7 @@ const Hero = ({ translations }) => {
                 {translations.Hero.contactButton}
               </button>
             </div>
-            <PhoneCall />
+            <PhoneCall translations={translations.PhoneCall} />
           </div>
 
           <div className={styles.heroImage}>

@@ -143,6 +143,7 @@
             "button": "Aloita nyt"
         },
         "yearlyPlan": {
+            "featuredLabel": "Suosittu",
             "title": "Vuosittainen suunnitelma",
             "price": "275€",
             "period": "/vuosi",
@@ -237,7 +238,7 @@
                     "home": "Etusivu",
                     "testimonials": "Arvostelut",
                     "features": "Ominaisuudet",
-                    "pricing": "Hinnoittelu"
+                    "pricing": "Hinnasto"
                 }
             },
             "company": {
@@ -250,8 +251,8 @@
             "services": {
                 "title": "Palvelut",
                 "links": {
-                    "forFreelancers": "Kevytyrittäjille",
-                    "forStartups": "Yrityksille",
+                    "forFreelancers": "Kevytyrittäjät",
+                    "forStartups": "Yritykset",
                     "forConstruction": "Rakennustoimistot",
                     "forRestaurants": "Ruokapalvelut",
                     "forStores": "Kaupat"
@@ -662,6 +663,18 @@
                 "title": "Henkilöstöhallinta vähittäiskaupassa",
                 "description": "Palkanlaskentajärjestelmämme on suunniteltu vähittäiskaupan henkilöstömallien mukaan. Hallitse komissiojärjestelmät, myyntibonukset ja vuorolisät automaattisesti. Täydellinen ratkaisu täysi-, osa-aikaisille ja kausityöntekijöille eri toimipisteissä. Sisältää suorituskyvyn seuranta- ja bonuslaskentaominaisuudet."
             }
+        }
+    },
+    "PhoneCall": {
+        "placeholder": "+358123456789",
+        "callButton": "Pyydä soittoa",
+        "languages": {
+          "finnish": "Suomi",
+          "english": "Englanti",
+          "arabic": "Arabia",
+          "urdu": "Urdu",
+          "hindi": "Hindi",
+          "bengali": "Bengali"
         }
     }
 }

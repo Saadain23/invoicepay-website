@@ -23,8 +23,8 @@
 
 .dropdownContent {
   display: none;
-  position: absolute;
-  top: 100%;
+  position: fixed;
+  top: auto;
   left: 50%;
   transform: translateX(-50%);
   background: white;
@@ -32,7 +32,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 0.5rem 0;
-  z-index: 1001;
+  z-index: 9999;
 }
 
 .dropdownContent a {
@@ -49,16 +49,55 @@
   color: var(--primary);
 }
 
-.dropdown:hover .dropdownContent {
-  display: block;
-}
-
-.dropdown:hover .dropdownArrow {
-  transform: rotate(180deg);
-}
-
-/* @media (max-width: 768px) {
-  .dropdown {
-    display: none;
+/* Desktop styles */
+@media (min-width: 769px) {
+  .dropdown:hover .dropdownContent {
+    display: block;
   }
-} */
+
+  .dropdown:hover .dropdownArrow {
+    transform: rotate(180deg);
+  }
+
+  .dropdownContent {
+    position: absolute;
+    top: 100%;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .dropdownContent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 280px;
+    max-width: 90vw;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 1rem 0;
+    z-index: 1001; /* Increased z-index to be above mobile menu */
+  }
+
+  .dropdown.active .dropdownContent {
+    display: block;
+  }
+
+  .dropdown.active .dropdownArrow {
+    transform: rotate(180deg);
+  }
+
+  /* Add overlay for dropdown */
+  .dropdown.active::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); /* Light overlay */
+    z-index: 1000;
+  }
+}

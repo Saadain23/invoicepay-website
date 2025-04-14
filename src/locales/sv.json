@@ -143,6 +143,7 @@
             "button": "Starta nu"
         },
         "yearlyPlan": {
+            "featuredLabel": "Populär",
             "title": "Årlig plan",
             "price": "275€",
             "period": "/år",
@@ -663,6 +664,18 @@
                 "title": "Personaladministration i detaljhandeln",
                 "description": "Vårt lönesystem är utformat för detaljhandelns anställningsmönster och hanterar provisionssystem, säljbonusar och skiftersättningar automatiskt. Perfekt för hantering av heltids-, deltids- och säsongsanställda i flera butiker. Inkluderar även prestationsuppföljning och bonusberäkning."
             }
+        }
+    },
+    "PhoneCall": {
+        "placeholder": "+358123456789",
+        "callButton": "Boka ett samtal",
+        "languages": {
+          "finnish": "Finska",
+          "english": "Engelska",
+          "arabic": "Arabiska",
+          "urdu": "Urdu",
+          "hindi": "Hindi",
+          "bengali": "Bengali"
         }
     }
 }

@@ -80,7 +80,10 @@ const Pricing = ({ translations }) => {
           </div>
 
           {/* Yearly Plan */}
-          <div className={`${styles.pricingCard} ${styles.featured}`}>
+          <div 
+            className={`${styles.pricingCard} ${styles.featured}`}
+            data-featured-text={translations.Pricing.yearlyPlan.featuredLabel}
+          >
             <h3>{translations.Pricing.yearlyPlan.title}</h3>
             <div className={styles.pricingPrice}>
               {translations.Pricing.yearlyPlan.price}

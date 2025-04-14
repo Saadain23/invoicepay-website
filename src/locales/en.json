@@ -143,6 +143,7 @@
             "button": "Start now"
         },
         "yearlyPlan": {
+            "featuredLabel": "Best value",
             "title": "Yearly Plan",
             "price": "275€",
             "period": "/year",
@@ -229,7 +230,7 @@
         "button": "Start for free"
     },
     "Footer": {
-        "description": "We simplify invoicing and payroll for freelancers and lightentrepreneurs without business id. Modern invoicing, seamless payroll, and hassle-free accounting in one place.",
+        "description": "We simplify invoicing and payroll for freelancers and light entrepreneurs without Business ID. Modern invoicing, seamless payroll, and hassle-free accounting in one place.",
         "sections": {
             "pages": {
                 "title": "Pages",
@@ -663,6 +664,18 @@
                 "title": "Retail Staff Management",
                 "description": "Our payroll system is designed for retail staffing patterns, handling commission structures, sales incentives, and shift differentials automatically. Perfect for managing full-time, part-time, and seasonal staff across multiple locations. Includes performance tracking and bonus calculation features."
             }
+        }
+    },
+    "PhoneCall": {
+        "placeholder": "+358123456789",
+        "callButton": "Request a call",
+        "languages": {
+          "finnish": "Finnish",
+          "english": "English",
+          "arabic": "Arabic",
+          "urdu": "Urdu",
+          "hindi": "Hindi",
+          "bengali": "Bengali"
         }
     }
 }

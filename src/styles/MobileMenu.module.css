@@ -71,3 +71,19 @@
     background: var(--secondary);
     color: var(--light);
 }
+
+/* Add this new class */
+.overlay {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 998;
+    display: none;
+}
+
+.overlay.isOpen {
+    display: block;
+}

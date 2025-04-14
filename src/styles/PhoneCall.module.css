@@ -8,16 +8,35 @@
     margin-top: 32px;
 }
 
+.phoneInputWrapper {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-grow: 1;
+    border-radius: 50px 0 0 50px;
+}
+
+.phonePrefix {
+    padding: 0 0 0 20px;
+    color: #666;
+    font-size: 18px;
+    user-select: none;
+}
+
 .phoneInput {
     background-color: white;
-    padding: 0 20px;
+    padding: 0 20px 0 8px;
     color: #666;
     font-size: 18px;
     border: none;
     height: 100%;
     flex-grow: 1;
     outline: none;
-    border-radius: 50px 0 0 50px;
+    border-radius: 0;
+}
+
+.phoneInput.invalid {
+    color: #ff4444;
 }
 
 .languageSelect {
@@ -68,10 +87,18 @@
         border-radius: 25px;
     }
 
-    .phoneInput {
+    .phoneInputWrapper {
         flex-basis: 100%;
         border-radius: 25px 25px 0 0;
-        padding: 15px 20px;
+    }
+
+    .phoneInput {
+        padding: 15px 20px 15px 8px;
+        border-radius: 0;
+    }
+
+    .phonePrefix {
+        padding: 15px 0 15px 20px;
     }
 
     .languageSelect {

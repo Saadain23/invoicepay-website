@@ -84,7 +84,7 @@
 }
 
 .pricingCard.featured::before {
-  content: 'Suosittu';
+  content: attr(data-featured-text);
   position: absolute;
   top: 1rem;
   right: 1rem;

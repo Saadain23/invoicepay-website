@@ -5,7 +5,6 @@ import Pricing from "@/components/Pricing";
 import Features from "@/components/Features";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
-import Script from 'next/script';
 
 
 export default function Home({ translations }) {
@@ -23,19 +22,6 @@ export default function Home({ translations }) {
         <meta property="og:description" content={translations.Home.og.description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://invoicepay.fi" />
-
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YR399ZZPE3"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-YR399ZZPE3');
-          `}
-        </Script>
       </Head>
       <Hero translations={translations} />
       <Testimonials translations={translations} />

@@ -5,6 +5,7 @@ import Pricing from "@/components/Pricing";
 import Features from "@/components/Features";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
+import ChatWidget from "@/components/chat/ChatWidget";
 
 
 export default function Home({ translations }) {
@@ -29,6 +30,7 @@ export default function Home({ translations }) {
       <Features translations={translations} />
       <FAQ translations={translations} />
       <CTA translations={translations} />
+      <ChatWidget translations={translations.ChatBox} />
     </>
   );
 }

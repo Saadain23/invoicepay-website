@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Contact from "@/components/Contact";
+import ChatWidget from "@/components/chat/ChatWidget";
 
 export default function ContactUs({ translations }) {
 
@@ -18,6 +19,7 @@ export default function ContactUs({ translations }) {
         <meta property="og:url" content="https://invoicepay.fi" />
       </Head>
       <Contact translations={translations} />
+      <ChatWidget translations={translations.ChatBox} />
     </>
   );
 }

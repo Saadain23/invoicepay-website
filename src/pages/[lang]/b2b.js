@@ -1,5 +1,6 @@
 import Head from "next/head";
 import B2B from "@/components/B2B";
+import ChatWidget from "@/components/chat/ChatWidget";
 
 export default function B2BPage({ translations }) {
 
@@ -18,6 +19,7 @@ export default function B2BPage({ translations }) {
         <meta property="og:url" content="https://invoicepay.fi" />
       </Head>
       <B2B translations={translations} />
+      <ChatWidget translations={translations.ChatBox} />
     </>
   );
 }

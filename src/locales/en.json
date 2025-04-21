@@ -670,12 +670,19 @@
         "placeholder": "+358123456789",
         "callButton": "Request a call",
         "languages": {
-          "finnish": "Finnish",
-          "english": "English",
-          "arabic": "Arabic",
-          "urdu": "Urdu",
-          "hindi": "Hindi",
-          "bengali": "Bengali"
+            "finnish": "Finnish",
+            "english": "English",
+            "arabic": "Arabic",
+            "urdu": "Urdu",
+            "hindi": "Hindi",
+            "bengali": "Bengali"
         }
+    },
+    "ChatBox": {
+        "greeting": "Hey, I'm metro, your AI assistant. I can help answer your questions about Invoicepay",
+        "demoResponse": "Thanks for your message! This is a demo response.",
+        "header": "Chat Support",
+        "placeholder": "Type your message...",
+        "sendButton": "Send"
     }
 }

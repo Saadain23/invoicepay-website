@@ -669,12 +669,19 @@
         "placeholder": "+358123456789",
         "callButton": "Pyydä soittoa",
         "languages": {
-          "finnish": "Suomi",
-          "english": "Englanti",
-          "arabic": "Arabia",
-          "urdu": "Urdu",
-          "hindi": "Hindi",
-          "bengali": "Bengali"
+            "finnish": "Suomi",
+            "english": "Englanti",
+            "arabic": "Arabia",
+            "urdu": "Urdu",
+            "hindi": "Hindi",
+            "bengali": "Bengali"
         }
+    },
+    "ChatBox": {
+        "greeting": "Hei, olen Metro, tekoälyavustajasi. Voin auttaa sinua kysymyksissä, jotka koskevat Invoicepayta.",
+        "demoResponse": "Kiitos viestistäsi! Tämä on esimerkkivastaus.",
+        "header": "Chat-tuki",
+        "placeholder": "Kirjoita viestisi...",
+        "sendButton": "Lähetä"
     }
 }

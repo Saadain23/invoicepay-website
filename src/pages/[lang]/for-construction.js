@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ForConstruction from "@/components/ForConstruction";
+import ChatWidget from "@/components/chat/ChatWidget";
 
 export default function ForConstructionPage({ translations }) {
 
@@ -18,6 +19,7 @@ export default function ForConstructionPage({ translations }) {
         <meta property="og:url" content="https://invoicepay.fi" />
       </Head>
       <ForConstruction translations={translations} />
+      <ChatWidget translations={translations.ChatBox} />
     </>
   );
 }

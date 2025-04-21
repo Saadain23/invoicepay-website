@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ForFreelancers from "@/components/ForFreelancers";
+import ChatWidget from "@/components/chat/ChatWidget";
 
 export default function ForFreelancersPage({ translations }) {
 
@@ -18,6 +19,8 @@ export default function ForFreelancersPage({ translations }) {
         <meta property="og:url" content="https://invoicepay.fi" />
       </Head>
       <ForFreelancers translations={translations} />
+      <ChatWidget translations={translations.ChatBox} />
+
     </>
   );
 }

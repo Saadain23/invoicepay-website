@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ForRestaurants from "@/components/ForRestaurants";
+import ChatWidget from "@/components/chat/ChatWidget";
 
 export default function ForRestaurantsPage({ translations }) {
     return (
@@ -17,6 +18,8 @@ export default function ForRestaurantsPage({ translations }) {
                 <meta property="og:url" content="https://invoicepay.fi" />
             </Head>
             <ForRestaurants translations={translations} />
+            <ChatWidget translations={translations.ChatBox} />
+
         </>
     );
 }
